@@ -137,14 +137,6 @@ html>body .gwt-DecoratedTabBar {
   padding-left: 18px;
 }
 	
-.gwt-DisclosurePanel-open a.header {
-  background-image: url(images/hide_section.png);
-}
-
-.gwt-DisclosurePanel-closed a.header {
-  background-image: url(images/show_section.png);
-}
-
 .gwt-disclosurepanel .content {
   border-left: 0px;
   padding: 0px;
@@ -232,6 +224,14 @@ html>body .gwt-DecoratedTabBar {
   margin-right: 10px;
 }
 
+.swe-section-panel {
+	margin-left:-20px;
+}
+
+.swe-property-panel {
+	margin-left:20px;
+}
+
 .swe-object-type {
   background-attachment: initial;
   background-origin: initial;
@@ -254,4 +254,20 @@ html>body .gwt-DecoratedTabBar {
   background-image: url(images/bullet.gif);
   padding-left: 21px;
   margin-bottom: 5px;
+}
+
+table.gwt-DisclosurePanel-closed>tbody>tr>td> a.header {
+	background-image: none ;
+}
+
+table.gwt-DisclosurePanel-open>tbody>tr>td> a.header {
+	background-image: none ;
+}
+
+.gwt-DisclosurePanel-open .swe-property-panel a.header {
+  background-image: url(images/show_section.png) !important;;
+}
+
+.gwt-DisclosurePanel-closed .swe-property-panel a.header {
+  background-image: url(images/show_section.png) !important;;
 }
