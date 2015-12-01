@@ -136,6 +136,72 @@
                </element>
             </element>
          </element>
+          <!-- Electrical Characteristics -->
+         <element name="sml:characteristics">
+            <attribute name="name">
+               <value>Electrical Characteristics</value>
+            </attribute>
+            <element name="swe:DataRecord">
+               <element name="swe:field">
+                  <attribute name="name">
+                     <value>cableLength</value>
+                  </attribute>
+                  <element name="swe:Quantity">
+                     <attribute name="definition">
+                        <value>http://sensorml.com/ont/swe/property/CableLength</value>
+                     </attribute>
+                     <element name="gml:name">
+                        <value>Attached Cable Length</value>
+                     </element>
+                     <element name="swe:uom">
+                        <attribute name="code">
+                           <value>m</value>
+                        </attribute>
+                     </element>
+                     <ref name="swe.quantityValue" />
+                  </element>
+               </element>
+               <element name="swe:field">
+                  <attribute name="name">
+                     <value>cableType</value>
+                  </attribute>
+                  <element name="swe:Category">
+                     <attribute name="definition">
+                        <value>http://sensorml.com/ont/swe/property/CableType</value>
+                     </attribute>
+                     <element name="gml:name">
+                        <value>Cable Type</value>
+                     </element>
+                     <element name="swe:value">
+                        <choice>
+                            <value>4-conductor, 26 AWG</value>
+                            <value>6-conductor, 26 AWG</value>
+                            <value>8-conductor, 26 AWG</value>
+                        </choice>
+                     </element>
+                  </element>
+               </element>
+               <element name="swe:field">
+                  <attribute name="name">
+                     <value>connector</value>
+                  </attribute>
+                  <element name="swe:Quantity">
+                     <attribute name="definition">
+                        <value>http://sensorml.com/ont/swe/property/ConnectorType</value>
+                     </attribute>
+                     <element name="gml:name">
+                        <value>Connector Type</value>
+                     </element>
+                     <element name="swe:value">
+                        <choice>
+                            <value>RJ-11</value>
+                            <value>RJ-45</value>
+                        </choice>
+                     </element>
+                  </element>
+               </element>
+            </element>
+         </element>
          <!-- Measurement Characteristics -->
          <element name="sml:characteristics">
             <attribute name="name">
@@ -239,5 +305,40 @@
                </element>
             </element>
          </element>
+         <!-- Other Stuff -->
+         <optional>
+            <ref name="sml.characteristics" />
+         </optional>         
+         <zeroOrMore>
+            <ref name="sml.contact" />
+         </zeroOrMore>
+         <zeroOrMore>
+            <ref name="sml.documentation" />
+         </zeroOrMore>
+         <element name="sml:outputs">
+            <element name="sml:OutputList">
+               <element name="sml:output">
+                  <attribute name="name">
+                     <value>windSpeed</value>
+                  </attribute>
+                  <element name="swe:Quantity">
+                     <attribute name="definition">
+                        <value>http://sensorml.com/ont/swe/property/WindSpeed</value>
+                     </attribute>
+                  </element>
+               </element>
+               <element name="sml:output">
+                  <attribute name="name">
+                     <value>windDir</value>
+                  </attribute>
+                  <element name="swe:Quantity">
+                     <attribute name="definition">
+                        <value>http://sensorml.com/ont/swe/property/WindDirection</value>
+                     </attribute>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
     </define>
 </grammar>
