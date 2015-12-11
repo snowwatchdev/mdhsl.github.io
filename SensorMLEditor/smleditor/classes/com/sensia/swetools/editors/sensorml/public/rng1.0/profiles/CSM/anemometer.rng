@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<grammar xmlns="http://relaxng.org/ns/structure/1.0"
-         xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
-         xmlns:sml="http://www.opengis.net/sensorML/1.0.1"
-         xmlns:gml="http://www.opengis.net/gml"
-         xmlns:swe="http://www.opengis.net/swe/1.0.1"
-         xmlns:xlink="http://www.w3.org/1999/xlink"
-         xmlns:sch="http://www.ascc.net/xml/schematron"
-         datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+<grammar xmlns="http://relaxng.org/ns/structure/1.0" xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0" xmlns:sml="http://www.opengis.net/sensorML/1.0.1" xmlns:gml="http://www.opengis.net/gml" xmlns:swe="http://www.opengis.net/swe/1.0.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sch="http://www.ascc.net/xml/schematron" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
    <!-- -->
-   <sch:ns prefix="sml" uri="http://www.opengis.net/sensorML/1.0.1"/>
-   <sch:ns prefix="gml" uri="http://www.opengis.net/gml"/>
-   <sch:ns prefix="swe" uri="http://www.opengis.net/swe/1.0.1"/>
+   <sch:ns prefix="sml" uri="http://www.opengis.net/sensorML/1.0.1" />
+   <sch:ns prefix="gml" uri="http://www.opengis.net/gml" />
+   <sch:ns prefix="swe" uri="http://www.opengis.net/swe/1.0.1" />
    <!-- -->
    <include href="../../sml/sensorML.rng">
       <start>
@@ -19,7 +12,17 @@
    </include>
    <!-- -->
    <define name="wst.Anemometer">
-         <element name="sml:Component">
+      <element name="sml:Component">
+         <element name="gml:description">
+            <data type="string">
+               <a:defaultValue>Enter your sensor description here</a:defaultValue>
+            </data>
+         </element>
+         <element name="gml:name">
+            <data type="string">
+               <a:defaultValue>Enter your sensor name here</a:defaultValue>
+            </data>
+         </element>
          <element name="sml:identification">
             <element name="sml:IdentifierList">
                <element name="sml:identifier">
@@ -71,7 +74,8 @@
          <optional>
             <ref name="sml.securityConstraint" />
          </optional>
-          <!-- Physical Characteristics -->
+         
+         <!-- Physical Characteristics -->
          <element name="sml:characteristics">
             <attribute name="name">
                <value>Physical Characteristics</value>
@@ -136,7 +140,8 @@
                </element>
             </element>
          </element>
-          <!-- Electrical Characteristics -->
+         
+         <!-- Electrical Characteristics -->
          <element name="sml:characteristics">
             <attribute name="name">
                <value>Electrical Characteristics</value>
@@ -202,6 +207,7 @@
                </element>
             </element>
          </element>
+         
          <!-- Measurement Characteristics -->
          <element name="sml:characteristics">
             <attribute name="name">
@@ -305,6 +311,7 @@
                </element>
             </element>
          </element>
+         
          <!-- Other Stuff -->
          <optional>
             <ref name="sml.characteristics" />
@@ -315,6 +322,21 @@
          <zeroOrMore>
             <ref name="sml.documentation" />
          </zeroOrMore>
+         
+         <element name="sml:inputs">
+            <element name="sml:InputList">
+               <element name="sml:input">
+                  <attribute name="name">
+                     <value>wind</value>
+                  </attribute>
+                  <element name="swe:Quantity">
+                     <attribute name="definition">
+                        <value>http://sensorml.com/ont/swe/property/Wind</value>
+                     </attribute>
+                  </element>
+               </element>
+            </element>
+         </element>
          <element name="sml:outputs">
             <element name="sml:OutputList">
                <element name="sml:output">
@@ -340,5 +362,5 @@
             </element>
          </element>
       </element>
-    </define>
+   </define>
 </grammar>
