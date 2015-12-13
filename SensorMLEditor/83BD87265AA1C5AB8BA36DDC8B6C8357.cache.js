@@ -3,7 +3,7 @@ var __gwtModuleFunction = $wnd.sml_editor;
 var $sendStats = __gwtModuleFunction.__sendStats;
 $sendStats('moduleStartup', 'moduleEvalStart');
 var $gwt_version = "2.7.0";
-var $strongName = 'CE5C0F17B8D3F0B61CDEB4603EFDBBB7';
+var $strongName = '83BD87265AA1C5AB8BA36DDC8B6C8357';
 var $gwt = {};
 var $doc = $wnd.document;
 var $moduleName, $moduleBase;
@@ -22,7 +22,7 @@ var $stats = $wnd.__gwtStatsEvent ? function(a) {
 return $wnd.__gwtStatsEvent && $wnd.__gwtStatsEvent(a);
 } : null;
 var $sessionId = $wnd.__gwtStatsSessionId ? $wnd.__gwtStatsSessionId : null;
-var $intern_0 = 'object', $intern_1 = 'string', $intern_2 = 2147483647, $intern_3 = 'java.lang', $intern_4 = 'com.google.gwt.core.client', $intern_5 = 3.141592653589793, $intern_6 = 'com.google.gwt.animation.client', $intern_7 = 'com.google.gwt.user.client', $intern_8 = {3:1, 6:1}, $intern_9 = {3:1, 15:1, 6:1}, $intern_10 = 'com.google.gwt.core.client.impl', $intern_11 = 'anonymous', $intern_12 = {3:1, 342:1}, $intern_13 = 'Unknown', $intern_14 = 65535, $intern_15 = 'CSS1Compat', $intern_16 = {3:1}, $intern_17 = {10:1, 19:1, 3:1, 5:1, 4:1}, $intern_18 = 'com.google.gwt.dom.client', $intern_19 = {19:1, 42:1, 3:1, 5:1, 4:1}, $intern_20 = {19:1, 43:1, 3:1, 5:1, 4:1}, $intern_21 = {23:1, 3:1, 5:1, 4:1}, $intern_22 = 'com.google.web.bindery.event.shared', $intern_23 = 'com.google.gwt.event.shared', $intern_24 = 'com.google.gwt.event.dom.client', $intern_25 = 'com.google.gwt.event.logical.shared', $intern_26 = {66:1, 3:1, 15:1, 6:1}, $intern_27 = 'UmbrellaException', $intern_28 = 'com.google.gwt.http.client', $intern_29 = {54:1, 3:1, 15:1, 6:1}, $intern_30 = 4194303, $intern_31 = 1048575, $intern_32 = 17592186044416, $intern_33 = 4194304, $intern_34 = 524288, $intern_35 = 'com.google.gwt.text.shared.testing', $intern_36 = 'load', $intern_37 = 65536, $intern_38 = 1048576, $intern_39 = 16777216, $intern_40 = 33554432, $intern_41 = 67108864, $intern_42 = '__gwtLastUnhandledEvent', $intern_43 = 'com.google.gwt.user.client.impl', $intern_44 = 'width', $intern_45 = 'Null widget handle. If you are creating a composite, ensure that initWidget() has been called.', $intern_46 = 'Style names cannot be empty', $intern_47 = 'aria-hidden', $intern_48 = 'height', $intern_49 = 'com.google.gwt.user.client.ui', $intern_50 = {13:1, 9:1, 12:1, 11:1, 14:1, 8:1, 7:1}, $intern_51 = {13:1, 9:1, 12:1, 11:1, 26:1, 14:1, 8:1, 7:1}, $intern_52 = 'left', $intern_53 = 'position', $intern_54 = {13:1, 9:1, 12:1, 38:1, 11:1, 14:1, 8:1, 7:1}, $intern_55 = 'verticalAlign', $intern_56 = 'cellSpacing', $intern_57 = 'div', $intern_58 = 'visibility', $intern_59 = 'hidden', $intern_60 = '0.0px', $intern_61 = 'offsetWidth', $intern_62 = 'offsetHeight', $intern_63 = 'rect(0px, 0px, 0px, 0px)', $intern_64 = 'visible', $intern_65 = 'absolute', $intern_66 = 'cellPadding', $intern_67 = 'popupContent', $intern_68 = {346:1, 30:1}, $intern_69 = 'overflow', $intern_70 = 'display', $intern_71 = {13:1, 9:1, 12:1, 11:1, 26:1, 14:1, 80:1, 8:1, 7:1}, $intern_72 = 'value', $intern_73 = {44:1, 3:1, 5:1, 4:1}, $intern_74 = 'Possible problem with your *.gwt.xml module file.\nThe compile time user.agent value (ie10) does not match the runtime user.agent value (', $intern_75 = 'Expect more errors.', $intern_76 = 'com.google.gwt.xml.client.impl', $intern_77 = {49:1, 24:1}, $intern_78 = 'http://relaxng.org/ns/compatibility/annotations/1.0', $intern_79 = 'http://relaxng.org/ns/structure/1.0', $intern_80 = 'name', $intern_81 = 'zeroOrMore', $intern_82 = 'com.sensia.gwt.relaxNG', $intern_83 = 'com.sensia.relaxNG', $intern_84 = {25:1, 18:1, 3:1}, $intern_85 = 'maxExclusive', $intern_86 = 'maxInclusive', $intern_87 = 'minExclusive', $intern_88 = 'minInclusive', $intern_89 = -2147483648, $intern_90 = 'com.sensia.swetools.editors.sensorml.client', $intern_91 = {132:1, 30:1}, $intern_92 = {13:1, 9:1, 12:1, 11:1, 14:1, 8:1, 7:1, 344:1, 3:1}, $intern_93 = 'com.sensia.swetools.editors.sensorml.client.panels', $intern_94 = {16:1}, $intern_95 = 'com.sensia.swetools.editors.sensorml.client.v2', $intern_96 = 'DataRecord', $intern_97 = 'field', $intern_98 = 'Quantity', $intern_99 = 'QuantityRange', $intern_100 = 'Category', $intern_101 = 'definition', $intern_102 = 'http://www.opengis.net/gml', $intern_103 = 'identifier', $intern_104 = 'com.sensia.swetools.editors.sensorml.client.v2.panels.base', $intern_105 = 'com.sensia.swetools.editors.sensorml.client.v2.panels.base.xsd', $intern_106 = 'invalid-value', $intern_107 = 'valid-value', $intern_108 = 'com.sensia.swetools.editors.sensorml.client.v2.panels.sml', $intern_109 = '<hr  style="width:100%;" />', $intern_110 = 'com.sensia.swetools.editors.sensorml.client.v2.panels.swe', $intern_111 = 'For input string: "', $intern_112 = 'java.util', $intern_113 = {91:1}, $intern_114 = {22:1}, $intern_115 = {3:1, 37:1}, $intern_116 = '__proto__', $intern_117 = 'com.google.gwt.lang';
+var $intern_0 = 'object', $intern_1 = 'string', $intern_2 = 2147483647, $intern_3 = 'java.lang', $intern_4 = 'com.google.gwt.core.client', $intern_5 = 3.141592653589793, $intern_6 = 'com.google.gwt.animation.client', $intern_7 = 'com.google.gwt.user.client', $intern_8 = {3:1, 6:1}, $intern_9 = {3:1, 15:1, 6:1}, $intern_10 = 'com.google.gwt.core.client.impl', $intern_11 = 'anonymous', $intern_12 = {3:1, 344:1}, $intern_13 = 'Unknown', $intern_14 = 65535, $intern_15 = 'CSS1Compat', $intern_16 = {3:1}, $intern_17 = {10:1, 19:1, 3:1, 5:1, 4:1}, $intern_18 = 'com.google.gwt.dom.client', $intern_19 = {19:1, 43:1, 3:1, 5:1, 4:1}, $intern_20 = {19:1, 44:1, 3:1, 5:1, 4:1}, $intern_21 = {23:1, 3:1, 5:1, 4:1}, $intern_22 = 'com.google.web.bindery.event.shared', $intern_23 = 'com.google.gwt.event.shared', $intern_24 = 'com.google.gwt.event.dom.client', $intern_25 = 'com.google.gwt.event.logical.shared', $intern_26 = {66:1, 3:1, 15:1, 6:1}, $intern_27 = 'UmbrellaException', $intern_28 = 'com.google.gwt.http.client', $intern_29 = {54:1, 3:1, 15:1, 6:1}, $intern_30 = 4194303, $intern_31 = 1048575, $intern_32 = 17592186044416, $intern_33 = 4194304, $intern_34 = 524288, $intern_35 = 'com.google.gwt.text.shared.testing', $intern_36 = 'load', $intern_37 = 65536, $intern_38 = 1048576, $intern_39 = 16777216, $intern_40 = 33554432, $intern_41 = 67108864, $intern_42 = '__gwtLastUnhandledEvent', $intern_43 = 'com.google.gwt.user.client.impl', $intern_44 = 'width', $intern_45 = 'Null widget handle. If you are creating a composite, ensure that initWidget() has been called.', $intern_46 = 'Style names cannot be empty', $intern_47 = 'aria-hidden', $intern_48 = 'height', $intern_49 = 'com.google.gwt.user.client.ui', $intern_50 = {13:1, 9:1, 12:1, 11:1, 14:1, 8:1, 7:1}, $intern_51 = {13:1, 9:1, 12:1, 11:1, 27:1, 14:1, 8:1, 7:1}, $intern_52 = 'left', $intern_53 = 'position', $intern_54 = {13:1, 9:1, 12:1, 38:1, 11:1, 14:1, 8:1, 7:1}, $intern_55 = 'verticalAlign', $intern_56 = 'cellSpacing', $intern_57 = 'div', $intern_58 = 'visibility', $intern_59 = 'hidden', $intern_60 = '0.0px', $intern_61 = 'offsetWidth', $intern_62 = 'offsetHeight', $intern_63 = 'rect(0px, 0px, 0px, 0px)', $intern_64 = 'visible', $intern_65 = 'absolute', $intern_66 = 'cellPadding', $intern_67 = 'popupContent', $intern_68 = {348:1, 30:1}, $intern_69 = 'overflow', $intern_70 = 'display', $intern_71 = {13:1, 9:1, 12:1, 11:1, 27:1, 14:1, 80:1, 8:1, 7:1}, $intern_72 = 'value', $intern_73 = {45:1, 3:1, 5:1, 4:1}, $intern_74 = 'Possible problem with your *.gwt.xml module file.\nThe compile time user.agent value (ie10) does not match the runtime user.agent value (', $intern_75 = 'Expect more errors.', $intern_76 = 'com.google.gwt.xml.client.impl', $intern_77 = {49:1, 24:1}, $intern_78 = 'http://relaxng.org/ns/compatibility/annotations/1.0', $intern_79 = 'http://relaxng.org/ns/structure/1.0', $intern_80 = 'name', $intern_81 = 'zeroOrMore', $intern_82 = 'com.sensia.gwt.relaxNG', $intern_83 = 'com.sensia.relaxNG', $intern_84 = {25:1, 18:1, 3:1}, $intern_85 = 'maxExclusive', $intern_86 = 'maxInclusive', $intern_87 = 'minExclusive', $intern_88 = 'minInclusive', $intern_89 = -2147483648, $intern_90 = 'com.sensia.swetools.editors.sensorml.client', $intern_91 = {107:1, 30:1}, $intern_92 = {13:1, 9:1, 12:1, 11:1, 14:1, 8:1, 7:1, 346:1, 3:1}, $intern_93 = 'com.sensia.swetools.editors.sensorml.client.panels', $intern_94 = {16:1}, $intern_95 = 'com.sensia.swetools.editors.sensorml.client.v2', $intern_96 = 'DataRecord', $intern_97 = 'field', $intern_98 = 'Quantity', $intern_99 = 'QuantityRange', $intern_100 = 'Category', $intern_101 = 'definition', $intern_102 = 'http://www.opengis.net/gml', $intern_103 = 'identifier', $intern_104 = 'com.sensia.swetools.editors.sensorml.client.v2.panels.base', $intern_105 = 'com.sensia.swetools.editors.sensorml.client.v2.panels.base.xsd', $intern_106 = 'invalid-value', $intern_107 = 'valid-value', $intern_108 = 'com.sensia.swetools.editors.sensorml.client.v2.panels.sml', $intern_109 = '<hr  style="width:100%;" />', $intern_110 = 'com.sensia.swetools.editors.sensorml.client.v2.panels.swe', $intern_111 = 'For input string: "', $intern_112 = 'java.util', $intern_113 = {91:1}, $intern_114 = {22:1}, $intern_115 = {3:1, 37:1}, $intern_116 = '__proto__', $intern_117 = 'com.google.gwt.lang';
 var _, com_google_gwt_lang_ModuleUtils_initFnList, com_google_gwt_lang_JavaClassHierarchySetupUtil_prototypesByTypeId = {}, com_google_gwt_lang_CollapsedPropertyHolder_permutationId = -1;
 function com_google_gwt_lang_JavaClassHierarchySetupUtil_typeMarkerFn__V(){
 }
@@ -157,7 +157,7 @@ _.toString = function(){
   return this.toString__Ljava_lang_String_2$();
 }
 ;
-com_google_gwt_lang_Cast_stringCastMap = {3:1, 381:1, 5:1, 2:1};
+com_google_gwt_lang_Cast_stringCastMap = {3:1, 383:1, 5:1, 2:1};
 com_google_gwt_lang_JavaClassHierarchySetupUtil_modernizeBrowser__V();
 function com_google_gwt_lang_Cast_canCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(src_0, dstId){
   return com_google_gwt_lang_Cast_isJavaString__Ljava_lang_Object_2Z(src_0) && !!com_google_gwt_lang_Cast_stringCastMap[dstId] || src_0.java_lang_Object_castableTypeMap$ && !!src_0.java_lang_Object_castableTypeMap$[dstId];
@@ -438,7 +438,7 @@ function com_google_gwt_animation_client_Animation_Animation__Lcom_google_gwt_an
   this.com_google_gwt_animation_client_Animation_scheduler = scheduler;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(125, 1, {});
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(126, 1, {});
 _.onComplete__V = function com_google_gwt_animation_client_Animation_onComplete__V(){
   this.onUpdate__DV((1 + java_lang_Math_cos__DD(6.283185307179586)) / 2);
 }
@@ -453,7 +453,7 @@ _.com_google_gwt_animation_client_Animation_isStarted = false;
 _.com_google_gwt_animation_client_Animation_runId = -1;
 _.com_google_gwt_animation_client_Animation_startTime = -1;
 _.com_google_gwt_animation_client_Animation_wasStarted = false;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1animation_1client_1Animation_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_6, 'Animation', 125);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1animation_1client_1Animation_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_6, 'Animation', 126);
 function com_google_gwt_animation_client_Animation$1_$execute__Lcom_google_gwt_animation_client_Animation$1_2DV(this$static, timestamp){
   com_google_gwt_animation_client_Animation_$update__Lcom_google_gwt_animation_client_Animation_2DZ(this$static.com_google_gwt_animation_client_Animation$1_this$01, timestamp)?(this$static.com_google_gwt_animation_client_Animation$1_this$01.com_google_gwt_animation_client_Animation_requestHandle = this$static.com_google_gwt_animation_client_Animation$1_this$01.com_google_gwt_animation_client_Animation_scheduler.requestAnimationFrame__Lcom_google_gwt_animation_client_AnimationScheduler$AnimationCallback_2Lcom_google_gwt_dom_client_Element_2Lcom_google_gwt_animation_client_AnimationScheduler$AnimationHandle_2(this$static.com_google_gwt_animation_client_Animation$1_this$01.com_google_gwt_animation_client_Animation_callback, this$static.com_google_gwt_animation_client_Animation$1_this$01.com_google_gwt_animation_client_Animation_element)):(this$static.com_google_gwt_animation_client_Animation$1_this$01.com_google_gwt_animation_client_Animation_requestHandle = null);
 }
@@ -462,17 +462,17 @@ function com_google_gwt_animation_client_Animation$1_Animation$1__Lcom_google_gw
   this.com_google_gwt_animation_client_Animation$1_this$01 = this$0;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(300, 1, {}, com_google_gwt_animation_client_Animation$1_Animation$1__Lcom_google_gwt_animation_client_Animation_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(301, 1, {}, com_google_gwt_animation_client_Animation$1_Animation$1__Lcom_google_gwt_animation_client_Animation_2V);
 _.execute__DV = function com_google_gwt_animation_client_Animation$1_execute__DV(timestamp){
   com_google_gwt_animation_client_Animation$1_$execute__Lcom_google_gwt_animation_client_Animation$1_2DV(this, timestamp);
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1animation_1client_1Animation$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_6, 'Animation/1', 300);
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(377, 1, {});
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1animation_1client_1Animation$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_6, 'Animation/1', 301);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(379, 1, {});
 var com_google_gwt_animation_client_AnimationScheduler_instance;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1animation_1client_1AnimationScheduler_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_6, 'AnimationScheduler', 377);
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(126, 1, {126:1});
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1animation_1client_1AnimationScheduler$AnimationHandle_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_6, 'AnimationScheduler/AnimationHandle', 126);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1animation_1client_1AnimationScheduler_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_6, 'AnimationScheduler', 379);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(127, 1, {127:1});
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1animation_1client_1AnimationScheduler$AnimationHandle_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_6, 'AnimationScheduler/AnimationHandle', 127);
 function com_google_gwt_animation_client_AnimationSchedulerImplStandard_AnimationSchedulerImplStandard__V(){
 }
 
@@ -490,24 +490,24 @@ function com_google_gwt_animation_client_AnimationSchedulerImplStandard_requestI
   return {id:handle};
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(329, 377, {}, com_google_gwt_animation_client_AnimationSchedulerImplStandard_AnimationSchedulerImplStandard__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(331, 379, {}, com_google_gwt_animation_client_AnimationSchedulerImplStandard_AnimationSchedulerImplStandard__V);
 _.requestAnimationFrame__Lcom_google_gwt_animation_client_AnimationScheduler$AnimationCallback_2Lcom_google_gwt_dom_client_Element_2Lcom_google_gwt_animation_client_AnimationScheduler$AnimationHandle_2 = function com_google_gwt_animation_client_AnimationSchedulerImplStandard_requestAnimationFrame__Lcom_google_gwt_animation_client_AnimationScheduler$AnimationCallback_2Lcom_google_gwt_dom_client_Element_2Lcom_google_gwt_animation_client_AnimationScheduler$AnimationHandle_2(callback, element){
   var handle;
   handle = com_google_gwt_animation_client_AnimationSchedulerImplStandard_requestImpl__Lcom_google_gwt_animation_client_AnimationScheduler$AnimationCallback_2Lcom_google_gwt_dom_client_Element_2Lcom_google_gwt_core_client_JavaScriptObject_2(callback, element);
   return new com_google_gwt_animation_client_AnimationSchedulerImplStandard$1_AnimationSchedulerImplStandard$1__Lcom_google_gwt_animation_client_AnimationSchedulerImplStandard_2V(handle);
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1animation_1client_1AnimationSchedulerImplStandard_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_6, 'AnimationSchedulerImplStandard', 329);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1animation_1client_1AnimationSchedulerImplStandard_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_6, 'AnimationSchedulerImplStandard', 331);
 function com_google_gwt_animation_client_AnimationSchedulerImplStandard$1_AnimationSchedulerImplStandard$1__Lcom_google_gwt_animation_client_AnimationSchedulerImplStandard_2V(val$handle){
   this.com_google_gwt_animation_client_AnimationSchedulerImplStandard$1_val$handle2 = val$handle;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(330, 126, {126:1}, com_google_gwt_animation_client_AnimationSchedulerImplStandard$1_AnimationSchedulerImplStandard$1__Lcom_google_gwt_animation_client_AnimationSchedulerImplStandard_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(332, 127, {127:1}, com_google_gwt_animation_client_AnimationSchedulerImplStandard$1_AnimationSchedulerImplStandard$1__Lcom_google_gwt_animation_client_AnimationSchedulerImplStandard_2V);
 _.cancel__V = function com_google_gwt_animation_client_AnimationSchedulerImplStandard$1_cancel__V(){
   com_google_gwt_animation_client_AnimationSchedulerImplStandard_cancelImpl__Lcom_google_gwt_core_client_JavaScriptObject_2V(this.com_google_gwt_animation_client_AnimationSchedulerImplStandard$1_val$handle2);
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1animation_1client_1AnimationSchedulerImplStandard$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_6, 'AnimationSchedulerImplStandard/1', 330);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1animation_1client_1AnimationSchedulerImplStandard$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_6, 'AnimationSchedulerImplStandard/1', 332);
 function com_google_gwt_animation_client_AnimationSchedulerImplTimer_$cancelAnimationFrame__Lcom_google_gwt_animation_client_AnimationSchedulerImplTimer_2Lcom_google_gwt_animation_client_AnimationScheduler$AnimationHandle_2V(this$static, requestId){
   java_util_ArrayList_$remove__Ljava_util_ArrayList_2Ljava_lang_Object_2Z(this$static.com_google_gwt_animation_client_AnimationSchedulerImplTimer_animationRequests, requestId);
   this$static.com_google_gwt_animation_client_AnimationSchedulerImplTimer_animationRequests.java_util_ArrayList_array.length == 0 && com_google_gwt_user_client_Timer_$cancel__Lcom_google_gwt_user_client_Timer_2V(this$static.com_google_gwt_animation_client_AnimationSchedulerImplTimer_timer);
@@ -515,8 +515,8 @@ function com_google_gwt_animation_client_AnimationSchedulerImplTimer_$cancelAnim
 
 function com_google_gwt_animation_client_AnimationSchedulerImplTimer_$updateAnimations__Lcom_google_gwt_animation_client_AnimationSchedulerImplTimer_2V(this$static){
   var curAnimations, duration, requestId, requestId$index, requestId$max;
-  curAnimations = com_google_gwt_lang_Array_initDim__Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2IIILjava_lang_Object_2(com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1animation_1client_1AnimationSchedulerImplTimer$AnimationHandleImpl_12_1classLit, {396:1, 3:1}, 131, this$static.com_google_gwt_animation_client_AnimationSchedulerImplTimer_animationRequests.java_util_ArrayList_array.length, 0, 1);
-  curAnimations = com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(java_util_ArrayList_$toArray__Ljava_util_ArrayList_2_3Ljava_lang_Object_2_3Ljava_lang_Object_2(this$static.com_google_gwt_animation_client_AnimationSchedulerImplTimer_animationRequests, curAnimations), 396);
+  curAnimations = com_google_gwt_lang_Array_initDim__Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2IIILjava_lang_Object_2(com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1animation_1client_1AnimationSchedulerImplTimer$AnimationHandleImpl_12_1classLit, {398:1, 3:1}, 132, this$static.com_google_gwt_animation_client_AnimationSchedulerImplTimer_animationRequests.java_util_ArrayList_array.length, 0, 1);
+  curAnimations = com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(java_util_ArrayList_$toArray__Ljava_util_ArrayList_2_3Ljava_lang_Object_2_3Ljava_lang_Object_2(this$static.com_google_gwt_animation_client_AnimationSchedulerImplTimer_animationRequests, curAnimations), 398);
   duration = new com_google_gwt_core_client_Duration_Duration__V;
   for (requestId$index = 0 , requestId$max = curAnimations.length; requestId$index < requestId$max; ++requestId$index) {
     requestId = curAnimations[requestId$index];
@@ -531,7 +531,7 @@ function com_google_gwt_animation_client_AnimationSchedulerImplTimer_AnimationSc
   this.com_google_gwt_animation_client_AnimationSchedulerImplTimer_timer = new com_google_gwt_animation_client_AnimationSchedulerImplTimer$1_AnimationSchedulerImplTimer$1__Lcom_google_gwt_animation_client_AnimationSchedulerImplTimer_2V(this);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(331, 377, {}, com_google_gwt_animation_client_AnimationSchedulerImplTimer_AnimationSchedulerImplTimer__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(333, 379, {}, com_google_gwt_animation_client_AnimationSchedulerImplTimer_AnimationSchedulerImplTimer__V);
 _.requestAnimationFrame__Lcom_google_gwt_animation_client_AnimationScheduler$AnimationCallback_2Lcom_google_gwt_dom_client_Element_2Lcom_google_gwt_animation_client_AnimationScheduler$AnimationHandle_2 = function com_google_gwt_animation_client_AnimationSchedulerImplTimer_requestAnimationFrame__Lcom_google_gwt_animation_client_AnimationScheduler$AnimationCallback_2Lcom_google_gwt_dom_client_Element_2Lcom_google_gwt_animation_client_AnimationScheduler$AnimationHandle_2(callback, element){
   var requestId;
   requestId = new com_google_gwt_animation_client_AnimationSchedulerImplTimer$AnimationHandleImpl_AnimationSchedulerImplTimer$AnimationHandleImpl__Lcom_google_gwt_animation_client_AnimationSchedulerImplTimer_2Lcom_google_gwt_animation_client_AnimationScheduler$AnimationCallback_2V(this, callback);
@@ -540,7 +540,7 @@ _.requestAnimationFrame__Lcom_google_gwt_animation_client_AnimationScheduler$Ani
   return requestId;
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1animation_1client_1AnimationSchedulerImplTimer_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_6, 'AnimationSchedulerImplTimer', 331);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1animation_1client_1AnimationSchedulerImplTimer_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_6, 'AnimationSchedulerImplTimer', 333);
 function com_google_gwt_user_client_Timer_$cancel__Lcom_google_gwt_user_client_Timer_2V(this$static){
   if (!this$static.com_google_gwt_user_client_Timer_timerId) {
     return;
@@ -581,7 +581,7 @@ function com_google_gwt_user_client_Timer_setTimeout__Lcom_google_gwt_core_clien
   return $wnd.setTimeout(func, time);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(120, 1, {});
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(121, 1, {});
 _.package_private$com_google_gwt_user_client_Timer$fire__IV = function com_google_gwt_user_client_Timer_fire__IV(scheduleCancelCounter){
   if (scheduleCancelCounter != this.com_google_gwt_user_client_Timer_cancelCounter) {
     return;
@@ -593,29 +593,29 @@ _.package_private$com_google_gwt_user_client_Timer$fire__IV = function com_googl
 _.com_google_gwt_user_client_Timer_cancelCounter = 0;
 _.com_google_gwt_user_client_Timer_isRepeating = false;
 _.com_google_gwt_user_client_Timer_timerId = null;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1Timer_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_7, 'Timer', 120);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1Timer_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_7, 'Timer', 121);
 function com_google_gwt_animation_client_AnimationSchedulerImplTimer$1_AnimationSchedulerImplTimer$1__Lcom_google_gwt_animation_client_AnimationSchedulerImplTimer_2V(this$0){
   this.com_google_gwt_animation_client_AnimationSchedulerImplTimer$1_this$01 = this$0;
   com_google_gwt_user_client_Timer_Timer__V.call(this);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(332, 120, {}, com_google_gwt_animation_client_AnimationSchedulerImplTimer$1_AnimationSchedulerImplTimer$1__Lcom_google_gwt_animation_client_AnimationSchedulerImplTimer_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(334, 121, {}, com_google_gwt_animation_client_AnimationSchedulerImplTimer$1_AnimationSchedulerImplTimer$1__Lcom_google_gwt_animation_client_AnimationSchedulerImplTimer_2V);
 _.run__V = function com_google_gwt_animation_client_AnimationSchedulerImplTimer$1_run__V(){
   com_google_gwt_animation_client_AnimationSchedulerImplTimer_$updateAnimations__Lcom_google_gwt_animation_client_AnimationSchedulerImplTimer_2V(this.com_google_gwt_animation_client_AnimationSchedulerImplTimer$1_this$01);
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1animation_1client_1AnimationSchedulerImplTimer$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_6, 'AnimationSchedulerImplTimer/1', 332);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1animation_1client_1AnimationSchedulerImplTimer$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_6, 'AnimationSchedulerImplTimer/1', 334);
 function com_google_gwt_animation_client_AnimationSchedulerImplTimer$AnimationHandleImpl_AnimationSchedulerImplTimer$AnimationHandleImpl__Lcom_google_gwt_animation_client_AnimationSchedulerImplTimer_2Lcom_google_gwt_animation_client_AnimationScheduler$AnimationCallback_2V(this$0, callback){
   this.com_google_gwt_animation_client_AnimationSchedulerImplTimer$AnimationHandleImpl_this$01 = this$0;
   this.com_google_gwt_animation_client_AnimationSchedulerImplTimer$AnimationHandleImpl_callback = callback;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(131, 126, {126:1, 131:1}, com_google_gwt_animation_client_AnimationSchedulerImplTimer$AnimationHandleImpl_AnimationSchedulerImplTimer$AnimationHandleImpl__Lcom_google_gwt_animation_client_AnimationSchedulerImplTimer_2Lcom_google_gwt_animation_client_AnimationScheduler$AnimationCallback_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(132, 127, {127:1, 132:1}, com_google_gwt_animation_client_AnimationSchedulerImplTimer$AnimationHandleImpl_AnimationSchedulerImplTimer$AnimationHandleImpl__Lcom_google_gwt_animation_client_AnimationSchedulerImplTimer_2Lcom_google_gwt_animation_client_AnimationScheduler$AnimationCallback_2V);
 _.cancel__V = function com_google_gwt_animation_client_AnimationSchedulerImplTimer$AnimationHandleImpl_cancel__V(){
   com_google_gwt_animation_client_AnimationSchedulerImplTimer_$cancelAnimationFrame__Lcom_google_gwt_animation_client_AnimationSchedulerImplTimer_2Lcom_google_gwt_animation_client_AnimationScheduler$AnimationHandle_2V(this.com_google_gwt_animation_client_AnimationSchedulerImplTimer$AnimationHandleImpl_this$01, this);
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1animation_1client_1AnimationSchedulerImplTimer$AnimationHandleImpl_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_6, 'AnimationSchedulerImplTimer/AnimationHandleImpl', 131);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1animation_1client_1AnimationSchedulerImplTimer$AnimationHandleImpl_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_6, 'AnimationSchedulerImplTimer/AnimationHandleImpl', 132);
 function com_google_gwt_core_client_Duration_Duration__V(){
   this.com_google_gwt_core_client_Duration_start = com_google_gwt_core_client_JsDate_now__D();
 }
@@ -744,8 +744,8 @@ function com_google_gwt_core_client_JsDate_now__D(){
   return (new Date).getTime();
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(348, 1, {});
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1core_1client_1Scheduler_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_4, 'Scheduler', 348);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(350, 1, {});
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1core_1client_1Scheduler_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_4, 'Scheduler', 350);
 function com_google_gwt_core_client_impl_Impl_apply__Ljava_lang_Object_2Ljava_lang_Object_2Ljava_lang_Object_2Ljava_lang_Object_2(jsFunction, thisObj, args){
   return jsFunction.apply(thisObj, args);
   var _;
@@ -968,7 +968,7 @@ function com_google_gwt_core_client_impl_SchedulerImpl_scheduleFixedDelayImpl__L
   $wnd.setTimeout(callback, delayMs);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(212, 348, {}, com_google_gwt_core_client_impl_SchedulerImpl_SchedulerImpl__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(212, 350, {}, com_google_gwt_core_client_impl_SchedulerImpl_SchedulerImpl__V);
 _.com_google_gwt_core_client_impl_SchedulerImpl_flushRunning = false;
 _.com_google_gwt_core_client_impl_SchedulerImpl_shouldBeRunning = false;
 var com_google_gwt_core_client_impl_SchedulerImpl_INSTANCE;
@@ -1016,7 +1016,7 @@ function com_google_gwt_core_client_impl_StackTraceCreator_dropInternalFrames___
   numberOfFrameToSearch = java_lang_Math_min__III(stackTrace.length, 5);
   for (i = 0; i < numberOfFrameToSearch; i++) {
     if (java_lang_String_$equals__Ljava_lang_String_2Ljava_lang_Object_2Z(stackTrace[i].java_lang_StackTraceElement_methodName, dropFrameUntilFnName)) {
-      return com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2((stackTrace.length >= i + 1 && stackTrace.splice(0, i + 1) , stackTrace), 342);
+      return com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2((stackTrace.length >= i + 1 && stackTrace.splice(0, i + 1) , stackTrace), 344);
     }
   }
   return stackTrace;
@@ -1034,12 +1034,12 @@ function com_google_gwt_core_client_impl_StackTraceCreator_parseInt__Ljava_lang_
 }
 
 var com_google_gwt_core_client_impl_StackTraceCreator_collector;
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(359, 1, {});
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1core_1client_1impl_1StackTraceCreator$Collector_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_10, 'StackTraceCreator/Collector', 359);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(361, 1, {});
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1core_1client_1impl_1StackTraceCreator$Collector_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_10, 'StackTraceCreator/Collector', 361);
 function com_google_gwt_core_client_impl_StackTraceCreator$CollectorLegacy_StackTraceCreator$CollectorLegacy__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(178, 359, {}, com_google_gwt_core_client_impl_StackTraceCreator$CollectorLegacy_StackTraceCreator$CollectorLegacy__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(178, 361, {}, com_google_gwt_core_client_impl_StackTraceCreator$CollectorLegacy_StackTraceCreator$CollectorLegacy__V);
 _.collect__Ljava_lang_Object_2Ljava_lang_Object_2V = function com_google_gwt_core_client_impl_StackTraceCreator$CollectorLegacy_collect__Ljava_lang_Object_2Ljava_lang_Object_2V(t, thrownIgnored){
   var seen = {}, com_google_gwt_core_client_impl_StackTraceCreator_getFunctionName__Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_String_2_name_0;
   t.fnStack = [];
@@ -1120,7 +1120,7 @@ function com_google_gwt_core_client_impl_StackTraceCreator$CollectorModern_$pars
   return this$static.createSte__Ljava_lang_String_2Ljava_lang_String_2IILjava_lang_StackTraceElement_2(fileName, toReturn, line, col);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(360, 359, {});
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(362, 361, {});
 _.collect__Ljava_lang_Object_2Ljava_lang_Object_2V = function com_google_gwt_core_client_impl_StackTraceCreator$CollectorModern_collect__Ljava_lang_Object_2Ljava_lang_Object_2V(t, jsThrown){
   function fixIE(e){
     if (!('stack' in e)) {
@@ -1159,12 +1159,12 @@ _.getStackTrace__Ljava_lang_Object_2_3Ljava_lang_StackTraceElement_2 = function 
   return stackTrace;
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1core_1client_1impl_1StackTraceCreator$CollectorModern_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_10, 'StackTraceCreator/CollectorModern', 360);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1core_1client_1impl_1StackTraceCreator$CollectorModern_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_10, 'StackTraceCreator/CollectorModern', 362);
 function com_google_gwt_core_client_impl_StackTraceCreator$CollectorModernNoSourceMap_StackTraceCreator$CollectorModernNoSourceMap__V(){
   com_google_gwt_core_client_impl_StackTraceCreator$CollectorModern_$clinit__V();
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(179, 360, {}, com_google_gwt_core_client_impl_StackTraceCreator$CollectorModernNoSourceMap_StackTraceCreator$CollectorModernNoSourceMap__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(179, 362, {}, com_google_gwt_core_client_impl_StackTraceCreator$CollectorModernNoSourceMap_StackTraceCreator$CollectorModernNoSourceMap__V);
 _.createSte__Ljava_lang_String_2Ljava_lang_String_2IILjava_lang_StackTraceElement_2 = function com_google_gwt_core_client_impl_StackTraceCreator$CollectorModernNoSourceMap_createSte__Ljava_lang_String_2Ljava_lang_String_2IILjava_lang_StackTraceElement_2(fileName, method, line, col){
   return new java_lang_StackTraceElement_StackTraceElement__Ljava_lang_String_2Ljava_lang_String_2Ljava_lang_String_2IV(method, fileName, -1);
 }
@@ -1694,35 +1694,35 @@ function com_google_gwt_dom_client_Style$Position_Style$Position__Ljava_lang_Str
 
 function com_google_gwt_dom_client_Style$Position_values___3Lcom_google_gwt_dom_client_Style$Position_2(){
   com_google_gwt_dom_client_Style$Position_$clinit__V();
-  return com_google_gwt_lang_Array_initValues__Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2ILjava_lang_Object_2Ljava_lang_Object_2(com_google_gwt_lang_Array_getClassLiteralForArray__Ljava_lang_Class_2ILjava_lang_Class_2(com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1dom_1client_1Style$Position_12_1classLit, 1), $intern_16, 42, 0, [com_google_gwt_dom_client_Style$Position_STATIC, com_google_gwt_dom_client_Style$Position_RELATIVE, com_google_gwt_dom_client_Style$Position_ABSOLUTE, com_google_gwt_dom_client_Style$Position_FIXED]);
+  return com_google_gwt_lang_Array_initValues__Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2ILjava_lang_Object_2Ljava_lang_Object_2(com_google_gwt_lang_Array_getClassLiteralForArray__Ljava_lang_Class_2ILjava_lang_Class_2(com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1dom_1client_1Style$Position_12_1classLit, 1), $intern_16, 43, 0, [com_google_gwt_dom_client_Style$Position_STATIC, com_google_gwt_dom_client_Style$Position_RELATIVE, com_google_gwt_dom_client_Style$Position_ABSOLUTE, com_google_gwt_dom_client_Style$Position_FIXED]);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(42, 4, $intern_19);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(43, 4, $intern_19);
 var com_google_gwt_dom_client_Style$Position_ABSOLUTE, com_google_gwt_dom_client_Style$Position_FIXED, com_google_gwt_dom_client_Style$Position_RELATIVE, com_google_gwt_dom_client_Style$Position_STATIC;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1dom_1client_1Style$Position_12_1classLit = java_lang_Class_createForEnum__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2($intern_18, 'Style/Position', 42, com_google_gwt_dom_client_Style$Position_values___3Lcom_google_gwt_dom_client_Style$Position_2);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1dom_1client_1Style$Position_12_1classLit = java_lang_Class_createForEnum__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2($intern_18, 'Style/Position', 43, com_google_gwt_dom_client_Style$Position_values___3Lcom_google_gwt_dom_client_Style$Position_2);
 function com_google_gwt_dom_client_Style$Position$1_Style$Position$1__Ljava_lang_String_2IV(){
   com_google_gwt_dom_client_Style$Position_Style$Position__Ljava_lang_String_2IV.call(this, 'STATIC', 0);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(258, 42, $intern_19, com_google_gwt_dom_client_Style$Position$1_Style$Position$1__Ljava_lang_String_2IV);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(258, 43, $intern_19, com_google_gwt_dom_client_Style$Position$1_Style$Position$1__Ljava_lang_String_2IV);
 var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1dom_1client_1Style$Position$1_12_1classLit = java_lang_Class_createForEnum__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2($intern_18, 'Style/Position/1', 258, null);
 function com_google_gwt_dom_client_Style$Position$2_Style$Position$2__Ljava_lang_String_2IV(){
   com_google_gwt_dom_client_Style$Position_Style$Position__Ljava_lang_String_2IV.call(this, 'RELATIVE', 1);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(259, 42, $intern_19, com_google_gwt_dom_client_Style$Position$2_Style$Position$2__Ljava_lang_String_2IV);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(259, 43, $intern_19, com_google_gwt_dom_client_Style$Position$2_Style$Position$2__Ljava_lang_String_2IV);
 var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1dom_1client_1Style$Position$2_12_1classLit = java_lang_Class_createForEnum__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2($intern_18, 'Style/Position/2', 259, null);
 function com_google_gwt_dom_client_Style$Position$3_Style$Position$3__Ljava_lang_String_2IV(){
   com_google_gwt_dom_client_Style$Position_Style$Position__Ljava_lang_String_2IV.call(this, 'ABSOLUTE', 2);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(260, 42, $intern_19, com_google_gwt_dom_client_Style$Position$3_Style$Position$3__Ljava_lang_String_2IV);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(260, 43, $intern_19, com_google_gwt_dom_client_Style$Position$3_Style$Position$3__Ljava_lang_String_2IV);
 var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1dom_1client_1Style$Position$3_12_1classLit = java_lang_Class_createForEnum__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2($intern_18, 'Style/Position/3', 260, null);
 function com_google_gwt_dom_client_Style$Position$4_Style$Position$4__Ljava_lang_String_2IV(){
   com_google_gwt_dom_client_Style$Position_Style$Position__Ljava_lang_String_2IV.call(this, 'FIXED', 3);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(261, 42, $intern_19, com_google_gwt_dom_client_Style$Position$4_Style$Position$4__Ljava_lang_String_2IV);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(261, 43, $intern_19, com_google_gwt_dom_client_Style$Position$4_Style$Position$4__Ljava_lang_String_2IV);
 var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1dom_1client_1Style$Position$4_12_1classLit = java_lang_Class_createForEnum__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2($intern_18, 'Style/Position/4', 261, null);
 function com_google_gwt_dom_client_Style$TextAlign_$clinit__V(){
   com_google_gwt_dom_client_Style$TextAlign_$clinit__V = com_google_gwt_lang_JavaClassHierarchySetupUtil_emptyMethod__V;
@@ -1738,35 +1738,35 @@ function com_google_gwt_dom_client_Style$TextAlign_Style$TextAlign__Ljava_lang_S
 
 function com_google_gwt_dom_client_Style$TextAlign_values___3Lcom_google_gwt_dom_client_Style$TextAlign_2(){
   com_google_gwt_dom_client_Style$TextAlign_$clinit__V();
-  return com_google_gwt_lang_Array_initValues__Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2ILjava_lang_Object_2Ljava_lang_Object_2(com_google_gwt_lang_Array_getClassLiteralForArray__Ljava_lang_Class_2ILjava_lang_Class_2(com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1dom_1client_1Style$TextAlign_12_1classLit, 1), $intern_16, 43, 0, [com_google_gwt_dom_client_Style$TextAlign_CENTER, com_google_gwt_dom_client_Style$TextAlign_JUSTIFY, com_google_gwt_dom_client_Style$TextAlign_LEFT, com_google_gwt_dom_client_Style$TextAlign_RIGHT]);
+  return com_google_gwt_lang_Array_initValues__Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2ILjava_lang_Object_2Ljava_lang_Object_2(com_google_gwt_lang_Array_getClassLiteralForArray__Ljava_lang_Class_2ILjava_lang_Class_2(com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1dom_1client_1Style$TextAlign_12_1classLit, 1), $intern_16, 44, 0, [com_google_gwt_dom_client_Style$TextAlign_CENTER, com_google_gwt_dom_client_Style$TextAlign_JUSTIFY, com_google_gwt_dom_client_Style$TextAlign_LEFT, com_google_gwt_dom_client_Style$TextAlign_RIGHT]);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(43, 4, $intern_20);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(44, 4, $intern_20);
 var com_google_gwt_dom_client_Style$TextAlign_CENTER, com_google_gwt_dom_client_Style$TextAlign_JUSTIFY, com_google_gwt_dom_client_Style$TextAlign_LEFT, com_google_gwt_dom_client_Style$TextAlign_RIGHT;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1dom_1client_1Style$TextAlign_12_1classLit = java_lang_Class_createForEnum__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2($intern_18, 'Style/TextAlign', 43, com_google_gwt_dom_client_Style$TextAlign_values___3Lcom_google_gwt_dom_client_Style$TextAlign_2);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1dom_1client_1Style$TextAlign_12_1classLit = java_lang_Class_createForEnum__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2($intern_18, 'Style/TextAlign', 44, com_google_gwt_dom_client_Style$TextAlign_values___3Lcom_google_gwt_dom_client_Style$TextAlign_2);
 function com_google_gwt_dom_client_Style$TextAlign$1_Style$TextAlign$1__Ljava_lang_String_2IV(){
   com_google_gwt_dom_client_Style$TextAlign_Style$TextAlign__Ljava_lang_String_2IV.call(this, 'CENTER', 0);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(262, 43, $intern_20, com_google_gwt_dom_client_Style$TextAlign$1_Style$TextAlign$1__Ljava_lang_String_2IV);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(262, 44, $intern_20, com_google_gwt_dom_client_Style$TextAlign$1_Style$TextAlign$1__Ljava_lang_String_2IV);
 var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1dom_1client_1Style$TextAlign$1_12_1classLit = java_lang_Class_createForEnum__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2($intern_18, 'Style/TextAlign/1', 262, null);
 function com_google_gwt_dom_client_Style$TextAlign$2_Style$TextAlign$2__Ljava_lang_String_2IV(){
   com_google_gwt_dom_client_Style$TextAlign_Style$TextAlign__Ljava_lang_String_2IV.call(this, 'JUSTIFY', 1);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(263, 43, $intern_20, com_google_gwt_dom_client_Style$TextAlign$2_Style$TextAlign$2__Ljava_lang_String_2IV);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(263, 44, $intern_20, com_google_gwt_dom_client_Style$TextAlign$2_Style$TextAlign$2__Ljava_lang_String_2IV);
 var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1dom_1client_1Style$TextAlign$2_12_1classLit = java_lang_Class_createForEnum__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2($intern_18, 'Style/TextAlign/2', 263, null);
 function com_google_gwt_dom_client_Style$TextAlign$3_Style$TextAlign$3__Ljava_lang_String_2IV(){
   com_google_gwt_dom_client_Style$TextAlign_Style$TextAlign__Ljava_lang_String_2IV.call(this, 'LEFT', 2);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(264, 43, $intern_20, com_google_gwt_dom_client_Style$TextAlign$3_Style$TextAlign$3__Ljava_lang_String_2IV);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(264, 44, $intern_20, com_google_gwt_dom_client_Style$TextAlign$3_Style$TextAlign$3__Ljava_lang_String_2IV);
 var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1dom_1client_1Style$TextAlign$3_12_1classLit = java_lang_Class_createForEnum__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2($intern_18, 'Style/TextAlign/3', 264, null);
 function com_google_gwt_dom_client_Style$TextAlign$4_Style$TextAlign$4__Ljava_lang_String_2IV(){
   com_google_gwt_dom_client_Style$TextAlign_Style$TextAlign__Ljava_lang_String_2IV.call(this, 'RIGHT', 3);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(265, 43, $intern_20, com_google_gwt_dom_client_Style$TextAlign$4_Style$TextAlign$4__Ljava_lang_String_2IV);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(265, 44, $intern_20, com_google_gwt_dom_client_Style$TextAlign$4_Style$TextAlign$4__Ljava_lang_String_2IV);
 var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1dom_1client_1Style$TextAlign$4_12_1classLit = java_lang_Class_createForEnum__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2($intern_18, 'Style/TextAlign/4', 265, null);
 function com_google_gwt_dom_client_Style$Unit_$clinit__V(){
   com_google_gwt_dom_client_Style$Unit_$clinit__V = com_google_gwt_lang_JavaClassHierarchySetupUtil_emptyMethod__V;
@@ -1851,24 +1851,24 @@ function com_google_gwt_dom_client_TextAreaElement_$setRows__Lcom_google_gwt_dom
   this$static.rows = rows_0;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(367, 1, {});
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(369, 1, {});
 _.toString__Ljava_lang_String_2$ = function com_google_web_bindery_event_shared_Event_toString__Ljava_lang_String_2(){
   return 'An event type';
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1web_1bindery_1event_1shared_1Event_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_22, 'Event', 367);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1web_1bindery_1event_1shared_1Event_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_22, 'Event', 369);
 function com_google_gwt_event_shared_GwtEvent_$overrideSource__Lcom_google_gwt_event_shared_GwtEvent_2Ljava_lang_Object_2V(this$static, source){
   this$static.com_google_web_bindery_event_shared_Event_source = source;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(368, 367, {});
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(370, 369, {});
 _.revive__V = function com_google_gwt_event_shared_GwtEvent_revive__V(){
   this.com_google_gwt_event_shared_GwtEvent_dead = false;
   this.com_google_web_bindery_event_shared_Event_source = null;
 }
 ;
 _.com_google_gwt_event_shared_GwtEvent_dead = false;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1event_1shared_1GwtEvent_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_23, 'GwtEvent', 368);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1event_1shared_1GwtEvent_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_23, 'GwtEvent', 370);
 function com_google_gwt_event_dom_client_DomEvent_$setNativeEvent__Lcom_google_gwt_event_dom_client_DomEvent_2Lcom_google_gwt_dom_client_NativeEvent_2V(this$static, nativeEvent){
   this$static.com_google_gwt_event_dom_client_DomEvent_nativeEvent = nativeEvent;
 }
@@ -1896,13 +1896,13 @@ function com_google_gwt_event_dom_client_DomEvent_fireNativeEvent__Lcom_google_g
   }
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(372, 368, {});
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(374, 370, {});
 _.getAssociatedType__Lcom_google_gwt_event_shared_GwtEvent$Type_2 = function com_google_gwt_event_dom_client_DomEvent_getAssociatedType__Lcom_google_gwt_event_shared_GwtEvent$Type_2(){
   return this.getAssociatedType__Lcom_google_gwt_event_dom_client_DomEvent$Type_2();
 }
 ;
 var com_google_gwt_event_dom_client_DomEvent_registered;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1event_1dom_1client_1DomEvent_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_24, 'DomEvent', 372);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1event_1dom_1client_1DomEvent_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_24, 'DomEvent', 374);
 function com_google_gwt_event_dom_client_ChangeEvent_$clinit__V(){
   com_google_gwt_event_dom_client_ChangeEvent_$clinit__V = com_google_gwt_lang_JavaClassHierarchySetupUtil_emptyMethod__V;
   com_google_gwt_event_dom_client_ChangeEvent_TYPE = new com_google_gwt_event_dom_client_DomEvent$Type_DomEvent$Type__Ljava_lang_String_2Lcom_google_gwt_event_dom_client_DomEvent_2V('change', new com_google_gwt_event_dom_client_ChangeEvent_ChangeEvent__V);
@@ -1911,9 +1911,9 @@ function com_google_gwt_event_dom_client_ChangeEvent_$clinit__V(){
 function com_google_gwt_event_dom_client_ChangeEvent_ChangeEvent__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(326, 372, {}, com_google_gwt_event_dom_client_ChangeEvent_ChangeEvent__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(328, 374, {}, com_google_gwt_event_dom_client_ChangeEvent_ChangeEvent__V);
 _.dispatch__Lcom_google_gwt_event_shared_EventHandler_2V = function com_google_gwt_event_dom_client_ChangeEvent_dispatch__Lcom_google_gwt_event_shared_EventHandler_2V(handler){
-  com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget$4_$onChange__Lcom_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget$4_2Lcom_google_gwt_event_dom_client_ChangeEvent_2V(com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(handler, 390));
+  com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget$4_$onChange__Lcom_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget$4_2Lcom_google_gwt_event_dom_client_ChangeEvent_2V(com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(handler, 392));
 }
 ;
 _.getAssociatedType__Lcom_google_gwt_event_dom_client_DomEvent$Type_2 = function com_google_gwt_event_dom_client_ChangeEvent_getAssociatedType__Lcom_google_gwt_event_dom_client_DomEvent$Type_2(){
@@ -1921,9 +1921,9 @@ _.getAssociatedType__Lcom_google_gwt_event_dom_client_DomEvent$Type_2 = function
 }
 ;
 var com_google_gwt_event_dom_client_ChangeEvent_TYPE;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1event_1dom_1client_1ChangeEvent_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_24, 'ChangeEvent', 326);
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(373, 372, {});
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1event_1dom_1client_1HumanInputEvent_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_24, 'HumanInputEvent', 373);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1event_1dom_1client_1ChangeEvent_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_24, 'ChangeEvent', 328);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(375, 374, {});
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1event_1dom_1client_1HumanInputEvent_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_24, 'HumanInputEvent', 375);
 function com_google_gwt_event_dom_client_MouseEvent_$getX__Lcom_google_gwt_event_dom_client_MouseEvent_2I(this$static){
   var relativeElem, com_google_gwt_event_dom_client_MouseEvent_$getRelativeX__Lcom_google_gwt_event_dom_client_MouseEvent_2Lcom_google_gwt_dom_client_Element_2I_e_0, com_google_gwt_event_dom_client_MouseEvent_$getRelativeX__Lcom_google_gwt_event_dom_client_MouseEvent_2Lcom_google_gwt_dom_client_Element_2I_com_google_gwt_dom_client_DOMImplIE9_$getScrollLeft__Lcom_google_gwt_dom_client_DOMImplIE9_2Lcom_google_gwt_dom_client_Element_2I_left_0_0;
   relativeElem = this$static.com_google_gwt_event_dom_client_DomEvent_relativeElem;
@@ -1942,8 +1942,8 @@ function com_google_gwt_event_dom_client_MouseEvent_$getY__Lcom_google_gwt_event
   return com_google_gwt_dom_client_DOMImpl_$eventGetSubPixelClientY__Lcom_google_gwt_dom_client_DOMImpl_2Lcom_google_gwt_dom_client_NativeEvent_2D(this$static.com_google_gwt_event_dom_client_DomEvent_nativeEvent) | 0;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(374, 373, {});
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1event_1dom_1client_1MouseEvent_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_24, 'MouseEvent', 374);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(376, 375, {});
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1event_1dom_1client_1MouseEvent_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_24, 'MouseEvent', 376);
 function com_google_gwt_event_dom_client_ClickEvent_$clinit__V(){
   com_google_gwt_event_dom_client_ClickEvent_$clinit__V = com_google_gwt_lang_JavaClassHierarchySetupUtil_emptyMethod__V;
   com_google_gwt_event_dom_client_ClickEvent_TYPE = new com_google_gwt_event_dom_client_DomEvent$Type_DomEvent$Type__Ljava_lang_String_2Lcom_google_gwt_event_dom_client_DomEvent_2V('click', new com_google_gwt_event_dom_client_ClickEvent_ClickEvent__V);
@@ -1952,9 +1952,9 @@ function com_google_gwt_event_dom_client_ClickEvent_$clinit__V(){
 function com_google_gwt_event_dom_client_ClickEvent_ClickEvent__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(268, 374, {}, com_google_gwt_event_dom_client_ClickEvent_ClickEvent__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(268, 376, {}, com_google_gwt_event_dom_client_ClickEvent_ClickEvent__V);
 _.dispatch__Lcom_google_gwt_event_shared_EventHandler_2V = function com_google_gwt_event_dom_client_ClickEvent_dispatch__Lcom_google_gwt_event_shared_EventHandler_2V(handler){
-  com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(handler, 132).onClick__Lcom_google_gwt_event_dom_client_ClickEvent_2V(this);
+  com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(handler, 107).onClick__Lcom_google_gwt_event_dom_client_ClickEvent_2V(this);
 }
 ;
 _.getAssociatedType__Lcom_google_gwt_event_dom_client_DomEvent$Type_2 = function com_google_gwt_event_dom_client_ClickEvent_getAssociatedType__Lcom_google_gwt_event_dom_client_DomEvent$Type_2(){
@@ -2010,9 +2010,9 @@ function com_google_gwt_event_dom_client_DoubleClickEvent_$dispatch__Lcom_google
 function com_google_gwt_event_dom_client_DoubleClickEvent_DoubleClickEvent__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(323, 374, {}, com_google_gwt_event_dom_client_DoubleClickEvent_DoubleClickEvent__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(325, 376, {}, com_google_gwt_event_dom_client_DoubleClickEvent_DoubleClickEvent__V);
 _.dispatch__Lcom_google_gwt_event_shared_EventHandler_2V = function com_google_gwt_event_dom_client_DoubleClickEvent_dispatch__Lcom_google_gwt_event_shared_EventHandler_2V(handler){
-  com_google_gwt_event_dom_client_DoubleClickEvent_$dispatch__Lcom_google_gwt_event_dom_client_DoubleClickEvent_2Lcom_google_gwt_event_dom_client_DoubleClickHandler_2V(com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(handler, 387));
+  com_google_gwt_event_dom_client_DoubleClickEvent_$dispatch__Lcom_google_gwt_event_dom_client_DoubleClickEvent_2Lcom_google_gwt_event_dom_client_DoubleClickHandler_2V(com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(handler, 389));
 }
 ;
 _.getAssociatedType__Lcom_google_gwt_event_dom_client_DomEvent$Type_2 = function com_google_gwt_event_dom_client_DoubleClickEvent_getAssociatedType__Lcom_google_gwt_event_dom_client_DomEvent$Type_2(){
@@ -2020,11 +2020,11 @@ _.getAssociatedType__Lcom_google_gwt_event_dom_client_DomEvent$Type_2 = function
 }
 ;
 var com_google_gwt_event_dom_client_DoubleClickEvent_TYPE;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1event_1dom_1client_1DoubleClickEvent_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_24, 'DoubleClickEvent', 323);
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(378, 372, {});
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1event_1dom_1client_1KeyEvent_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_24, 'KeyEvent', 378);
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(379, 378, {});
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1event_1dom_1client_1KeyCodeEvent_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_24, 'KeyCodeEvent', 379);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1event_1dom_1client_1DoubleClickEvent_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_24, 'DoubleClickEvent', 325);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(380, 374, {});
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1event_1dom_1client_1KeyEvent_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_24, 'KeyEvent', 380);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(381, 380, {});
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1event_1dom_1client_1KeyCodeEvent_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_24, 'KeyCodeEvent', 381);
 function com_google_gwt_event_dom_client_KeyPressEvent_$clinit__V(){
   com_google_gwt_event_dom_client_KeyPressEvent_$clinit__V = com_google_gwt_lang_JavaClassHierarchySetupUtil_emptyMethod__V;
   com_google_gwt_event_dom_client_KeyPressEvent_TYPE = new com_google_gwt_event_dom_client_DomEvent$Type_DomEvent$Type__Ljava_lang_String_2Lcom_google_gwt_event_dom_client_DomEvent_2V('keypress', new com_google_gwt_event_dom_client_KeyPressEvent_KeyPressEvent__V);
@@ -2037,9 +2037,9 @@ function com_google_gwt_event_dom_client_KeyPressEvent_$dispatch__Lcom_google_gw
 function com_google_gwt_event_dom_client_KeyPressEvent_KeyPressEvent__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(324, 378, {}, com_google_gwt_event_dom_client_KeyPressEvent_KeyPressEvent__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(326, 380, {}, com_google_gwt_event_dom_client_KeyPressEvent_KeyPressEvent__V);
 _.dispatch__Lcom_google_gwt_event_shared_EventHandler_2V = function com_google_gwt_event_dom_client_KeyPressEvent_dispatch__Lcom_google_gwt_event_shared_EventHandler_2V(handler){
-  com_google_gwt_event_dom_client_KeyPressEvent_$dispatch__Lcom_google_gwt_event_dom_client_KeyPressEvent_2Lcom_google_gwt_event_dom_client_KeyPressHandler_2V(this, com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(handler, 388));
+  com_google_gwt_event_dom_client_KeyPressEvent_$dispatch__Lcom_google_gwt_event_dom_client_KeyPressEvent_2Lcom_google_gwt_event_dom_client_KeyPressHandler_2V(this, com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(handler, 390));
 }
 ;
 _.getAssociatedType__Lcom_google_gwt_event_dom_client_DomEvent$Type_2 = function com_google_gwt_event_dom_client_KeyPressEvent_getAssociatedType__Lcom_google_gwt_event_dom_client_DomEvent$Type_2(){
@@ -2047,7 +2047,7 @@ _.getAssociatedType__Lcom_google_gwt_event_dom_client_DomEvent$Type_2 = function
 }
 ;
 var com_google_gwt_event_dom_client_KeyPressEvent_TYPE;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1event_1dom_1client_1KeyPressEvent_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_24, 'KeyPressEvent', 324);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1event_1dom_1client_1KeyPressEvent_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_24, 'KeyPressEvent', 326);
 function com_google_gwt_event_dom_client_KeyUpEvent_$clinit__V(){
   com_google_gwt_event_dom_client_KeyUpEvent_$clinit__V = com_google_gwt_lang_JavaClassHierarchySetupUtil_emptyMethod__V;
   com_google_gwt_event_dom_client_KeyUpEvent_TYPE = new com_google_gwt_event_dom_client_DomEvent$Type_DomEvent$Type__Ljava_lang_String_2Lcom_google_gwt_event_dom_client_DomEvent_2V('keyup', new com_google_gwt_event_dom_client_KeyUpEvent_KeyUpEvent__V);
@@ -2056,9 +2056,9 @@ function com_google_gwt_event_dom_client_KeyUpEvent_$clinit__V(){
 function com_google_gwt_event_dom_client_KeyUpEvent_KeyUpEvent__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(325, 379, {}, com_google_gwt_event_dom_client_KeyUpEvent_KeyUpEvent__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(327, 381, {}, com_google_gwt_event_dom_client_KeyUpEvent_KeyUpEvent__V);
 _.dispatch__Lcom_google_gwt_event_shared_EventHandler_2V = function com_google_gwt_event_dom_client_KeyUpEvent_dispatch__Lcom_google_gwt_event_shared_EventHandler_2V(handler){
-  com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget$3_$onKeyUp__Lcom_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget$3_2Lcom_google_gwt_event_dom_client_KeyUpEvent_2V(com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(handler, 389));
+  com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget$3_$onKeyUp__Lcom_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget$3_2Lcom_google_gwt_event_dom_client_KeyUpEvent_2V(com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(handler, 391));
 }
 ;
 _.getAssociatedType__Lcom_google_gwt_event_dom_client_DomEvent$Type_2 = function com_google_gwt_event_dom_client_KeyUpEvent_getAssociatedType__Lcom_google_gwt_event_dom_client_DomEvent$Type_2(){
@@ -2066,7 +2066,7 @@ _.getAssociatedType__Lcom_google_gwt_event_dom_client_DomEvent$Type_2 = function
 }
 ;
 var com_google_gwt_event_dom_client_KeyUpEvent_TYPE;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1event_1dom_1client_1KeyUpEvent_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_24, 'KeyUpEvent', 325);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1event_1dom_1client_1KeyUpEvent_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_24, 'KeyUpEvent', 327);
 function com_google_gwt_event_dom_client_MouseDownEvent_$clinit__V(){
   com_google_gwt_event_dom_client_MouseDownEvent_$clinit__V = com_google_gwt_lang_JavaClassHierarchySetupUtil_emptyMethod__V;
   com_google_gwt_event_dom_client_MouseDownEvent_TYPE = new com_google_gwt_event_dom_client_DomEvent$Type_DomEvent$Type__Ljava_lang_String_2Lcom_google_gwt_event_dom_client_DomEvent_2V('mousedown', new com_google_gwt_event_dom_client_MouseDownEvent_MouseDownEvent__V);
@@ -2079,9 +2079,9 @@ function com_google_gwt_event_dom_client_MouseDownEvent_$dispatch__Lcom_google_g
 function com_google_gwt_event_dom_client_MouseDownEvent_MouseDownEvent__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(337, 374, {}, com_google_gwt_event_dom_client_MouseDownEvent_MouseDownEvent__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(339, 376, {}, com_google_gwt_event_dom_client_MouseDownEvent_MouseDownEvent__V);
 _.dispatch__Lcom_google_gwt_event_shared_EventHandler_2V = function com_google_gwt_event_dom_client_MouseDownEvent_dispatch__Lcom_google_gwt_event_shared_EventHandler_2V(handler){
-  com_google_gwt_event_dom_client_MouseDownEvent_$dispatch__Lcom_google_gwt_event_dom_client_MouseDownEvent_2Lcom_google_gwt_event_dom_client_MouseDownHandler_2V(this, com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(handler, 391));
+  com_google_gwt_event_dom_client_MouseDownEvent_$dispatch__Lcom_google_gwt_event_dom_client_MouseDownEvent_2Lcom_google_gwt_event_dom_client_MouseDownHandler_2V(this, com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(handler, 393));
 }
 ;
 _.getAssociatedType__Lcom_google_gwt_event_dom_client_DomEvent$Type_2 = function com_google_gwt_event_dom_client_MouseDownEvent_getAssociatedType__Lcom_google_gwt_event_dom_client_DomEvent$Type_2(){
@@ -2089,7 +2089,7 @@ _.getAssociatedType__Lcom_google_gwt_event_dom_client_DomEvent$Type_2 = function
 }
 ;
 var com_google_gwt_event_dom_client_MouseDownEvent_TYPE;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1event_1dom_1client_1MouseDownEvent_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_24, 'MouseDownEvent', 337);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1event_1dom_1client_1MouseDownEvent_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_24, 'MouseDownEvent', 339);
 function com_google_gwt_event_dom_client_MouseMoveEvent_$clinit__V(){
   com_google_gwt_event_dom_client_MouseMoveEvent_$clinit__V = com_google_gwt_lang_JavaClassHierarchySetupUtil_emptyMethod__V;
   com_google_gwt_event_dom_client_MouseMoveEvent_TYPE = new com_google_gwt_event_dom_client_DomEvent$Type_DomEvent$Type__Ljava_lang_String_2Lcom_google_gwt_event_dom_client_DomEvent_2V('mousemove', new com_google_gwt_event_dom_client_MouseMoveEvent_MouseMoveEvent__V);
@@ -2102,9 +2102,9 @@ function com_google_gwt_event_dom_client_MouseMoveEvent_$dispatch__Lcom_google_g
 function com_google_gwt_event_dom_client_MouseMoveEvent_MouseMoveEvent__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(339, 374, {}, com_google_gwt_event_dom_client_MouseMoveEvent_MouseMoveEvent__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(341, 376, {}, com_google_gwt_event_dom_client_MouseMoveEvent_MouseMoveEvent__V);
 _.dispatch__Lcom_google_gwt_event_shared_EventHandler_2V = function com_google_gwt_event_dom_client_MouseMoveEvent_dispatch__Lcom_google_gwt_event_shared_EventHandler_2V(handler){
-  com_google_gwt_event_dom_client_MouseMoveEvent_$dispatch__Lcom_google_gwt_event_dom_client_MouseMoveEvent_2Lcom_google_gwt_event_dom_client_MouseMoveHandler_2V(this, com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(handler, 395));
+  com_google_gwt_event_dom_client_MouseMoveEvent_$dispatch__Lcom_google_gwt_event_dom_client_MouseMoveEvent_2Lcom_google_gwt_event_dom_client_MouseMoveHandler_2V(this, com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(handler, 397));
 }
 ;
 _.getAssociatedType__Lcom_google_gwt_event_dom_client_DomEvent$Type_2 = function com_google_gwt_event_dom_client_MouseMoveEvent_getAssociatedType__Lcom_google_gwt_event_dom_client_DomEvent$Type_2(){
@@ -2112,7 +2112,7 @@ _.getAssociatedType__Lcom_google_gwt_event_dom_client_DomEvent$Type_2 = function
 }
 ;
 var com_google_gwt_event_dom_client_MouseMoveEvent_TYPE;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1event_1dom_1client_1MouseMoveEvent_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_24, 'MouseMoveEvent', 339);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1event_1dom_1client_1MouseMoveEvent_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_24, 'MouseMoveEvent', 341);
 function com_google_gwt_event_dom_client_MouseOutEvent_$clinit__V(){
   com_google_gwt_event_dom_client_MouseOutEvent_$clinit__V = com_google_gwt_lang_JavaClassHierarchySetupUtil_emptyMethod__V;
   com_google_gwt_event_dom_client_MouseOutEvent_TYPE = new com_google_gwt_event_dom_client_DomEvent$Type_DomEvent$Type__Ljava_lang_String_2Lcom_google_gwt_event_dom_client_DomEvent_2V('mouseout', new com_google_gwt_event_dom_client_MouseOutEvent_MouseOutEvent__V);
@@ -2121,9 +2121,9 @@ function com_google_gwt_event_dom_client_MouseOutEvent_$clinit__V(){
 function com_google_gwt_event_dom_client_MouseOutEvent_MouseOutEvent__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(341, 374, {}, com_google_gwt_event_dom_client_MouseOutEvent_MouseOutEvent__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(343, 376, {}, com_google_gwt_event_dom_client_MouseOutEvent_MouseOutEvent__V);
 _.dispatch__Lcom_google_gwt_event_shared_EventHandler_2V = function com_google_gwt_event_dom_client_MouseOutEvent_dispatch__Lcom_google_gwt_event_shared_EventHandler_2V(handler){
-  com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(handler, 393);
+  com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(handler, 395);
 }
 ;
 _.getAssociatedType__Lcom_google_gwt_event_dom_client_DomEvent$Type_2 = function com_google_gwt_event_dom_client_MouseOutEvent_getAssociatedType__Lcom_google_gwt_event_dom_client_DomEvent$Type_2(){
@@ -2131,7 +2131,7 @@ _.getAssociatedType__Lcom_google_gwt_event_dom_client_DomEvent$Type_2 = function
 }
 ;
 var com_google_gwt_event_dom_client_MouseOutEvent_TYPE;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1event_1dom_1client_1MouseOutEvent_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_24, 'MouseOutEvent', 341);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1event_1dom_1client_1MouseOutEvent_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_24, 'MouseOutEvent', 343);
 function com_google_gwt_event_dom_client_MouseOverEvent_$clinit__V(){
   com_google_gwt_event_dom_client_MouseOverEvent_$clinit__V = com_google_gwt_lang_JavaClassHierarchySetupUtil_emptyMethod__V;
   com_google_gwt_event_dom_client_MouseOverEvent_TYPE = new com_google_gwt_event_dom_client_DomEvent$Type_DomEvent$Type__Ljava_lang_String_2Lcom_google_gwt_event_dom_client_DomEvent_2V('mouseover', new com_google_gwt_event_dom_client_MouseOverEvent_MouseOverEvent__V);
@@ -2140,9 +2140,9 @@ function com_google_gwt_event_dom_client_MouseOverEvent_$clinit__V(){
 function com_google_gwt_event_dom_client_MouseOverEvent_MouseOverEvent__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(340, 374, {}, com_google_gwt_event_dom_client_MouseOverEvent_MouseOverEvent__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(342, 376, {}, com_google_gwt_event_dom_client_MouseOverEvent_MouseOverEvent__V);
 _.dispatch__Lcom_google_gwt_event_shared_EventHandler_2V = function com_google_gwt_event_dom_client_MouseOverEvent_dispatch__Lcom_google_gwt_event_shared_EventHandler_2V(handler){
-  com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(handler, 394);
+  com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(handler, 396);
 }
 ;
 _.getAssociatedType__Lcom_google_gwt_event_dom_client_DomEvent$Type_2 = function com_google_gwt_event_dom_client_MouseOverEvent_getAssociatedType__Lcom_google_gwt_event_dom_client_DomEvent$Type_2(){
@@ -2150,7 +2150,7 @@ _.getAssociatedType__Lcom_google_gwt_event_dom_client_DomEvent$Type_2 = function
 }
 ;
 var com_google_gwt_event_dom_client_MouseOverEvent_TYPE;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1event_1dom_1client_1MouseOverEvent_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_24, 'MouseOverEvent', 340);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1event_1dom_1client_1MouseOverEvent_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_24, 'MouseOverEvent', 342);
 function com_google_gwt_event_dom_client_MouseUpEvent_$clinit__V(){
   com_google_gwt_event_dom_client_MouseUpEvent_$clinit__V = com_google_gwt_lang_JavaClassHierarchySetupUtil_emptyMethod__V;
   com_google_gwt_event_dom_client_MouseUpEvent_TYPE = new com_google_gwt_event_dom_client_DomEvent$Type_DomEvent$Type__Ljava_lang_String_2Lcom_google_gwt_event_dom_client_DomEvent_2V('mouseup', new com_google_gwt_event_dom_client_MouseUpEvent_MouseUpEvent__V);
@@ -2163,9 +2163,9 @@ function com_google_gwt_event_dom_client_MouseUpEvent_$dispatch__Lcom_google_gwt
 function com_google_gwt_event_dom_client_MouseUpEvent_MouseUpEvent__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(338, 374, {}, com_google_gwt_event_dom_client_MouseUpEvent_MouseUpEvent__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(340, 376, {}, com_google_gwt_event_dom_client_MouseUpEvent_MouseUpEvent__V);
 _.dispatch__Lcom_google_gwt_event_shared_EventHandler_2V = function com_google_gwt_event_dom_client_MouseUpEvent_dispatch__Lcom_google_gwt_event_shared_EventHandler_2V(handler){
-  com_google_gwt_event_dom_client_MouseUpEvent_$dispatch__Lcom_google_gwt_event_dom_client_MouseUpEvent_2Lcom_google_gwt_event_dom_client_MouseUpHandler_2V(this, com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(handler, 392));
+  com_google_gwt_event_dom_client_MouseUpEvent_$dispatch__Lcom_google_gwt_event_dom_client_MouseUpEvent_2Lcom_google_gwt_event_dom_client_MouseUpHandler_2V(this, com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(handler, 394));
 }
 ;
 _.getAssociatedType__Lcom_google_gwt_event_dom_client_DomEvent$Type_2 = function com_google_gwt_event_dom_client_MouseUpEvent_getAssociatedType__Lcom_google_gwt_event_dom_client_DomEvent$Type_2(){
@@ -2173,7 +2173,7 @@ _.getAssociatedType__Lcom_google_gwt_event_dom_client_DomEvent$Type_2 = function
 }
 ;
 var com_google_gwt_event_dom_client_MouseUpEvent_TYPE;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1event_1dom_1client_1MouseUpEvent_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_24, 'MouseUpEvent', 338);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1event_1dom_1client_1MouseUpEvent_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_24, 'MouseUpEvent', 340);
 function com_google_gwt_event_dom_client_PrivateMap_$unsafeGet__Lcom_google_gwt_event_dom_client_PrivateMap_2Ljava_lang_String_2Ljava_lang_Object_2(this$static, key){
   return this$static.com_google_gwt_event_dom_client_PrivateMap_map[key];
 }
@@ -2199,9 +2199,9 @@ function com_google_gwt_event_logical_shared_CloseEvent_fire__Lcom_google_gwt_ev
   }
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(227, 368, {}, com_google_gwt_event_logical_shared_CloseEvent_CloseEvent__Ljava_lang_Object_2ZV);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(227, 370, {}, com_google_gwt_event_logical_shared_CloseEvent_CloseEvent__Ljava_lang_Object_2ZV);
 _.dispatch__Lcom_google_gwt_event_shared_EventHandler_2V = function com_google_gwt_event_logical_shared_CloseEvent_dispatch__Lcom_google_gwt_event_shared_EventHandler_2V(handler){
-  com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(handler, 343).onClose__Lcom_google_gwt_event_logical_shared_CloseEvent_2V(this);
+  com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(handler, 345).onClose__Lcom_google_gwt_event_logical_shared_CloseEvent_2V(this);
 }
 ;
 _.getAssociatedType__Lcom_google_gwt_event_shared_GwtEvent$Type_2 = function com_google_gwt_event_logical_shared_CloseEvent_getAssociatedType__Lcom_google_gwt_event_shared_GwtEvent$Type_2(){
@@ -2225,9 +2225,9 @@ function com_google_gwt_event_logical_shared_OpenEvent_fire__Lcom_google_gwt_eve
   }
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(308, 368, {}, com_google_gwt_event_logical_shared_OpenEvent_OpenEvent__Ljava_lang_Object_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(309, 370, {}, com_google_gwt_event_logical_shared_OpenEvent_OpenEvent__Ljava_lang_Object_2V);
 _.dispatch__Lcom_google_gwt_event_shared_EventHandler_2V = function com_google_gwt_event_logical_shared_OpenEvent_dispatch__Lcom_google_gwt_event_shared_EventHandler_2V(handler){
-  com_google_gwt_event_logical_shared_OpenEvent_$dispatch__Lcom_google_gwt_event_logical_shared_OpenEvent_2Lcom_google_gwt_event_logical_shared_OpenHandler_2V(com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(handler, 386));
+  com_google_gwt_event_logical_shared_OpenEvent_$dispatch__Lcom_google_gwt_event_logical_shared_OpenEvent_2Lcom_google_gwt_event_logical_shared_OpenHandler_2V(com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(handler, 388));
 }
 ;
 _.getAssociatedType__Lcom_google_gwt_event_shared_GwtEvent$Type_2 = function com_google_gwt_event_logical_shared_OpenEvent_getAssociatedType__Lcom_google_gwt_event_shared_GwtEvent$Type_2(){
@@ -2235,7 +2235,7 @@ _.getAssociatedType__Lcom_google_gwt_event_shared_GwtEvent$Type_2 = function com
 }
 ;
 var com_google_gwt_event_logical_shared_OpenEvent_TYPE;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1event_1logical_1shared_1OpenEvent_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_25, 'OpenEvent', 308);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1event_1logical_1shared_1OpenEvent_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_25, 'OpenEvent', 309);
 function com_google_gwt_event_logical_shared_ResizeEvent_ResizeEvent__IIV(width_0){
   this.com_google_gwt_event_logical_shared_ResizeEvent_width = width_0;
 }
@@ -2248,9 +2248,9 @@ function com_google_gwt_event_logical_shared_ResizeEvent_fire__Lcom_google_gwt_e
   }
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(333, 368, {}, com_google_gwt_event_logical_shared_ResizeEvent_ResizeEvent__IIV);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(335, 370, {}, com_google_gwt_event_logical_shared_ResizeEvent_ResizeEvent__IIV);
 _.dispatch__Lcom_google_gwt_event_shared_EventHandler_2V = function com_google_gwt_event_logical_shared_ResizeEvent_dispatch__Lcom_google_gwt_event_shared_EventHandler_2V(handler){
-  com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(handler, 346).onResize__Lcom_google_gwt_event_logical_shared_ResizeEvent_2V(this);
+  com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(handler, 348).onResize__Lcom_google_gwt_event_logical_shared_ResizeEvent_2V(this);
 }
 ;
 _.getAssociatedType__Lcom_google_gwt_event_shared_GwtEvent$Type_2 = function com_google_gwt_event_logical_shared_ResizeEvent_getAssociatedType__Lcom_google_gwt_event_shared_GwtEvent$Type_2(){
@@ -2259,7 +2259,7 @@ _.getAssociatedType__Lcom_google_gwt_event_shared_GwtEvent$Type_2 = function com
 ;
 _.com_google_gwt_event_logical_shared_ResizeEvent_width = 0;
 var com_google_gwt_event_logical_shared_ResizeEvent_TYPE;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1event_1logical_1shared_1ResizeEvent_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_25, 'ResizeEvent', 333);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1event_1logical_1shared_1ResizeEvent_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_25, 'ResizeEvent', 335);
 function com_google_gwt_event_logical_shared_ValueChangeEvent_$dispatch__Lcom_google_gwt_event_logical_shared_ValueChangeEvent_2Lcom_google_gwt_event_logical_shared_ValueChangeHandler_2V(handler){
   handler.com_google_gwt_user_client_ui_PopupPanel$4_this$01.com_google_gwt_user_client_ui_PopupPanel_autoHideOnHistoryEvents && handler.com_google_gwt_user_client_ui_PopupPanel$4_this$01.hide__ZV(false);
 }
@@ -2275,9 +2275,9 @@ function com_google_gwt_event_logical_shared_ValueChangeEvent_fire__Lcom_google_
   }
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(271, 368, {}, com_google_gwt_event_logical_shared_ValueChangeEvent_ValueChangeEvent__Ljava_lang_Object_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(271, 370, {}, com_google_gwt_event_logical_shared_ValueChangeEvent_ValueChangeEvent__Ljava_lang_Object_2V);
 _.dispatch__Lcom_google_gwt_event_shared_EventHandler_2V = function com_google_gwt_event_logical_shared_ValueChangeEvent_dispatch__Lcom_google_gwt_event_shared_EventHandler_2V(handler){
-  com_google_gwt_event_logical_shared_ValueChangeEvent_$dispatch__Lcom_google_gwt_event_logical_shared_ValueChangeEvent_2Lcom_google_gwt_event_logical_shared_ValueChangeHandler_2V(com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(handler, 383));
+  com_google_gwt_event_logical_shared_ValueChangeEvent_$dispatch__Lcom_google_gwt_event_logical_shared_ValueChangeEvent_2Lcom_google_gwt_event_logical_shared_ValueChangeHandler_2V(com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(handler, 385));
 }
 ;
 _.getAssociatedType__Lcom_google_gwt_event_shared_GwtEvent$Type_2 = function com_google_gwt_event_logical_shared_ValueChangeEvent_getAssociatedType__Lcom_google_gwt_event_shared_GwtEvent$Type_2(){
@@ -2331,8 +2331,8 @@ _.fireEvent__Lcom_google_gwt_event_shared_GwtEvent_2V = function com_google_gwt_
 }
 ;
 var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1event_1shared_1HandlerManager_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_23, 'HandlerManager', 67);
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(369, 1, {});
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1web_1bindery_1event_1shared_1EventBus_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_22, 'EventBus', 369);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(371, 1, {});
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1web_1bindery_1event_1shared_1EventBus_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_22, 'EventBus', 371);
 function com_google_web_bindery_event_shared_SimpleEventBus_$defer__Lcom_google_web_bindery_event_shared_SimpleEventBus_2Lcom_google_web_bindery_event_shared_SimpleEventBus$Command_2V(this$static, command){
   !this$static.com_google_web_bindery_event_shared_SimpleEventBus_deferredDeltas && (this$static.com_google_web_bindery_event_shared_SimpleEventBus_deferredDeltas = new java_util_ArrayList_ArrayList__V);
   java_util_ArrayList_$add__Ljava_util_ArrayList_2Ljava_lang_Object_2Z(this$static.com_google_web_bindery_event_shared_SimpleEventBus_deferredDeltas, command);
@@ -2437,7 +2437,7 @@ function com_google_web_bindery_event_shared_SimpleEventBus_$handleQueuedAddsAnd
   if (this$static.com_google_web_bindery_event_shared_SimpleEventBus_deferredDeltas) {
     try {
       for (c$iterator = new java_util_AbstractList$IteratorImpl_AbstractList$IteratorImpl__Ljava_util_AbstractList_2V(this$static.com_google_web_bindery_event_shared_SimpleEventBus_deferredDeltas); c$iterator.java_util_AbstractList$IteratorImpl_i < c$iterator.java_util_AbstractList$IteratorImpl_this$01.size__I();) {
-        c = (com_google_gwt_core_shared_impl_InternalPreconditions_checkCriticalElement__ZV(c$iterator.java_util_AbstractList$IteratorImpl_i < c$iterator.java_util_AbstractList$IteratorImpl_this$01.size__I()) , com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(c$iterator.java_util_AbstractList$IteratorImpl_this$01.get__ILjava_lang_Object_2(c$iterator.java_util_AbstractList$IteratorImpl_last = c$iterator.java_util_AbstractList$IteratorImpl_i++), 345));
+        c = (com_google_gwt_core_shared_impl_InternalPreconditions_checkCriticalElement__ZV(c$iterator.java_util_AbstractList$IteratorImpl_i < c$iterator.java_util_AbstractList$IteratorImpl_this$01.size__I()) , com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(c$iterator.java_util_AbstractList$IteratorImpl_this$01.get__ILjava_lang_Object_2(c$iterator.java_util_AbstractList$IteratorImpl_last = c$iterator.java_util_AbstractList$IteratorImpl_i++), 347));
         c.execute__V();
       }
     }
@@ -2451,7 +2451,7 @@ function com_google_web_bindery_event_shared_SimpleEventBus_$isEventHandled__Lco
   return this$static.com_google_web_bindery_event_shared_SimpleEventBus_map.containsKey__Ljava_lang_Object_2Z(eventKey);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(217, 369, {});
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(217, 371, {});
 _.com_google_web_bindery_event_shared_SimpleEventBus_firingDepth = 0;
 _.com_google_web_bindery_event_shared_SimpleEventBus_isReverseOrder = false;
 var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1web_1bindery_1event_1shared_1SimpleEventBus_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_22, 'SimpleEventBus', 217);
@@ -2563,7 +2563,7 @@ function com_google_gwt_http_client_Request$1_Request$1__Lcom_google_gwt_http_cl
   com_google_gwt_user_client_Timer_Timer__V.call(this);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(275, 120, {}, com_google_gwt_http_client_Request$1_Request$1__Lcom_google_gwt_http_client_Request_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(275, 121, {}, com_google_gwt_http_client_Request$1_Request$1__Lcom_google_gwt_http_client_Request_2V);
 _.run__V = function com_google_gwt_http_client_Request$1_run__V(){
   com_google_gwt_http_client_Request_$fireOnTimeout__Lcom_google_gwt_http_client_Request_2V(this.com_google_gwt_http_client_Request$1_this$01);
 }
@@ -2670,21 +2670,21 @@ function com_google_gwt_http_client_RequestPermissionException_RequestPermission
   com_google_gwt_http_client_RequestException_RequestException__Ljava_lang_String_2V.call(this, 'The URL ' + url_0 + ' is invalid or violates the same-origin security restriction');
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(282, 54, $intern_29, com_google_gwt_http_client_RequestPermissionException_RequestPermissionException__Ljava_lang_String_2V);
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1http_1client_1RequestPermissionException_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_28, 'RequestPermissionException', 282);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(283, 54, $intern_29, com_google_gwt_http_client_RequestPermissionException_RequestPermissionException__Ljava_lang_String_2V);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1http_1client_1RequestPermissionException_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_28, 'RequestPermissionException', 283);
 function com_google_gwt_http_client_RequestTimeoutException_RequestTimeoutException__Lcom_google_gwt_http_client_Request_2IV(timeoutMillis){
   com_google_gwt_http_client_RequestException_RequestException__Ljava_lang_String_2V.call(this, 'A request timeout has expired after ' + timeoutMillis + ' ms');
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(284, 54, $intern_29, com_google_gwt_http_client_RequestTimeoutException_RequestTimeoutException__Lcom_google_gwt_http_client_Request_2IV);
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1http_1client_1RequestTimeoutException_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_28, 'RequestTimeoutException', 284);
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(375, 1, {});
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1http_1client_1Response_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_28, 'Response', 375);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(285, 54, $intern_29, com_google_gwt_http_client_RequestTimeoutException_RequestTimeoutException__Lcom_google_gwt_http_client_Request_2IV);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1http_1client_1RequestTimeoutException_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_28, 'RequestTimeoutException', 285);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(377, 1, {});
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1http_1client_1Response_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_28, 'Response', 377);
 function com_google_gwt_http_client_ResponseImpl_ResponseImpl__Lcom_google_gwt_xhr_client_XMLHttpRequest_2V(xmlHttpRequest){
   this.com_google_gwt_http_client_ResponseImpl_xmlHttpRequest = xmlHttpRequest;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(274, 375, {}, com_google_gwt_http_client_ResponseImpl_ResponseImpl__Lcom_google_gwt_xhr_client_XMLHttpRequest_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(274, 377, {}, com_google_gwt_http_client_ResponseImpl_ResponseImpl__Lcom_google_gwt_xhr_client_XMLHttpRequest_2V);
 var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1http_1client_1ResponseImpl_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_28, 'ResponseImpl', 274);
 function com_google_gwt_http_client_StringValidator_throwIfEmptyOrNull__Ljava_lang_String_2Ljava_lang_String_2V(name_0, value_0){
   com_google_gwt_http_client_StringValidator_throwIfNull__Ljava_lang_String_2Ljava_lang_Object_2V(name_0, value_0);
@@ -2920,7 +2920,7 @@ function com_google_gwt_lang_LongLib_fromInt__ILcom_google_gwt_lang_LongLibBase$
   var rebase, result;
   if (value_0 > -129 && value_0 < 128) {
     rebase = value_0 + 128;
-    com_google_gwt_lang_LongLib_boxedValues == null && (com_google_gwt_lang_LongLib_boxedValues = com_google_gwt_lang_Array_initDim__Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2IIILjava_lang_Object_2(com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1lang_1LongLibBase$LongEmul_12_1classLit, $intern_16, 400, 256, 0, 1));
+    com_google_gwt_lang_LongLib_boxedValues == null && (com_google_gwt_lang_LongLib_boxedValues = com_google_gwt_lang_Array_initDim__Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2IIILjava_lang_Object_2(com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1lang_1LongLibBase$LongEmul_12_1classLit, $intern_16, 402, 256, 0, 1));
     result = com_google_gwt_lang_LongLib_boxedValues[rebase];
     !result && (result = com_google_gwt_lang_LongLib_boxedValues[rebase] = com_google_gwt_lang_LongLibBase_create__ILcom_google_gwt_lang_LongLibBase$LongEmul_2(value_0));
     return result;
@@ -2996,12 +2996,12 @@ function com_google_gwt_safehtml_shared_SafeUriString_SafeUriString__Ljava_lang_
   this.com_google_gwt_safehtml_shared_SafeUriString_uri = uri_0;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(90, 1, {347:1, 90:1}, com_google_gwt_safehtml_shared_SafeUriString_SafeUriString__Ljava_lang_String_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(90, 1, {349:1, 90:1}, com_google_gwt_safehtml_shared_SafeUriString_SafeUriString__Ljava_lang_String_2V);
 _.equals__Ljava_lang_Object_2Z$ = function com_google_gwt_safehtml_shared_SafeUriString_equals__Ljava_lang_Object_2Z(obj){
-  if (!com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(obj, 347)) {
+  if (!com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(obj, 349)) {
     return false;
   }
-  return java_lang_String_$equals__Ljava_lang_String_2Ljava_lang_Object_2Z(this.com_google_gwt_safehtml_shared_SafeUriString_uri, com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(obj, 347), 90).com_google_gwt_safehtml_shared_SafeUriString_uri);
+  return java_lang_String_$equals__Ljava_lang_String_2Ljava_lang_Object_2Z(this.com_google_gwt_safehtml_shared_SafeUriString_uri, com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(obj, 349), 90).com_google_gwt_safehtml_shared_SafeUriString_uri);
 }
 ;
 _.hashCode__I$ = function com_google_gwt_safehtml_shared_SafeUriString_hashCode__I(){
@@ -3015,20 +3015,20 @@ function com_google_gwt_safehtml_shared_UriUtils_$clinit__V(){
   new RegExp('%5D', 'g');
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(380, 1, {});
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1text_1shared_1AbstractRenderer_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2('com.google.gwt.text.shared', 'AbstractRenderer', 380);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(382, 1, {});
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1text_1shared_1AbstractRenderer_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2('com.google.gwt.text.shared', 'AbstractRenderer', 382);
 function com_google_gwt_text_shared_testing_PassthroughParser_PassthroughParser__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(328, 1, {}, com_google_gwt_text_shared_testing_PassthroughParser_PassthroughParser__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(330, 1, {}, com_google_gwt_text_shared_testing_PassthroughParser_PassthroughParser__V);
 var com_google_gwt_text_shared_testing_PassthroughParser_INSTANCE;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1text_1shared_1testing_1PassthroughParser_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_35, 'PassthroughParser', 328);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1text_1shared_1testing_1PassthroughParser_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_35, 'PassthroughParser', 330);
 function com_google_gwt_text_shared_testing_PassthroughRenderer_PassthroughRenderer__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(327, 380, {}, com_google_gwt_text_shared_testing_PassthroughRenderer_PassthroughRenderer__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(329, 382, {}, com_google_gwt_text_shared_testing_PassthroughRenderer_PassthroughRenderer__V);
 var com_google_gwt_text_shared_testing_PassthroughRenderer_INSTANCE;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1text_1shared_1testing_1PassthroughRenderer_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_35, 'PassthroughRenderer', 327);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1text_1shared_1testing_1PassthroughRenderer_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_35, 'PassthroughRenderer', 329);
 function com_google_gwt_user_client_DOM_$clinit__V(){
   com_google_gwt_user_client_DOM_$clinit__V = com_google_gwt_lang_JavaClassHierarchySetupUtil_emptyMethod__V;
   com_google_gwt_user_client_impl_DOMImplStandard_$clinit__V();
@@ -3191,9 +3191,9 @@ function com_google_gwt_user_client_Event$NativePreviewEvent_fire__Lcom_google_g
   return true;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(222, 368, {}, com_google_gwt_user_client_Event$NativePreviewEvent_Event$NativePreviewEvent__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(222, 370, {}, com_google_gwt_user_client_Event$NativePreviewEvent_Event$NativePreviewEvent__V);
 _.dispatch__Lcom_google_gwt_event_shared_EventHandler_2V = function com_google_gwt_user_client_Event$NativePreviewEvent_dispatch__Lcom_google_gwt_event_shared_EventHandler_2V(handler){
-  com_google_gwt_user_client_Event$NativePreviewEvent_$dispatch__Lcom_google_gwt_user_client_Event$NativePreviewEvent_2Lcom_google_gwt_user_client_Event$NativePreviewHandler_2V(this, com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(handler, 382));
+  com_google_gwt_user_client_Event$NativePreviewEvent_$dispatch__Lcom_google_gwt_user_client_Event$NativePreviewEvent_2Lcom_google_gwt_user_client_Event$NativePreviewHandler_2V(this, com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(handler, 384));
 }
 ;
 _.getAssociatedType__Lcom_google_gwt_event_shared_GwtEvent$Type_2 = function com_google_gwt_user_client_Event$NativePreviewEvent_getAssociatedType__Lcom_google_gwt_event_shared_GwtEvent$Type_2(){
@@ -3249,12 +3249,12 @@ function com_google_gwt_user_client_History$HistoryEventSource_History$HistoryEv
   this.com_google_gwt_user_client_History$HistoryEventSource_handlers = new com_google_gwt_event_shared_HandlerManager_HandlerManager__Ljava_lang_Object_2V(null);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(335, 1, {9:1}, com_google_gwt_user_client_History$HistoryEventSource_History$HistoryEventSource__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(337, 1, {9:1}, com_google_gwt_user_client_History$HistoryEventSource_History$HistoryEventSource__V);
 _.fireEvent__Lcom_google_gwt_event_shared_GwtEvent_2V = function com_google_gwt_user_client_History$HistoryEventSource_fireEvent__Lcom_google_gwt_event_shared_GwtEvent_2V(event_0){
   com_google_gwt_event_shared_HandlerManager_$fireEvent__Lcom_google_gwt_event_shared_HandlerManager_2Lcom_google_gwt_event_shared_GwtEvent_2V(this.com_google_gwt_user_client_History$HistoryEventSource_handlers, event_0);
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1History$HistoryEventSource_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_7, 'History/HistoryEventSource', 335);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1History$HistoryEventSource_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_7, 'History/HistoryEventSource', 337);
 function com_google_gwt_user_client_History$HistoryImpl_$decodeHistoryToken__Lcom_google_gwt_user_client_History$HistoryImpl_2Ljava_lang_String_2Ljava_lang_String_2(historyToken){
   return $wnd.decodeURI(historyToken.replace('%23', '#'));
 }
@@ -3265,8 +3265,8 @@ function com_google_gwt_user_client_History$HistoryImpl_History$HistoryImpl__V()
   $wnd.addEventListener('hashchange', com_google_gwt_user_client_History$HistoryImpl_$attachListener__Lcom_google_gwt_user_client_History$HistoryImpl_2V_handler_0, false);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(336, 1, {}, com_google_gwt_user_client_History$HistoryImpl_History$HistoryImpl__V);
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1History$HistoryImpl_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_7, 'History/HistoryImpl', 336);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(338, 1, {}, com_google_gwt_user_client_History$HistoryImpl_History$HistoryImpl__V);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1History$HistoryImpl_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_7, 'History/HistoryImpl', 338);
 function com_google_gwt_user_client_Window_addCloseHandler__Lcom_google_gwt_event_logical_shared_CloseHandler_2Lcom_google_gwt_event_shared_HandlerRegistration_2(handler){
   com_google_gwt_user_client_Window_maybeInitializeCloseHandlers__V();
   return com_google_gwt_user_client_Window_addHandler__Lcom_google_gwt_event_shared_GwtEvent$Type_2Lcom_google_gwt_event_shared_EventHandler_2Lcom_google_gwt_event_shared_HandlerRegistration_2(com_google_gwt_event_logical_shared_CloseEvent_TYPE?com_google_gwt_event_logical_shared_CloseEvent_TYPE:(com_google_gwt_event_logical_shared_CloseEvent_TYPE = new com_google_gwt_event_shared_GwtEvent$Type_GwtEvent$Type__V), handler);
@@ -3333,7 +3333,7 @@ function com_google_gwt_user_client_Window$ClosingEvent_Window$ClosingEvent__V()
   com_google_gwt_user_client_Window$ClosingEvent_$clinit__V();
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(215, 368, {}, com_google_gwt_user_client_Window$ClosingEvent_Window$ClosingEvent__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(215, 370, {}, com_google_gwt_user_client_Window$ClosingEvent_Window$ClosingEvent__V);
 _.dispatch__Lcom_google_gwt_event_shared_EventHandler_2V = function com_google_gwt_user_client_Window$ClosingEvent_dispatch__Lcom_google_gwt_event_shared_EventHandler_2V(handler){
   com_google_gwt_lang_Cast_throwClassCastExceptionUnlessNull__Ljava_lang_Object_2Ljava_lang_Object_2(handler);
   null.nullMethod();
@@ -3349,8 +3349,8 @@ function com_google_gwt_user_client_Window$WindowHandlers_Window$WindowHandlers_
   com_google_gwt_event_shared_HandlerManager_HandlerManager__Ljava_lang_Object_2V.call(this, null);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(111, 67, {9:1}, com_google_gwt_user_client_Window$WindowHandlers_Window$WindowHandlers__V);
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1Window$WindowHandlers_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_7, 'Window/WindowHandlers', 111);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(113, 67, {9:1}, com_google_gwt_user_client_Window$WindowHandlers_Window$WindowHandlers__V);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1Window$WindowHandlers_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_7, 'Window/WindowHandlers', 113);
 function com_google_gwt_user_client_impl_DOMImpl_$eventGetTypeInt__Lcom_google_gwt_user_client_impl_DOMImpl_2Ljava_lang_String_2I(eventType){
   switch (eventType) {
     case 'blur':
@@ -3826,8 +3826,8 @@ function com_google_gwt_user_client_ui_Widget_$removeFromParent__Lcom_google_gwt
     com_google_gwt_user_client_ui_RootPanel_$clinit__V();
     java_util_HashSet_$contains__Ljava_util_HashSet_2Ljava_lang_Object_2Z(com_google_gwt_user_client_ui_RootPanel_widgetsToDetach, this$static) && com_google_gwt_user_client_ui_RootPanel_detachNow__Lcom_google_gwt_user_client_ui_Widget_2V(this$static);
   }
-   else if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(this$static.com_google_gwt_user_client_ui_Widget_parent, 26)) {
-    com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(this$static.com_google_gwt_user_client_ui_Widget_parent, 26).remove__Lcom_google_gwt_user_client_ui_Widget_2Z(this$static);
+   else if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(this$static.com_google_gwt_user_client_ui_Widget_parent, 27)) {
+    com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(this$static.com_google_gwt_user_client_ui_Widget_parent, 27).remove__Lcom_google_gwt_user_client_ui_Widget_2Z(this$static);
   }
    else if (this$static.com_google_gwt_user_client_ui_Widget_parent) {
     throw new java_lang_IllegalStateException_IllegalStateException__Ljava_lang_String_2V("This widget's parent does not implement HasWidgets");
@@ -3918,7 +3918,7 @@ function com_google_gwt_user_client_ui_Panel_$clear__Lcom_google_gwt_user_client
   }
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(364, 7, $intern_51);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(366, 7, $intern_51);
 _.doAttachChildren__V = function com_google_gwt_user_client_ui_Panel_doAttachChildren__V(){
   com_google_gwt_user_client_ui_AttachDetachException_tryCommand__Ljava_lang_Iterable_2Lcom_google_gwt_user_client_ui_AttachDetachException$Command_2V(this, (com_google_gwt_user_client_ui_AttachDetachException_$clinit__V() , com_google_gwt_user_client_ui_AttachDetachException_attachCommand));
 }
@@ -3927,7 +3927,7 @@ _.doDetachChildren__V = function com_google_gwt_user_client_ui_Panel_doDetachChi
   com_google_gwt_user_client_ui_AttachDetachException_tryCommand__Ljava_lang_Iterable_2Lcom_google_gwt_user_client_ui_AttachDetachException$Command_2V(this, (com_google_gwt_user_client_ui_AttachDetachException_$clinit__V() , com_google_gwt_user_client_ui_AttachDetachException_detachCommand));
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1Panel_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'Panel', 364);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1Panel_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'Panel', 366);
 function com_google_gwt_user_client_ui_ComplexPanel_$add__Lcom_google_gwt_user_client_ui_ComplexPanel_2Lcom_google_gwt_user_client_ui_Widget_2Lcom_google_gwt_user_client_Element_2V(this$static, child, container){
   com_google_gwt_user_client_ui_Widget_$removeFromParent__Lcom_google_gwt_user_client_ui_Widget_2V(child);
   com_google_gwt_user_client_ui_WidgetCollection_$add__Lcom_google_gwt_user_client_ui_WidgetCollection_2Lcom_google_gwt_user_client_ui_Widget_2V(this$static.com_google_gwt_user_client_ui_ComplexPanel_children, child);
@@ -3956,7 +3956,7 @@ function com_google_gwt_user_client_ui_ComplexPanel_ComplexPanel__V(){
   this.com_google_gwt_user_client_ui_ComplexPanel_children = new com_google_gwt_user_client_ui_WidgetCollection_WidgetCollection__Lcom_google_gwt_user_client_ui_HasWidgets_2V(this);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(109, 364, $intern_51);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(111, 366, $intern_51);
 _.iterator__Ljava_util_Iterator_2 = function com_google_gwt_user_client_ui_ComplexPanel_iterator__Ljava_util_Iterator_2(){
   return new com_google_gwt_user_client_ui_WidgetCollection$WidgetIterator_WidgetCollection$WidgetIterator__Lcom_google_gwt_user_client_ui_WidgetCollection_2V(this.com_google_gwt_user_client_ui_ComplexPanel_children);
 }
@@ -3965,7 +3965,7 @@ _.remove__Lcom_google_gwt_user_client_ui_Widget_2Z = function com_google_gwt_use
   return com_google_gwt_user_client_ui_ComplexPanel_$remove__Lcom_google_gwt_user_client_ui_ComplexPanel_2Lcom_google_gwt_user_client_ui_Widget_2Z(this, w);
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1ComplexPanel_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'ComplexPanel', 109);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1ComplexPanel_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'ComplexPanel', 111);
 function com_google_gwt_user_client_ui_AbsolutePanel_$add__Lcom_google_gwt_user_client_ui_AbsolutePanel_2Lcom_google_gwt_user_client_ui_Widget_2V(this$static, w){
   com_google_gwt_user_client_ui_ComplexPanel_$add__Lcom_google_gwt_user_client_ui_ComplexPanel_2Lcom_google_gwt_user_client_ui_Widget_2Lcom_google_gwt_user_client_Element_2V(this$static, w, (com_google_gwt_user_client_DOM_$clinit__V() , this$static.com_google_gwt_user_client_ui_UIObject_element));
 }
@@ -3983,7 +3983,7 @@ function com_google_gwt_user_client_ui_AbsolutePanel_changeToStaticPositioning__
   com_google_gwt_dom_client_Style_$setPropertyImpl__Lcom_google_gwt_dom_client_Style_2Ljava_lang_String_2Ljava_lang_String_2V(elem.style, $intern_53, '');
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(188, 109, $intern_51);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(188, 111, $intern_51);
 _.remove__Lcom_google_gwt_user_client_ui_Widget_2Z = function com_google_gwt_user_client_ui_AbsolutePanel_remove__Lcom_google_gwt_user_client_ui_Widget_2Z(w){
   return com_google_gwt_user_client_ui_AbsolutePanel_$remove__Lcom_google_gwt_user_client_ui_AbsolutePanel_2Lcom_google_gwt_user_client_ui_Widget_2Z(this, w);
 }
@@ -4053,7 +4053,7 @@ function com_google_gwt_user_client_ui_FocusWidget_FocusWidget__Lcom_google_gwt_
   com_google_gwt_user_client_ui_UIObject_$setElement__Lcom_google_gwt_user_client_ui_UIObject_2Lcom_google_gwt_user_client_Element_2V(this, (com_google_gwt_user_client_DOM_$clinit__V() , elem));
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(115, 7, $intern_50);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(117, 7, $intern_50);
 _.getTabIndex__I = function com_google_gwt_user_client_ui_FocusWidget_getTabIndex__I(){
   return com_google_gwt_dom_client_DOMImplIE9_$getTabIndex__Lcom_google_gwt_dom_client_DOMImplIE9_2Lcom_google_gwt_dom_client_Element_2I((com_google_gwt_user_client_DOM_$clinit__V() , this.com_google_gwt_user_client_ui_UIObject_element));
 }
@@ -4069,12 +4069,12 @@ _.setTabIndex__IV = function com_google_gwt_user_client_ui_FocusWidget_setTabInd
   com_google_gwt_dom_client_Element_$setTabIndex__Lcom_google_gwt_dom_client_Element_2IV((com_google_gwt_user_client_DOM_$clinit__V() , this.com_google_gwt_user_client_ui_UIObject_element), index_0);
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1FocusWidget_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'FocusWidget', 115);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1FocusWidget_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'FocusWidget', 117);
 function com_google_gwt_user_client_ui_ButtonBase_ButtonBase__Lcom_google_gwt_dom_client_Element_2V(elem){
   com_google_gwt_user_client_ui_FocusWidget_FocusWidget__Lcom_google_gwt_dom_client_Element_2V.call(this, elem);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(143, 115, $intern_54);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(143, 117, $intern_54);
 _.setText__Ljava_lang_String_2V = function com_google_gwt_user_client_ui_ButtonBase_setText__Ljava_lang_String_2V(text_0){
   com_google_gwt_dom_client_DOMImplStandard_$setInnerText__Lcom_google_gwt_dom_client_DOMImplStandard_2Lcom_google_gwt_dom_client_Element_2Ljava_lang_String_2V((com_google_gwt_user_client_DOM_$clinit__V() , this.com_google_gwt_user_client_ui_UIObject_element), text_0);
 }
@@ -4087,8 +4087,8 @@ function com_google_gwt_user_client_ui_Button_Button__Ljava_lang_String_2V(html)
   com_google_gwt_dom_client_Element_$setInnerHTML__Lcom_google_gwt_dom_client_Element_2Ljava_lang_String_2V(this.com_google_gwt_user_client_ui_UIObject_element, html);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(118, 143, $intern_54, com_google_gwt_user_client_ui_Button_Button__Ljava_lang_String_2V);
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1Button_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'Button', 118);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(98, 143, $intern_54, com_google_gwt_user_client_ui_Button_Button__Ljava_lang_String_2V);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1Button_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'Button', 98);
 function com_google_gwt_user_client_ui_CellPanel_$setCellHorizontalAlignment__Lcom_google_gwt_user_client_ui_CellPanel_2Lcom_google_gwt_dom_client_Element_2Lcom_google_gwt_user_client_ui_HasHorizontalAlignment$HorizontalAlignmentConstant_2V(td, align_0){
   com_google_gwt_dom_client_Element_$setPropertyString__Lcom_google_gwt_dom_client_Element_2Ljava_lang_String_2Ljava_lang_String_2V((com_google_gwt_user_client_DOM_$clinit__V() , td), 'align', align_0.com_google_gwt_user_client_ui_HasHorizontalAlignment$HorizontalAlignmentConstant_textAlignString);
 }
@@ -4113,8 +4113,8 @@ function com_google_gwt_user_client_ui_CellPanel_CellPanel__V(){
   com_google_gwt_user_client_ui_UIObject_$setElement__Lcom_google_gwt_user_client_ui_UIObject_2Lcom_google_gwt_dom_client_Element_2V(this, this.com_google_gwt_user_client_ui_CellPanel_table);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(112, 109, $intern_51);
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1CellPanel_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'CellPanel', 112);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(114, 111, $intern_51);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1CellPanel_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'CellPanel', 114);
 function com_google_gwt_user_client_ui_CheckBox_$getValue__Lcom_google_gwt_user_client_ui_CheckBox_2Ljava_lang_Boolean_2(this$static){
   return this$static.com_google_gwt_user_client_ui_Widget_attached?(java_lang_Boolean_$clinit__V() , com_google_gwt_dom_client_InputElement_$isChecked__Lcom_google_gwt_dom_client_InputElement_2Z(this$static.com_google_gwt_user_client_ui_CheckBox_inputElem)?java_lang_Boolean_TRUE:java_lang_Boolean_FALSE):(java_lang_Boolean_$clinit__V() , com_google_gwt_dom_client_InputElement_$isDefaultChecked__Lcom_google_gwt_dom_client_InputElement_2Z(this$static.com_google_gwt_user_client_ui_CheckBox_inputElem)?java_lang_Boolean_TRUE:java_lang_Boolean_FALSE);
 }
@@ -4151,7 +4151,7 @@ function com_google_gwt_user_client_ui_CheckBox_CheckBox__Ljava_lang_String_2V()
   com_google_gwt_user_client_ui_DirectionalTextHelper_$setTextOrHtml__Lcom_google_gwt_user_client_ui_DirectionalTextHelper_2Ljava_lang_String_2ZV(this.com_google_gwt_user_client_ui_CheckBox_directionalTextHelper, 'Edit', false);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(119, 143, $intern_54, com_google_gwt_user_client_ui_CheckBox_CheckBox__Ljava_lang_String_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(120, 143, $intern_54, com_google_gwt_user_client_ui_CheckBox_CheckBox__Ljava_lang_String_2V);
 _.getTabIndex__I = function com_google_gwt_user_client_ui_CheckBox_getTabIndex__I(){
   return com_google_gwt_dom_client_DOMImplIE9_$getTabIndex__Lcom_google_gwt_dom_client_DOMImplIE9_2Lcom_google_gwt_dom_client_Element_2I(this.com_google_gwt_user_client_ui_CheckBox_inputElem);
 }
@@ -4179,7 +4179,7 @@ _.sinkEvents__IV = function com_google_gwt_user_client_ui_CheckBox_sinkEvents__I
   this.com_google_gwt_user_client_ui_Widget_eventsToSink == -1?com_google_gwt_user_client_Event_sinkEvents__Lcom_google_gwt_dom_client_Element_2IV(this.com_google_gwt_user_client_ui_CheckBox_inputElem, eventBitsToAdd | com_google_gwt_user_client_Event_getEventsSunk__Lcom_google_gwt_dom_client_Element_2I(this.com_google_gwt_user_client_ui_CheckBox_inputElem)):this.com_google_gwt_user_client_ui_Widget_eventsToSink == -1?com_google_gwt_user_client_DOM_sinkEvents__Lcom_google_gwt_dom_client_Element_2IV((com_google_gwt_user_client_DOM_$clinit__V() , this.com_google_gwt_user_client_ui_UIObject_element), eventBitsToAdd | (this.com_google_gwt_user_client_ui_UIObject_element.__eventBits || 0)):(this.com_google_gwt_user_client_ui_Widget_eventsToSink |= eventBitsToAdd);
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1CheckBox_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'CheckBox', 119);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1CheckBox_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'CheckBox', 120);
 function com_google_gwt_user_client_ui_Composite_$checkInit__Lcom_google_gwt_user_client_ui_Composite_2V(this$static){
   if (!this$static.com_google_gwt_user_client_ui_Composite_widget) {
     throw new java_lang_IllegalStateException_IllegalStateException__Ljava_lang_String_2V('initWidget() is not called yet');
@@ -4202,7 +4202,7 @@ function com_google_gwt_user_client_ui_Composite_$initWidget__Lcom_google_gwt_us
   com_google_gwt_user_client_ui_Widget_$setParent__Lcom_google_gwt_user_client_ui_Widget_2Lcom_google_gwt_user_client_ui_Widget_2V(widget, this$static);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(371, 7, $intern_50);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(373, 7, $intern_50);
 _.isAttached__Z = function com_google_gwt_user_client_ui_Composite_isAttached__Z(){
   if (this.com_google_gwt_user_client_ui_Composite_widget) {
     return this.com_google_gwt_user_client_ui_Composite_widget.com_google_gwt_user_client_ui_Widget_attached;
@@ -4235,7 +4235,7 @@ _.resolvePotentialElement__Lcom_google_gwt_dom_client_Element_2 = function com_g
   return com_google_gwt_user_client_DOM_$clinit__V() , this.com_google_gwt_user_client_ui_UIObject_element;
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1Composite_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'Composite', 371);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1Composite_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'Composite', 373);
 function com_google_gwt_user_client_ui_SimplePanel_$add__Lcom_google_gwt_user_client_ui_SimplePanel_2Lcom_google_gwt_user_client_ui_Widget_2V(this$static, w){
   if (this$static.com_google_gwt_user_client_ui_DecoratedPopupPanel_decPanel.com_google_gwt_user_client_ui_SimplePanel_widget) {
     throw new java_lang_IllegalStateException_IllegalStateException__Ljava_lang_String_2V('SimplePanel can only contain one child widget');
@@ -4280,7 +4280,7 @@ function com_google_gwt_user_client_ui_SimplePanel_SimplePanel__Lcom_google_gwt_
   com_google_gwt_user_client_ui_UIObject_$setElement__Lcom_google_gwt_user_client_ui_UIObject_2Lcom_google_gwt_user_client_Element_2V(this, (com_google_gwt_user_client_DOM_$clinit__V() , elem));
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(89, 364, $intern_51, com_google_gwt_user_client_ui_SimplePanel_SimplePanel__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(89, 366, $intern_51, com_google_gwt_user_client_ui_SimplePanel_SimplePanel__V);
 _.getContainerElement__Lcom_google_gwt_user_client_Element_2 = function com_google_gwt_user_client_ui_SimplePanel_getContainerElement__Lcom_google_gwt_user_client_Element_2(){
   return com_google_gwt_user_client_DOM_$clinit__V() , this.com_google_gwt_user_client_ui_UIObject_element;
 }
@@ -4486,7 +4486,7 @@ function com_google_gwt_user_client_ui_PopupPanel_$updateHandlers__Lcom_google_g
   }
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(130, 89, $intern_51);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(131, 89, $intern_51);
 _.getContainerElement__Lcom_google_gwt_user_client_Element_2 = function com_google_gwt_user_client_ui_PopupPanel_getContainerElement__Lcom_google_gwt_user_client_Element_2(){
   return com_google_gwt_user_client_DOM_$clinit__V() , com_google_gwt_dom_client_DOMImpl_$getFirstChildElement__Lcom_google_gwt_dom_client_DOMImpl_2Lcom_google_gwt_dom_client_Element_2Lcom_google_gwt_dom_client_Element_2(this.com_google_gwt_user_client_ui_UIObject_element);
 }
@@ -4537,8 +4537,8 @@ _.com_google_gwt_user_client_ui_PopupPanel_modal = false;
 _.com_google_gwt_user_client_ui_PopupPanel_previewAllNativeEvents = false;
 _.com_google_gwt_user_client_ui_PopupPanel_showing = false;
 _.com_google_gwt_user_client_ui_PopupPanel_topPosition = 0;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1PopupPanel_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'PopupPanel', 130);
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(314, 130, $intern_51);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1PopupPanel_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'PopupPanel', 131);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(315, 131, $intern_51);
 _.doAttachChildren__V = function com_google_gwt_user_client_ui_DecoratedPopupPanel_doAttachChildren__V(){
   com_google_gwt_user_client_ui_Widget_$onAttach__Lcom_google_gwt_user_client_ui_Widget_2V(this.com_google_gwt_user_client_ui_DecoratedPopupPanel_decPanel);
 }
@@ -4564,7 +4564,7 @@ _.setWidget__Lcom_google_gwt_user_client_ui_Widget_2V = function com_google_gwt_
   com_google_gwt_user_client_ui_PopupPanel_$maybeUpdateSize__Lcom_google_gwt_user_client_ui_PopupPanel_2V(this);
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1DecoratedPopupPanel_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'DecoratedPopupPanel', 314);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1DecoratedPopupPanel_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'DecoratedPopupPanel', 315);
 function com_google_gwt_user_client_ui_DecoratorPanel_$getCellElement__Lcom_google_gwt_user_client_ui_DecoratorPanel_2IILcom_google_gwt_user_client_Element_2(this$static){
   var td, tr;
   tr = (com_google_gwt_user_client_DOM_$clinit__V() , com_google_gwt_user_client_impl_DOMImplStandard_$getChild__Lcom_google_gwt_user_client_impl_DOMImplStandard_2Lcom_google_gwt_dom_client_Element_2ILcom_google_gwt_dom_client_Element_2(this$static.com_google_gwt_user_client_ui_DecoratorPanel_tbody, 0));
@@ -4598,12 +4598,12 @@ function com_google_gwt_user_client_ui_DecoratorPanel_createTD__Ljava_lang_Strin
   return tdElem;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(334, 89, $intern_51, com_google_gwt_user_client_ui_DecoratorPanel_DecoratorPanel___3Ljava_lang_String_2IV);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(336, 89, $intern_51, com_google_gwt_user_client_ui_DecoratorPanel_DecoratorPanel___3Ljava_lang_String_2IV);
 _.getContainerElement__Lcom_google_gwt_user_client_Element_2 = function com_google_gwt_user_client_ui_DecoratorPanel_getContainerElement__Lcom_google_gwt_user_client_Element_2(){
   return com_google_gwt_user_client_DOM_$clinit__V() , this.com_google_gwt_user_client_ui_DecoratorPanel_containerElem;
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1DecoratorPanel_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'DecoratorPanel', 334);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1DecoratorPanel_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'DecoratorPanel', 336);
 function com_google_gwt_user_client_ui_DialogBox_$beginDragging__Lcom_google_gwt_user_client_ui_DialogBox_2Lcom_google_gwt_event_dom_client_MouseDownEvent_2V(this$static, event_0){
   com_google_gwt_user_client_ui_DialogBox_$onMouseDown__Lcom_google_gwt_user_client_ui_DialogBox_2Lcom_google_gwt_user_client_ui_Widget_2IIV(this$static, com_google_gwt_event_dom_client_MouseEvent_$getX__Lcom_google_gwt_event_dom_client_MouseEvent_2I(event_0), com_google_gwt_event_dom_client_MouseEvent_$getY__Lcom_google_gwt_event_dom_client_MouseEvent_2I(event_0));
 }
@@ -4704,7 +4704,7 @@ function com_google_gwt_user_client_ui_DialogBox_DialogBox__ZZLcom_google_gwt_us
   com_google_gwt_user_client_ui_Widget_$addDomHandler__Lcom_google_gwt_user_client_ui_Widget_2Lcom_google_gwt_event_shared_EventHandler_2Lcom_google_gwt_event_dom_client_DomEvent$Type_2Lcom_google_gwt_event_shared_HandlerRegistration_2(this, mouseHandler, (com_google_gwt_event_dom_client_MouseOutEvent_$clinit__V() , com_google_gwt_event_dom_client_MouseOutEvent_$clinit__V() , com_google_gwt_event_dom_client_MouseOutEvent_TYPE));
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(104, 314, {13:1, 9:1, 12:1, 38:1, 11:1, 26:1, 14:1, 8:1, 7:1}, com_google_gwt_user_client_ui_DialogBox_DialogBox__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(105, 315, {13:1, 9:1, 12:1, 38:1, 11:1, 27:1, 14:1, 8:1, 7:1}, com_google_gwt_user_client_ui_DialogBox_DialogBox__V);
 _.doAttachChildren__V = function com_google_gwt_user_client_ui_DialogBox_doAttachChildren__V(){
   try {
     com_google_gwt_user_client_ui_Widget_$onAttach__Lcom_google_gwt_user_client_ui_Widget_2V(this.com_google_gwt_user_client_ui_DecoratedPopupPanel_decPanel);
@@ -4759,7 +4759,7 @@ _.com_google_gwt_user_client_ui_DialogBox_dragStartX = 0;
 _.com_google_gwt_user_client_ui_DialogBox_dragStartY = 0;
 _.com_google_gwt_user_client_ui_DialogBox_dragging = false;
 _.com_google_gwt_user_client_ui_DialogBox_windowWidth = 0;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1DialogBox_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'DialogBox', 104);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1DialogBox_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'DialogBox', 105);
 function com_google_gwt_user_client_ui_DialogBox$1_DialogBox$1__Lcom_google_gwt_user_client_ui_DialogBox_2V(this$0){
   this.com_google_gwt_user_client_ui_DialogBox$1_this$01 = this$0;
 }
@@ -4791,12 +4791,12 @@ function com_google_gwt_user_client_ui_Label_Label__Ljava_lang_String_2V(text_0)
   com_google_gwt_user_client_ui_DirectionalTextHelper_$setTextOrHtml__Lcom_google_gwt_user_client_ui_DirectionalTextHelper_2Ljava_lang_String_2ZV(this.com_google_gwt_user_client_ui_LabelBase_directionalTextHelper, text_0, false);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(117, 97, $intern_54, com_google_gwt_user_client_ui_Label_Label__Ljava_lang_String_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(119, 97, $intern_54, com_google_gwt_user_client_ui_Label_Label__Ljava_lang_String_2V);
 _.setText__Ljava_lang_String_2V = function com_google_gwt_user_client_ui_Label_setText__Ljava_lang_String_2V(text_0){
   com_google_gwt_user_client_ui_Label_$setText__Lcom_google_gwt_user_client_ui_Label_2Ljava_lang_String_2V(this, text_0);
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1Label_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'Label', 117);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1Label_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'Label', 119);
 function com_google_gwt_user_client_ui_HTML_HTML__V(){
   com_google_gwt_user_client_ui_Label_Label__Lcom_google_gwt_dom_client_Element_2V.call(this, $doc.createElement($intern_57));
   com_google_gwt_dom_client_Element_$setClassName__Lcom_google_gwt_dom_client_Element_2Ljava_lang_String_2V((com_google_gwt_user_client_DOM_$clinit__V() , this.com_google_gwt_user_client_ui_UIObject_element), 'gwt-HTML');
@@ -4807,21 +4807,21 @@ function com_google_gwt_user_client_ui_HTML_HTML__Ljava_lang_String_2V(html){
   com_google_gwt_user_client_ui_DirectionalTextHelper_$setTextOrHtml__Lcom_google_gwt_user_client_ui_DirectionalTextHelper_2Ljava_lang_String_2ZV(this.com_google_gwt_user_client_ui_LabelBase_directionalTextHelper, html, true);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(33, 117, $intern_54, com_google_gwt_user_client_ui_HTML_HTML__Ljava_lang_String_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(33, 119, $intern_54, com_google_gwt_user_client_ui_HTML_HTML__Ljava_lang_String_2V);
 var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1HTML_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'HTML', 33);
 function com_google_gwt_user_client_ui_DialogBox$CaptionImpl_DialogBox$CaptionImpl__V(){
   com_google_gwt_user_client_ui_HTML_HTML__V.call(this);
   com_google_gwt_dom_client_Element_$setClassName__Lcom_google_gwt_dom_client_Element_2Ljava_lang_String_2V((com_google_gwt_user_client_DOM_$clinit__V() , this.com_google_gwt_user_client_ui_UIObject_element), 'Caption');
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(315, 33, $intern_54, com_google_gwt_user_client_ui_DialogBox$CaptionImpl_DialogBox$CaptionImpl__V);
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1DialogBox$CaptionImpl_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'DialogBox/CaptionImpl', 315);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(316, 33, $intern_54, com_google_gwt_user_client_ui_DialogBox$CaptionImpl_DialogBox$CaptionImpl__V);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1DialogBox$CaptionImpl_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'DialogBox/CaptionImpl', 316);
 function com_google_gwt_user_client_ui_DialogBox$MouseHandler_DialogBox$MouseHandler__Lcom_google_gwt_user_client_ui_DialogBox_2V(this$0){
   this.com_google_gwt_user_client_ui_DialogBox$MouseHandler_this$01 = this$0;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(316, 1, {391:1, 395:1, 393:1, 394:1, 392:1, 30:1}, com_google_gwt_user_client_ui_DialogBox$MouseHandler_DialogBox$MouseHandler__Lcom_google_gwt_user_client_ui_DialogBox_2V);
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1DialogBox$MouseHandler_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'DialogBox/MouseHandler', 316);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(317, 1, {393:1, 397:1, 395:1, 396:1, 394:1, 30:1}, com_google_gwt_user_client_ui_DialogBox$MouseHandler_DialogBox$MouseHandler__Lcom_google_gwt_user_client_ui_DialogBox_2V);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1DialogBox$MouseHandler_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'DialogBox/MouseHandler', 317);
 function com_google_gwt_user_client_ui_DirectionalTextHelper_$setTextOrHtml__Lcom_google_gwt_user_client_ui_DirectionalTextHelper_2Ljava_lang_String_2ZV(this$static, content, isHtml){
   isHtml?com_google_gwt_dom_client_Element_$setInnerHTML__Lcom_google_gwt_dom_client_Element_2Ljava_lang_String_2V(this$static.com_google_gwt_user_client_ui_DirectionalTextHelper_element, content):com_google_gwt_dom_client_DOMImplStandard_$setInnerText__Lcom_google_gwt_dom_client_DOMImplStandard_2Lcom_google_gwt_dom_client_Element_2Ljava_lang_String_2V(this$static.com_google_gwt_user_client_ui_DirectionalTextHelper_element, content);
   if (this$static.com_google_gwt_user_client_ui_DirectionalTextHelper_textDir != this$static.com_google_gwt_user_client_ui_DirectionalTextHelper_initialElementDir) {
@@ -4905,7 +4905,7 @@ function com_google_gwt_user_client_ui_DisclosurePanel_DisclosurePanel__Ljava_la
   com_google_gwt_user_client_ui_DisclosurePanel_DisclosurePanel__Lcom_google_gwt_resources_client_ImageResource_2Lcom_google_gwt_resources_client_ImageResource_2Ljava_lang_String_2V.call(this, (com_google_gwt_user_client_ui_DisclosurePanel_1DefaultImages_1default_1InlineClientBundleGenerator$disclosurePanelOpenInitializer_$clinit__V() , com_google_gwt_user_client_ui_DisclosurePanel_1DefaultImages_1default_1InlineClientBundleGenerator_disclosurePanelOpen), (com_google_gwt_user_client_ui_DisclosurePanel_1DefaultImages_1default_1InlineClientBundleGenerator$disclosurePanelClosedInitializer_$clinit__V() , com_google_gwt_user_client_ui_DisclosurePanel_1DefaultImages_1default_1InlineClientBundleGenerator_disclosurePanelClosed), headerText);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(124, 371, $intern_51, com_google_gwt_user_client_ui_DisclosurePanel_DisclosurePanel__Ljava_lang_String_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(125, 373, $intern_51, com_google_gwt_user_client_ui_DisclosurePanel_DisclosurePanel__Ljava_lang_String_2V);
 _.iterator__Ljava_util_Iterator_2 = function com_google_gwt_user_client_ui_DisclosurePanel_iterator__Ljava_util_Iterator_2(){
   return com_google_gwt_user_client_ui_WidgetIterators_createWidgetIterator__Lcom_google_gwt_user_client_ui_HasWidgets_2_3Lcom_google_gwt_user_client_ui_Widget_2Ljava_util_Iterator_2(this, com_google_gwt_lang_Array_initValues__Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2ILjava_lang_Object_2Ljava_lang_Object_2(com_google_gwt_lang_Array_getClassLiteralForArray__Ljava_lang_Class_2ILjava_lang_Class_2(com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1Widget_12_1classLit, 1), $intern_16, 7, 0, [this.com_google_gwt_user_client_ui_DisclosurePanel_contentWrapper.getWidget__Lcom_google_gwt_user_client_ui_Widget_2()]));
 }
@@ -4917,7 +4917,7 @@ _.remove__Lcom_google_gwt_user_client_ui_Widget_2Z = function com_google_gwt_use
 _.com_google_gwt_user_client_ui_DisclosurePanel_isAnimationEnabled = false;
 _.com_google_gwt_user_client_ui_DisclosurePanel_isOpen = false;
 var com_google_gwt_user_client_ui_DisclosurePanel_contentAnimation;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1DisclosurePanel_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'DisclosurePanel', 124);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1DisclosurePanel_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'DisclosurePanel', 125);
 function com_google_gwt_user_client_ui_DisclosurePanel$ClickableHeader_DisclosurePanel$ClickableHeader__Lcom_google_gwt_user_client_ui_DisclosurePanel_2V(this$0){
   var elem;
   this.com_google_gwt_user_client_ui_DisclosurePanel$ClickableHeader_this$01 = this$0;
@@ -4929,7 +4929,7 @@ function com_google_gwt_user_client_ui_DisclosurePanel$ClickableHeader_Disclosur
   com_google_gwt_dom_client_Element_$setClassName__Lcom_google_gwt_dom_client_Element_2Ljava_lang_String_2V(this.com_google_gwt_user_client_ui_UIObject_element, 'header');
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(297, 89, $intern_51, com_google_gwt_user_client_ui_DisclosurePanel$ClickableHeader_DisclosurePanel$ClickableHeader__Lcom_google_gwt_user_client_ui_DisclosurePanel_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(298, 89, $intern_51, com_google_gwt_user_client_ui_DisclosurePanel$ClickableHeader_DisclosurePanel$ClickableHeader__Lcom_google_gwt_user_client_ui_DisclosurePanel_2V);
 _.onBrowserEvent__Lcom_google_gwt_user_client_Event_2V = function com_google_gwt_user_client_ui_DisclosurePanel$ClickableHeader_onBrowserEvent__Lcom_google_gwt_user_client_Event_2V(event_0){
   switch (com_google_gwt_user_client_DOM_$clinit__V() , com_google_gwt_user_client_impl_DOMImpl_$eventGetTypeInt__Lcom_google_gwt_user_client_impl_DOMImpl_2Ljava_lang_String_2I(event_0.type)) {
     case 1:
@@ -4938,7 +4938,7 @@ _.onBrowserEvent__Lcom_google_gwt_user_client_Event_2V = function com_google_gwt
   }
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1DisclosurePanel$ClickableHeader_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'DisclosurePanel/ClickableHeader', 297);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1DisclosurePanel$ClickableHeader_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'DisclosurePanel/ClickableHeader', 298);
 function com_google_gwt_user_client_ui_DisclosurePanel$ContentAnimation_$onUpdate__Lcom_google_gwt_user_client_ui_DisclosurePanel$ContentAnimation_2DV(this$static, progress){
   var height, scrollHeight;
   scrollHeight = com_google_gwt_dom_client_Element_$getPropertyInt__Lcom_google_gwt_dom_client_Element_2Ljava_lang_String_2I(com_google_gwt_user_client_ui_UIObject_$getElement__Lcom_google_gwt_user_client_ui_UIObject_2Lcom_google_gwt_user_client_Element_2(this$static.com_google_gwt_user_client_ui_DisclosurePanel$ContentAnimation_curPanel.com_google_gwt_user_client_ui_DisclosurePanel_contentWrapper), 'scrollHeight');
@@ -4966,7 +4966,7 @@ function com_google_gwt_user_client_ui_DisclosurePanel$ContentAnimation_Disclosu
   com_google_gwt_animation_client_Animation_Animation__V.call(this);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(298, 125, {}, com_google_gwt_user_client_ui_DisclosurePanel$ContentAnimation_DisclosurePanel$ContentAnimation__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(299, 126, {}, com_google_gwt_user_client_ui_DisclosurePanel$ContentAnimation_DisclosurePanel$ContentAnimation__V);
 _.onComplete__V = function com_google_gwt_user_client_ui_DisclosurePanel$ContentAnimation_onComplete__V(){
   this.com_google_gwt_user_client_ui_DisclosurePanel$ContentAnimation_opening || this.com_google_gwt_user_client_ui_DisclosurePanel$ContentAnimation_curPanel.com_google_gwt_user_client_ui_DisclosurePanel_contentWrapper.setVisible__ZV(false);
   com_google_gwt_user_client_ui_UIObject_$getElement__Lcom_google_gwt_user_client_ui_UIObject_2Lcom_google_gwt_user_client_Element_2(this.com_google_gwt_user_client_ui_DisclosurePanel$ContentAnimation_curPanel.com_google_gwt_user_client_ui_DisclosurePanel_contentWrapper).style[$intern_48] = 'auto';
@@ -4986,7 +4986,7 @@ _.onUpdate__DV = function com_google_gwt_user_client_ui_DisclosurePanel$ContentA
 }
 ;
 _.com_google_gwt_user_client_ui_DisclosurePanel$ContentAnimation_opening = false;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1DisclosurePanel$ContentAnimation_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'DisclosurePanel/ContentAnimation', 298);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1DisclosurePanel$ContentAnimation_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'DisclosurePanel/ContentAnimation', 299);
 function com_google_gwt_user_client_ui_DisclosurePanel$DefaultHeader_DisclosurePanel$DefaultHeader__Lcom_google_gwt_user_client_ui_DisclosurePanel_2Lcom_google_gwt_resources_client_ImageResource_2Lcom_google_gwt_resources_client_ImageResource_2Ljava_lang_String_2V(this$0, openImage, closedImage, text_0){
   com_google_gwt_user_client_ui_DisclosurePanel$DefaultHeader_DisclosurePanel$DefaultHeader__Lcom_google_gwt_user_client_ui_DisclosurePanel_2Lcom_google_gwt_user_client_ui_DisclosurePanel$Imager_2Ljava_lang_String_2V.call(this, this$0, new com_google_gwt_user_client_ui_DisclosurePanel$DefaultHeader$2_DisclosurePanel$DefaultHeader$2__V(closedImage, openImage), text_0);
 }
@@ -5016,7 +5016,7 @@ function com_google_gwt_user_client_ui_DisclosurePanel$DefaultHeader_DisclosureP
   com_google_gwt_user_client_ui_DisclosurePanel$DefaultHeader$2_$updateImage__Lcom_google_gwt_user_client_ui_DisclosurePanel$DefaultHeader$2_2ZLcom_google_gwt_user_client_ui_Image_2V(this.com_google_gwt_user_client_ui_DisclosurePanel$DefaultHeader_imager, this.com_google_gwt_user_client_ui_DisclosurePanel$DefaultHeader_this$01.com_google_gwt_user_client_ui_DisclosurePanel_isOpen, this.com_google_gwt_user_client_ui_DisclosurePanel$DefaultHeader_iconImage);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(164, 7, {343:1, 13:1, 386:1, 30:1, 9:1, 12:1, 38:1, 11:1, 14:1, 8:1, 7:1}, com_google_gwt_user_client_ui_DisclosurePanel$DefaultHeader_DisclosurePanel$DefaultHeader__Lcom_google_gwt_user_client_ui_DisclosurePanel_2Lcom_google_gwt_resources_client_ImageResource_2Lcom_google_gwt_resources_client_ImageResource_2Ljava_lang_String_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(164, 7, {345:1, 13:1, 388:1, 30:1, 9:1, 12:1, 38:1, 11:1, 14:1, 8:1, 7:1}, com_google_gwt_user_client_ui_DisclosurePanel$DefaultHeader_DisclosurePanel$DefaultHeader__Lcom_google_gwt_user_client_ui_DisclosurePanel_2Lcom_google_gwt_resources_client_ImageResource_2Lcom_google_gwt_resources_client_ImageResource_2Ljava_lang_String_2V);
 _.onClose__Lcom_google_gwt_event_logical_shared_CloseEvent_2V = function com_google_gwt_user_client_ui_DisclosurePanel$DefaultHeader_onClose__Lcom_google_gwt_event_logical_shared_CloseEvent_2V(event_0){
   com_google_gwt_user_client_ui_DisclosurePanel$DefaultHeader$2_$updateImage__Lcom_google_gwt_user_client_ui_DisclosurePanel$DefaultHeader$2_2ZLcom_google_gwt_user_client_ui_Image_2V(this.com_google_gwt_user_client_ui_DisclosurePanel$DefaultHeader_imager, this.com_google_gwt_user_client_ui_DisclosurePanel$DefaultHeader_this$01.com_google_gwt_user_client_ui_DisclosurePanel_isOpen, this.com_google_gwt_user_client_ui_DisclosurePanel$DefaultHeader_iconImage);
 }
@@ -5035,8 +5035,8 @@ function com_google_gwt_user_client_ui_DisclosurePanel$DefaultHeader$2_Disclosur
   this.com_google_gwt_user_client_ui_DisclosurePanel$DefaultHeader$2_val$openImage3 = val$openImage;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(299, 1, {}, com_google_gwt_user_client_ui_DisclosurePanel$DefaultHeader$2_DisclosurePanel$DefaultHeader$2__V);
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1DisclosurePanel$DefaultHeader$2_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'DisclosurePanel/DefaultHeader/2', 299);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(300, 1, {}, com_google_gwt_user_client_ui_DisclosurePanel$DefaultHeader$2_DisclosurePanel$DefaultHeader$2__V);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1DisclosurePanel$DefaultHeader$2_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'DisclosurePanel/DefaultHeader/2', 300);
 var com_google_gwt_user_client_ui_DisclosurePanel_1DefaultImages_1default_1InlineClientBundleGenerator_disclosurePanelClosed, com_google_gwt_user_client_ui_DisclosurePanel_1DefaultImages_1default_1InlineClientBundleGenerator_disclosurePanelOpen;
 function com_google_gwt_user_client_ui_DisclosurePanel_1DefaultImages_1default_1InlineClientBundleGenerator$disclosurePanelClosedInitializer_$clinit__V(){
   com_google_gwt_user_client_ui_DisclosurePanel_1DefaultImages_1default_1InlineClientBundleGenerator$disclosurePanelClosedInitializer_$clinit__V = com_google_gwt_lang_JavaClassHierarchySetupUtil_emptyMethod__V;
@@ -5093,7 +5093,7 @@ function com_google_gwt_user_client_ui_DockPanel_$realizeTable__Lcom_google_gwt_
     dir_0 = child.com_google_gwt_user_client_ui_Widget_layoutData.com_google_gwt_user_client_ui_DockPanel$LayoutData_direction;
     dir_0 == com_google_gwt_user_client_ui_DockPanel_NORTH || dir_0 == com_google_gwt_user_client_ui_DockPanel_SOUTH?++rowCount:(dir_0 == com_google_gwt_user_client_ui_DockPanel_EAST || dir_0 == com_google_gwt_user_client_ui_DockPanel_WEST || dir_0 == com_google_gwt_user_client_ui_DockPanel_LINE_1START || dir_0 == com_google_gwt_user_client_ui_DockPanel_LINE_1END) && ++colCount;
   }
-  rows_0 = com_google_gwt_lang_Array_initDim__Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2IIILjava_lang_Object_2(com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1DockPanel$TmpRow_12_1classLit, $intern_16, 113, rowCount, 0, 1);
+  rows_0 = com_google_gwt_lang_Array_initDim__Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2IIILjava_lang_Object_2(com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1DockPanel$TmpRow_12_1classLit, $intern_16, 115, rowCount, 0, 1);
   for (i = 0; i < rowCount; ++i) {
     rows_0[i] = new com_google_gwt_user_client_ui_DockPanel$TmpRow_DockPanel$TmpRow__V;
     rows_0[i].com_google_gwt_user_client_ui_DockPanel$TmpRow_tr = $doc.createElement('tr');
@@ -5191,7 +5191,7 @@ function com_google_gwt_user_client_ui_DockPanel_DockPanel__V(){
   com_google_gwt_dom_client_Element_$setPropertyInt__Lcom_google_gwt_dom_client_Element_2Ljava_lang_String_2IV(this.com_google_gwt_user_client_ui_CellPanel_table, $intern_66, 0);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(223, 112, $intern_51, com_google_gwt_user_client_ui_DockPanel_DockPanel__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(223, 114, $intern_51, com_google_gwt_user_client_ui_DockPanel_DockPanel__V);
 _.remove__Lcom_google_gwt_user_client_ui_Widget_2Z = function com_google_gwt_user_client_ui_DockPanel_remove__Lcom_google_gwt_user_client_ui_Widget_2Z(w){
   var removed;
   removed = com_google_gwt_user_client_ui_ComplexPanel_$remove__Lcom_google_gwt_user_client_ui_ComplexPanel_2Lcom_google_gwt_user_client_ui_Widget_2Z(this, w);
@@ -5222,9 +5222,9 @@ var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1
 function com_google_gwt_user_client_ui_DockPanel$TmpRow_DockPanel$TmpRow__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(113, 1, {113:1}, com_google_gwt_user_client_ui_DockPanel$TmpRow_DockPanel$TmpRow__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(115, 1, {115:1}, com_google_gwt_user_client_ui_DockPanel$TmpRow_DockPanel$TmpRow__V);
 _.com_google_gwt_user_client_ui_DockPanel$TmpRow_center = 0;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1DockPanel$TmpRow_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'DockPanel/TmpRow', 113);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1DockPanel$TmpRow_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'DockPanel/TmpRow', 115);
 function com_google_gwt_user_client_ui_FlowPanel_$add__Lcom_google_gwt_user_client_ui_FlowPanel_2Lcom_google_gwt_user_client_ui_Widget_2V(this$static, w){
   com_google_gwt_user_client_ui_ComplexPanel_$add__Lcom_google_gwt_user_client_ui_ComplexPanel_2Lcom_google_gwt_user_client_ui_Widget_2Lcom_google_gwt_user_client_Element_2V(this$static, w, (com_google_gwt_user_client_DOM_$clinit__V() , this$static.com_google_gwt_user_client_ui_UIObject_element));
 }
@@ -5234,7 +5234,7 @@ function com_google_gwt_user_client_ui_FlowPanel_FlowPanel__V(){
   com_google_gwt_user_client_ui_UIObject_$setElement__Lcom_google_gwt_user_client_ui_UIObject_2Lcom_google_gwt_dom_client_Element_2V(this, $doc.createElement($intern_57));
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(166, 109, $intern_51, com_google_gwt_user_client_ui_FlowPanel_FlowPanel__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(166, 111, $intern_51, com_google_gwt_user_client_ui_FlowPanel_FlowPanel__V);
 var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1FlowPanel_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'FlowPanel', 166);
 function com_google_gwt_user_client_ui_HasHorizontalAlignment_$clinit__V(){
   com_google_gwt_user_client_ui_HasHorizontalAlignment_$clinit__V = com_google_gwt_lang_JavaClassHierarchySetupUtil_emptyMethod__V;
@@ -5247,13 +5247,13 @@ function com_google_gwt_user_client_ui_HasHorizontalAlignment_$clinit__V(){
 }
 
 var com_google_gwt_user_client_ui_HasHorizontalAlignment_ALIGN_1DEFAULT, com_google_gwt_user_client_ui_HasHorizontalAlignment_ALIGN_1LEFT, com_google_gwt_user_client_ui_HasHorizontalAlignment_ALIGN_1LOCALE_1START, com_google_gwt_user_client_ui_HasHorizontalAlignment_ALIGN_1RIGHT;
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(370, 1, {});
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1HasHorizontalAlignment$AutoHorizontalAlignmentConstant_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'HasHorizontalAlignment/AutoHorizontalAlignmentConstant', 370);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(372, 1, {});
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1HasHorizontalAlignment$AutoHorizontalAlignmentConstant_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'HasHorizontalAlignment/AutoHorizontalAlignmentConstant', 372);
 function com_google_gwt_user_client_ui_HasHorizontalAlignment$HorizontalAlignmentConstant_HasHorizontalAlignment$HorizontalAlignmentConstant__Ljava_lang_String_2V(textAlignString){
   this.com_google_gwt_user_client_ui_HasHorizontalAlignment$HorizontalAlignmentConstant_textAlignString = textAlignString;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(96, 370, {}, com_google_gwt_user_client_ui_HasHorizontalAlignment$HorizontalAlignmentConstant_HasHorizontalAlignment$HorizontalAlignmentConstant__Ljava_lang_String_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(96, 372, {}, com_google_gwt_user_client_ui_HasHorizontalAlignment$HorizontalAlignmentConstant_HasHorizontalAlignment$HorizontalAlignmentConstant__Ljava_lang_String_2V);
 var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1HasHorizontalAlignment$HorizontalAlignmentConstant_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'HasHorizontalAlignment/HorizontalAlignmentConstant', 96);
 function com_google_gwt_user_client_ui_HasVerticalAlignment_$clinit__V(){
   com_google_gwt_user_client_ui_HasVerticalAlignment_$clinit__V = com_google_gwt_lang_JavaClassHierarchySetupUtil_emptyMethod__V;
@@ -5267,8 +5267,8 @@ function com_google_gwt_user_client_ui_HasVerticalAlignment$VerticalAlignmentCon
   this.com_google_gwt_user_client_ui_HasVerticalAlignment$VerticalAlignmentConstant_verticalAlignString = verticalAlignString;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(114, 1, {}, com_google_gwt_user_client_ui_HasVerticalAlignment$VerticalAlignmentConstant_HasVerticalAlignment$VerticalAlignmentConstant__Ljava_lang_String_2V);
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1HasVerticalAlignment$VerticalAlignmentConstant_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'HasVerticalAlignment/VerticalAlignmentConstant', 114);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(116, 1, {}, com_google_gwt_user_client_ui_HasVerticalAlignment$VerticalAlignmentConstant_HasVerticalAlignment$VerticalAlignmentConstant__Ljava_lang_String_2V);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1HasVerticalAlignment$VerticalAlignmentConstant_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'HasVerticalAlignment/VerticalAlignmentConstant', 116);
 function com_google_gwt_user_client_ui_HorizontalPanel_$add__Lcom_google_gwt_user_client_ui_HorizontalPanel_2Lcom_google_gwt_user_client_ui_Widget_2V(this$static, w){
   var td, com_google_gwt_user_client_ui_HorizontalPanel_$createAlignedTd__Lcom_google_gwt_user_client_ui_HorizontalPanel_2Lcom_google_gwt_dom_client_Element_2_td_0;
   td = (com_google_gwt_user_client_ui_HorizontalPanel_$createAlignedTd__Lcom_google_gwt_user_client_ui_HorizontalPanel_2Lcom_google_gwt_dom_client_Element_2_td_0 = (com_google_gwt_user_client_DOM_$clinit__V() , $doc.createElement('td')) , com_google_gwt_user_client_ui_CellPanel_$setCellHorizontalAlignment__Lcom_google_gwt_user_client_ui_CellPanel_2Lcom_google_gwt_dom_client_Element_2Lcom_google_gwt_user_client_ui_HasHorizontalAlignment$HorizontalAlignmentConstant_2V(com_google_gwt_user_client_ui_HorizontalPanel_$createAlignedTd__Lcom_google_gwt_user_client_ui_HorizontalPanel_2Lcom_google_gwt_dom_client_Element_2_td_0, this$static.com_google_gwt_user_client_ui_HorizontalPanel_horzAlign) , com_google_gwt_user_client_ui_CellPanel_$setCellVerticalAlignment__Lcom_google_gwt_user_client_ui_CellPanel_2Lcom_google_gwt_dom_client_Element_2Lcom_google_gwt_user_client_ui_HasVerticalAlignment$VerticalAlignmentConstant_2V(com_google_gwt_user_client_ui_HorizontalPanel_$createAlignedTd__Lcom_google_gwt_user_client_ui_HorizontalPanel_2Lcom_google_gwt_dom_client_Element_2_td_0, this$static.com_google_gwt_user_client_ui_HorizontalPanel_vertAlign) , com_google_gwt_user_client_ui_HorizontalPanel_$createAlignedTd__Lcom_google_gwt_user_client_ui_HorizontalPanel_2Lcom_google_gwt_dom_client_Element_2_td_0);
@@ -5294,7 +5294,7 @@ function com_google_gwt_user_client_ui_HorizontalPanel_HorizontalPanel__V(){
   com_google_gwt_dom_client_Element_$setPropertyString__Lcom_google_gwt_dom_client_Element_2Ljava_lang_String_2Ljava_lang_String_2V(this.com_google_gwt_user_client_ui_CellPanel_table, $intern_66, '0');
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(17, 112, $intern_51, com_google_gwt_user_client_ui_HorizontalPanel_HorizontalPanel__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(17, 114, $intern_51, com_google_gwt_user_client_ui_HorizontalPanel_HorizontalPanel__V);
 _.remove__Lcom_google_gwt_user_client_ui_Widget_2Z = function com_google_gwt_user_client_ui_HorizontalPanel_remove__Lcom_google_gwt_user_client_ui_Widget_2Z(w){
   var removed, td;
   td = (com_google_gwt_user_client_DOM_$clinit__V() , com_google_gwt_dom_client_DOMImpl_$getParentElement__Lcom_google_gwt_dom_client_DOMImpl_2Lcom_google_gwt_dom_client_Node_2Lcom_google_gwt_dom_client_Element_2(w.com_google_gwt_user_client_ui_UIObject_element));
@@ -5333,7 +5333,7 @@ function com_google_gwt_user_client_ui_Image_Image__Ljava_lang_String_2V(url_0){
   com_google_gwt_user_client_ui_Image_Image__Lcom_google_gwt_safehtml_shared_SafeUri_2V.call(this, (com_google_gwt_safehtml_shared_UriUtils_$clinit__V() , new com_google_gwt_safehtml_shared_SafeUriString_SafeUriString__Ljava_lang_String_2V(url_0)));
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(128, 7, $intern_50, com_google_gwt_user_client_ui_Image_Image__Lcom_google_gwt_resources_client_ImageResource_2V, com_google_gwt_user_client_ui_Image_Image__Ljava_lang_String_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(129, 7, $intern_50, com_google_gwt_user_client_ui_Image_Image__Lcom_google_gwt_resources_client_ImageResource_2V, com_google_gwt_user_client_ui_Image_Image__Ljava_lang_String_2V);
 _.onBrowserEvent__Lcom_google_gwt_user_client_Event_2V = function com_google_gwt_user_client_ui_Image_onBrowserEvent__Lcom_google_gwt_user_client_Event_2V(event_0){
   com_google_gwt_user_client_DOM_$clinit__V();
   com_google_gwt_user_client_impl_DOMImpl_$eventGetTypeInt__Lcom_google_gwt_user_client_impl_DOMImpl_2Ljava_lang_String_2I(event_0.type) == 32768 && !!this.com_google_gwt_user_client_ui_Image_state && com_google_gwt_dom_client_Element_$setPropertyString__Lcom_google_gwt_dom_client_Element_2Ljava_lang_String_2Ljava_lang_String_2V(this.com_google_gwt_user_client_ui_UIObject_element, $intern_42, '');
@@ -5344,22 +5344,22 @@ _.onLoad__V = function com_google_gwt_user_client_ui_Image_onLoad__V(){
   com_google_gwt_user_client_ui_Image$State_$onLoad__Lcom_google_gwt_user_client_ui_Image$State_2Lcom_google_gwt_user_client_ui_Image_2V(this.com_google_gwt_user_client_ui_Image_state, this);
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1Image_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'Image', 128);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1Image_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'Image', 129);
 function com_google_gwt_user_client_ui_Image$State_$onLoad__Lcom_google_gwt_user_client_ui_Image$State_2Lcom_google_gwt_user_client_ui_Image_2V(this$static, image){
   var unhandledEvent;
   unhandledEvent = com_google_gwt_dom_client_Element_$getPropertyString__Lcom_google_gwt_dom_client_Element_2Ljava_lang_String_2Ljava_lang_String_2((com_google_gwt_user_client_DOM_$clinit__V() , image.com_google_gwt_user_client_ui_UIObject_element), $intern_42);
   java_lang_String_$equals__Ljava_lang_String_2Ljava_lang_Object_2Z($intern_36, unhandledEvent) && (this$static.com_google_gwt_user_client_ui_Image$State_syntheticEventCommand = new com_google_gwt_user_client_ui_Image$State$1_Image$State$1__Lcom_google_gwt_user_client_ui_Image$State_2V(this$static, image) , com_google_gwt_core_client_impl_SchedulerImpl_$scheduleDeferred__Lcom_google_gwt_core_client_impl_SchedulerImpl_2Lcom_google_gwt_core_client_Scheduler$ScheduledCommand_2V((com_google_gwt_core_client_impl_SchedulerImpl_$clinit__V() , com_google_gwt_core_client_impl_SchedulerImpl_INSTANCE), this$static.com_google_gwt_user_client_ui_Image$State_syntheticEventCommand));
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(305, 1, {});
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(306, 1, {});
 _.com_google_gwt_user_client_ui_Image$State_syntheticEventCommand = null;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1Image$State_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'Image/State', 305);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1Image$State_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'Image/State', 306);
 function com_google_gwt_user_client_ui_Image$State$1_Image$State$1__Lcom_google_gwt_user_client_ui_Image$State_2V(this$1, val$image){
   this.com_google_gwt_user_client_ui_Image$State$1_this$11 = this$1;
   this.com_google_gwt_user_client_ui_Image$State$1_val$image2 = val$image;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(306, 1, {}, com_google_gwt_user_client_ui_Image$State$1_Image$State$1__Lcom_google_gwt_user_client_ui_Image$State_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(307, 1, {}, com_google_gwt_user_client_ui_Image$State$1_Image$State$1__Lcom_google_gwt_user_client_ui_Image$State_2V);
 _.execute__V = function com_google_gwt_user_client_ui_Image$State$1_execute__V(){
   var evt, com_google_gwt_dom_client_DOMImplStandard_$createHtmlEvent__Lcom_google_gwt_dom_client_DOMImplStandard_2Lcom_google_gwt_dom_client_Document_2Ljava_lang_String_2ZZLcom_google_gwt_dom_client_NativeEvent_2_evt_0;
   if (this.com_google_gwt_user_client_ui_Image$State$1_val$image2.com_google_gwt_user_client_ui_Image_state != this.com_google_gwt_user_client_ui_Image$State$1_this$11 || this != this.com_google_gwt_user_client_ui_Image$State$1_this$11.com_google_gwt_user_client_ui_Image$State_syntheticEventCommand) {
@@ -5374,7 +5374,7 @@ _.execute__V = function com_google_gwt_user_client_ui_Image$State$1_execute__V()
   com_google_gwt_dom_client_DOMImplStandard_$dispatchEvent__Lcom_google_gwt_dom_client_DOMImplStandard_2Lcom_google_gwt_dom_client_Element_2Lcom_google_gwt_dom_client_NativeEvent_2V(com_google_gwt_user_client_ui_Image$UnclippedState_$getImageElement__Lcom_google_gwt_user_client_ui_Image$UnclippedState_2Lcom_google_gwt_user_client_ui_Image_2Lcom_google_gwt_dom_client_ImageElement_2(this.com_google_gwt_user_client_ui_Image$State$1_val$image2), evt);
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1Image$State$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'Image/State/1', 306);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1Image$State$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'Image/State/1', 307);
 function com_google_gwt_user_client_ui_Image$UnclippedState_$getImageElement__Lcom_google_gwt_user_client_ui_Image$UnclippedState_2Lcom_google_gwt_user_client_ui_Image_2Lcom_google_gwt_dom_client_ImageElement_2(image){
   return com_google_gwt_user_client_DOM_$clinit__V() , image.com_google_gwt_user_client_ui_UIObject_element;
 }
@@ -5404,8 +5404,8 @@ function com_google_gwt_user_client_ui_Image$UnclippedState_Image$UnclippedState
   com_google_gwt_dom_client_ImageElement_$setHeight__Lcom_google_gwt_dom_client_ImageElement_2IV(image.com_google_gwt_user_client_ui_UIObject_element, height);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(103, 305, {}, com_google_gwt_user_client_ui_Image$UnclippedState_Image$UnclippedState__Lcom_google_gwt_user_client_ui_Image_2Lcom_google_gwt_safehtml_shared_SafeUri_2V, com_google_gwt_user_client_ui_Image$UnclippedState_Image$UnclippedState__Lcom_google_gwt_user_client_ui_Image_2Lcom_google_gwt_safehtml_shared_SafeUri_2IIV);
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1Image$UnclippedState_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'Image/UnclippedState', 103);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(104, 306, {}, com_google_gwt_user_client_ui_Image$UnclippedState_Image$UnclippedState__Lcom_google_gwt_user_client_ui_Image_2Lcom_google_gwt_safehtml_shared_SafeUri_2V, com_google_gwt_user_client_ui_Image$UnclippedState_Image$UnclippedState__Lcom_google_gwt_user_client_ui_Image_2Lcom_google_gwt_safehtml_shared_SafeUri_2IIV);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1Image$UnclippedState_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'Image/UnclippedState', 104);
 function com_google_gwt_user_client_ui_ListBox_$addItem__Lcom_google_gwt_user_client_ui_ListBox_2Ljava_lang_String_2V(this$static, item_0){
   com_google_gwt_user_client_ui_ListBox_$insertItem__Lcom_google_gwt_user_client_ui_ListBox_2Ljava_lang_String_2Lcom_google_gwt_i18n_client_HasDirection$Direction_2Ljava_lang_String_2IV(this$static, item_0, item_0, -1);
 }
@@ -5449,8 +5449,8 @@ function com_google_gwt_user_client_ui_ListBox_ListBox__ZV(){
   (com_google_gwt_user_client_DOM_$clinit__V() , this.com_google_gwt_user_client_ui_UIObject_element).multiple = false;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(116, 115, $intern_50, com_google_gwt_user_client_ui_ListBox_ListBox__V, com_google_gwt_user_client_ui_ListBox_ListBox__ZV);
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1ListBox_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'ListBox', 116);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(118, 117, $intern_50, com_google_gwt_user_client_ui_ListBox_ListBox__V, com_google_gwt_user_client_ui_ListBox_ListBox__ZV);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1ListBox_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'ListBox', 118);
 function com_google_gwt_user_client_ui_PopupPanel$1_$onResize__Lcom_google_gwt_user_client_ui_PopupPanel$1_2Lcom_google_gwt_event_logical_shared_ResizeEvent_2V(this$static){
   var height, style, width_0, winHeight, winWidth;
   style = this$static.com_google_gwt_user_client_ui_PopupPanel$1_this$01.com_google_gwt_user_client_ui_PopupPanel_glass.style;
@@ -5470,24 +5470,24 @@ function com_google_gwt_user_client_ui_PopupPanel$1_PopupPanel$1__Lcom_google_gw
   this.com_google_gwt_user_client_ui_PopupPanel$1_this$01 = this$0;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(319, 1, $intern_68, com_google_gwt_user_client_ui_PopupPanel$1_PopupPanel$1__Lcom_google_gwt_user_client_ui_PopupPanel_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(320, 1, $intern_68, com_google_gwt_user_client_ui_PopupPanel$1_PopupPanel$1__Lcom_google_gwt_user_client_ui_PopupPanel_2V);
 _.onResize__Lcom_google_gwt_event_logical_shared_ResizeEvent_2V = function com_google_gwt_user_client_ui_PopupPanel$1_onResize__Lcom_google_gwt_event_logical_shared_ResizeEvent_2V(event_0){
   com_google_gwt_user_client_ui_PopupPanel$1_$onResize__Lcom_google_gwt_user_client_ui_PopupPanel$1_2Lcom_google_gwt_event_logical_shared_ResizeEvent_2V(this);
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1PopupPanel$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'PopupPanel/1', 319);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1PopupPanel$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'PopupPanel/1', 320);
 function com_google_gwt_user_client_ui_PopupPanel$3_PopupPanel$3__Lcom_google_gwt_user_client_ui_PopupPanel_2V(this$0){
   this.com_google_gwt_user_client_ui_PopupPanel$3_this$01 = this$0;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(320, 1, {30:1, 382:1}, com_google_gwt_user_client_ui_PopupPanel$3_PopupPanel$3__Lcom_google_gwt_user_client_ui_PopupPanel_2V);
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1PopupPanel$3_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'PopupPanel/3', 320);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(321, 1, {30:1, 384:1}, com_google_gwt_user_client_ui_PopupPanel$3_PopupPanel$3__Lcom_google_gwt_user_client_ui_PopupPanel_2V);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1PopupPanel$3_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'PopupPanel/3', 321);
 function com_google_gwt_user_client_ui_PopupPanel$4_PopupPanel$4__Lcom_google_gwt_user_client_ui_PopupPanel_2V(this$0){
   this.com_google_gwt_user_client_ui_PopupPanel$4_this$01 = this$0;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(321, 1, {383:1, 30:1}, com_google_gwt_user_client_ui_PopupPanel$4_PopupPanel$4__Lcom_google_gwt_user_client_ui_PopupPanel_2V);
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1PopupPanel$4_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'PopupPanel/4', 321);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(322, 1, {385:1, 30:1}, com_google_gwt_user_client_ui_PopupPanel$4_PopupPanel$4__Lcom_google_gwt_user_client_ui_PopupPanel_2V);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1PopupPanel$4_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'PopupPanel/4', 322);
 function com_google_gwt_user_client_ui_PopupPanel$ResizeAnimation_$maybeShowGlass__Lcom_google_gwt_user_client_ui_PopupPanel$ResizeAnimation_2V(this$static){
   if (this$static.com_google_gwt_user_client_ui_PopupPanel$ResizeAnimation_showing) {
     if (this$static.com_google_gwt_user_client_ui_PopupPanel$ResizeAnimation_curPanel.com_google_gwt_user_client_ui_PopupPanel_isGlassEnabled) {
@@ -5583,7 +5583,7 @@ function com_google_gwt_user_client_ui_PopupPanel$ResizeAnimation_PopupPanel$Res
   this.com_google_gwt_user_client_ui_PopupPanel$ResizeAnimation_curPanel = panel;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(317, 125, {}, com_google_gwt_user_client_ui_PopupPanel$ResizeAnimation_PopupPanel$ResizeAnimation__Lcom_google_gwt_user_client_ui_PopupPanel_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(318, 126, {}, com_google_gwt_user_client_ui_PopupPanel$ResizeAnimation_PopupPanel$ResizeAnimation__Lcom_google_gwt_user_client_ui_PopupPanel_2V);
 _.onComplete__V = function com_google_gwt_user_client_ui_PopupPanel$ResizeAnimation_onComplete__V(){
   com_google_gwt_user_client_ui_PopupPanel$ResizeAnimation_$onComplete__Lcom_google_gwt_user_client_ui_PopupPanel$ResizeAnimation_2V(this);
 }
@@ -5605,19 +5605,19 @@ _.com_google_gwt_user_client_ui_PopupPanel$ResizeAnimation_isUnloading = false;
 _.com_google_gwt_user_client_ui_PopupPanel$ResizeAnimation_offsetHeight = 0;
 _.com_google_gwt_user_client_ui_PopupPanel$ResizeAnimation_offsetWidth = -1;
 _.com_google_gwt_user_client_ui_PopupPanel$ResizeAnimation_showing = false;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1PopupPanel$ResizeAnimation_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'PopupPanel/ResizeAnimation', 317);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1PopupPanel$ResizeAnimation_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'PopupPanel/ResizeAnimation', 318);
 function com_google_gwt_user_client_ui_PopupPanel$ResizeAnimation$1_PopupPanel$ResizeAnimation$1__Lcom_google_gwt_user_client_ui_PopupPanel$ResizeAnimation_2V(this$1){
   this.com_google_gwt_user_client_ui_PopupPanel$ResizeAnimation$1_this$11 = this$1;
   com_google_gwt_user_client_Timer_Timer__V.call(this);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(318, 120, {}, com_google_gwt_user_client_ui_PopupPanel$ResizeAnimation$1_PopupPanel$ResizeAnimation$1__Lcom_google_gwt_user_client_ui_PopupPanel$ResizeAnimation_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(319, 121, {}, com_google_gwt_user_client_ui_PopupPanel$ResizeAnimation$1_PopupPanel$ResizeAnimation$1__Lcom_google_gwt_user_client_ui_PopupPanel$ResizeAnimation_2V);
 _.run__V = function com_google_gwt_user_client_ui_PopupPanel$ResizeAnimation$1_run__V(){
   this.com_google_gwt_user_client_ui_PopupPanel$ResizeAnimation$1_this$11.com_google_gwt_user_client_ui_PopupPanel$ResizeAnimation_showTimer = null;
   com_google_gwt_animation_client_Animation_$run__Lcom_google_gwt_animation_client_Animation_2IDLcom_google_gwt_dom_client_Element_2V(this.com_google_gwt_user_client_ui_PopupPanel$ResizeAnimation$1_this$11, 200, com_google_gwt_core_client_JsDate_now__D());
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1PopupPanel$ResizeAnimation$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'PopupPanel/ResizeAnimation/1', 318);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1PopupPanel$ResizeAnimation$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'PopupPanel/ResizeAnimation/1', 319);
 function com_google_gwt_user_client_ui_PotentialElement_$clinit__V(){
   com_google_gwt_user_client_ui_PotentialElement_$clinit__V = com_google_gwt_lang_JavaClassHierarchySetupUtil_emptyMethod__V;
   com_google_gwt_user_client_ui_PotentialElement_declareShim__V();
@@ -5728,7 +5728,7 @@ var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1
 function com_google_gwt_user_client_ui_RootPanel$2_RootPanel$2__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(191, 1, {343:1, 30:1}, com_google_gwt_user_client_ui_RootPanel$2_RootPanel$2__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(191, 1, {345:1, 30:1}, com_google_gwt_user_client_ui_RootPanel$2_RootPanel$2__V);
 _.onClose__Lcom_google_gwt_event_logical_shared_CloseEvent_2V = function com_google_gwt_user_client_ui_RootPanel$2_onClose__Lcom_google_gwt_event_logical_shared_CloseEvent_2V(closeEvent){
   com_google_gwt_user_client_ui_RootPanel_detachWidgets__V();
 }
@@ -5786,7 +5786,7 @@ function com_google_gwt_user_client_ui_ValueBoxBase_ValueBoxBase__Lcom_google_gw
   com_google_gwt_user_client_ui_FocusWidget_FocusWidget__Lcom_google_gwt_dom_client_Element_2V.call(this, elem);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(309, 115, $intern_54);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(310, 117, $intern_54);
 _.onBrowserEvent__Lcom_google_gwt_user_client_Event_2V = function com_google_gwt_user_client_ui_ValueBoxBase_onBrowserEvent__Lcom_google_gwt_user_client_Event_2V(event_0){
   var type_0;
   type_0 = (com_google_gwt_user_client_DOM_$clinit__V() , com_google_gwt_user_client_impl_DOMImpl_$eventGetTypeInt__Lcom_google_gwt_user_client_impl_DOMImpl_2Ljava_lang_String_2I(event_0.type));
@@ -5807,7 +5807,7 @@ _.setText__Ljava_lang_String_2V = function com_google_gwt_user_client_ui_ValueBo
   com_google_gwt_user_client_ui_ValueBoxBase_$setText__Lcom_google_gwt_user_client_ui_ValueBoxBase_2Ljava_lang_String_2V(this, text_0);
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1ValueBoxBase_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'ValueBoxBase', 309);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1ValueBoxBase_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'ValueBoxBase', 310);
 function com_google_gwt_user_client_ui_TextBoxBase_$clinit__V(){
   com_google_gwt_user_client_ui_TextBoxBase_$clinit__V = com_google_gwt_lang_JavaClassHierarchySetupUtil_emptyMethod__V;
   com_google_gwt_user_client_ui_ValueBoxBase$TextAlignment_$clinit__V();
@@ -5817,7 +5817,7 @@ function com_google_gwt_user_client_ui_TextBoxBase_TextBoxBase__Lcom_google_gwt_
   com_google_gwt_user_client_ui_ValueBoxBase_ValueBoxBase__Lcom_google_gwt_dom_client_Element_2Lcom_google_gwt_text_shared_Renderer_2Lcom_google_gwt_text_shared_Parser_2V.call(this, elem, (!com_google_gwt_text_shared_testing_PassthroughRenderer_INSTANCE && (com_google_gwt_text_shared_testing_PassthroughRenderer_INSTANCE = new com_google_gwt_text_shared_testing_PassthroughRenderer_PassthroughRenderer__V) , !com_google_gwt_text_shared_testing_PassthroughParser_INSTANCE && (com_google_gwt_text_shared_testing_PassthroughParser_INSTANCE = new com_google_gwt_text_shared_testing_PassthroughParser_PassthroughParser__V)));
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(172, 309, $intern_54);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(172, 310, $intern_54);
 var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1TextBoxBase_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'TextBoxBase', 172);
 function com_google_gwt_user_client_ui_TextArea_$setVisibleLines__Lcom_google_gwt_user_client_ui_TextArea_2IV(this$static, lines){
   com_google_gwt_dom_client_TextAreaElement_$setRows__Lcom_google_gwt_dom_client_TextAreaElement_2IV((com_google_gwt_user_client_DOM_$clinit__V() , this$static.com_google_gwt_user_client_ui_UIObject_element), lines);
@@ -5829,8 +5829,8 @@ function com_google_gwt_user_client_ui_TextArea_TextArea__V(){
   com_google_gwt_dom_client_Element_$setClassName__Lcom_google_gwt_dom_client_Element_2Ljava_lang_String_2V((com_google_gwt_user_client_DOM_$clinit__V() , this.com_google_gwt_user_client_ui_UIObject_element), 'gwt-TextArea');
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(129, 172, {13:1, 9:1, 12:1, 38:1, 11:1, 14:1, 129:1, 8:1, 7:1}, com_google_gwt_user_client_ui_TextArea_TextArea__V);
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1TextArea_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'TextArea', 129);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(130, 172, {13:1, 9:1, 12:1, 38:1, 11:1, 14:1, 130:1, 8:1, 7:1}, com_google_gwt_user_client_ui_TextArea_TextArea__V);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1TextArea_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'TextArea', 130);
 function com_google_gwt_user_client_ui_TextBox_$setMaxLength__Lcom_google_gwt_user_client_ui_TextBox_2IV(this$static, length_0){
   com_google_gwt_dom_client_InputElement_$setMaxLength__Lcom_google_gwt_dom_client_InputElement_2IV((com_google_gwt_user_client_DOM_$clinit__V() , this$static.com_google_gwt_user_client_ui_UIObject_element), length_0);
 }
@@ -5850,8 +5850,8 @@ function com_google_gwt_user_client_ui_TextBox_TextBox__Lcom_google_gwt_dom_clie
   com_google_gwt_dom_client_Element_$setClassName__Lcom_google_gwt_dom_client_Element_2Ljava_lang_String_2V((com_google_gwt_user_client_DOM_$clinit__V() , this.com_google_gwt_user_client_ui_UIObject_element), 'gwt-TextBox');
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(47, 172, {13:1, 9:1, 12:1, 38:1, 11:1, 14:1, 47:1, 8:1, 7:1}, com_google_gwt_user_client_ui_TextBox_TextBox__V);
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1TextBox_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'TextBox', 47);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(41, 172, {13:1, 9:1, 12:1, 38:1, 11:1, 14:1, 41:1, 8:1, 7:1}, com_google_gwt_user_client_ui_TextBox_TextBox__V);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1TextBox_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'TextBox', 41);
 function com_google_gwt_user_client_ui_ValueBoxBase$TextAlignment_$clinit__V(){
   com_google_gwt_user_client_ui_ValueBoxBase$TextAlignment_$clinit__V = com_google_gwt_lang_JavaClassHierarchySetupUtil_emptyMethod__V;
   com_google_gwt_user_client_ui_ValueBoxBase$TextAlignment_CENTER = new com_google_gwt_user_client_ui_ValueBoxBase$TextAlignment$1_ValueBoxBase$TextAlignment$1__Ljava_lang_String_2IV;
@@ -5866,36 +5866,36 @@ function com_google_gwt_user_client_ui_ValueBoxBase$TextAlignment_ValueBoxBase$T
 
 function com_google_gwt_user_client_ui_ValueBoxBase$TextAlignment_values___3Lcom_google_gwt_user_client_ui_ValueBoxBase$TextAlignment_2(){
   com_google_gwt_user_client_ui_ValueBoxBase$TextAlignment_$clinit__V();
-  return com_google_gwt_lang_Array_initValues__Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2ILjava_lang_Object_2Ljava_lang_Object_2(com_google_gwt_lang_Array_getClassLiteralForArray__Ljava_lang_Class_2ILjava_lang_Class_2(com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1ValueBoxBase$TextAlignment_12_1classLit, 1), $intern_16, 44, 0, [com_google_gwt_user_client_ui_ValueBoxBase$TextAlignment_CENTER, com_google_gwt_user_client_ui_ValueBoxBase$TextAlignment_JUSTIFY, com_google_gwt_user_client_ui_ValueBoxBase$TextAlignment_LEFT, com_google_gwt_user_client_ui_ValueBoxBase$TextAlignment_RIGHT]);
+  return com_google_gwt_lang_Array_initValues__Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2ILjava_lang_Object_2Ljava_lang_Object_2(com_google_gwt_lang_Array_getClassLiteralForArray__Ljava_lang_Class_2ILjava_lang_Class_2(com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1ValueBoxBase$TextAlignment_12_1classLit, 1), $intern_16, 45, 0, [com_google_gwt_user_client_ui_ValueBoxBase$TextAlignment_CENTER, com_google_gwt_user_client_ui_ValueBoxBase$TextAlignment_JUSTIFY, com_google_gwt_user_client_ui_ValueBoxBase$TextAlignment_LEFT, com_google_gwt_user_client_ui_ValueBoxBase$TextAlignment_RIGHT]);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(44, 4, $intern_73);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(45, 4, $intern_73);
 var com_google_gwt_user_client_ui_ValueBoxBase$TextAlignment_CENTER, com_google_gwt_user_client_ui_ValueBoxBase$TextAlignment_JUSTIFY, com_google_gwt_user_client_ui_ValueBoxBase$TextAlignment_LEFT, com_google_gwt_user_client_ui_ValueBoxBase$TextAlignment_RIGHT;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1ValueBoxBase$TextAlignment_12_1classLit = java_lang_Class_createForEnum__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2($intern_49, 'ValueBoxBase/TextAlignment', 44, com_google_gwt_user_client_ui_ValueBoxBase$TextAlignment_values___3Lcom_google_gwt_user_client_ui_ValueBoxBase$TextAlignment_2);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1ValueBoxBase$TextAlignment_12_1classLit = java_lang_Class_createForEnum__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2($intern_49, 'ValueBoxBase/TextAlignment', 45, com_google_gwt_user_client_ui_ValueBoxBase$TextAlignment_values___3Lcom_google_gwt_user_client_ui_ValueBoxBase$TextAlignment_2);
 function com_google_gwt_user_client_ui_ValueBoxBase$TextAlignment$1_ValueBoxBase$TextAlignment$1__Ljava_lang_String_2IV(){
   com_google_gwt_user_client_ui_ValueBoxBase$TextAlignment_ValueBoxBase$TextAlignment__Ljava_lang_String_2IV.call(this, 'CENTER', 0);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(310, 44, $intern_73, com_google_gwt_user_client_ui_ValueBoxBase$TextAlignment$1_ValueBoxBase$TextAlignment$1__Ljava_lang_String_2IV);
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1ValueBoxBase$TextAlignment$1_12_1classLit = java_lang_Class_createForEnum__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2($intern_49, 'ValueBoxBase/TextAlignment/1', 310, null);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(311, 45, $intern_73, com_google_gwt_user_client_ui_ValueBoxBase$TextAlignment$1_ValueBoxBase$TextAlignment$1__Ljava_lang_String_2IV);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1ValueBoxBase$TextAlignment$1_12_1classLit = java_lang_Class_createForEnum__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2($intern_49, 'ValueBoxBase/TextAlignment/1', 311, null);
 function com_google_gwt_user_client_ui_ValueBoxBase$TextAlignment$2_ValueBoxBase$TextAlignment$2__Ljava_lang_String_2IV(){
   com_google_gwt_user_client_ui_ValueBoxBase$TextAlignment_ValueBoxBase$TextAlignment__Ljava_lang_String_2IV.call(this, 'JUSTIFY', 1);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(311, 44, $intern_73, com_google_gwt_user_client_ui_ValueBoxBase$TextAlignment$2_ValueBoxBase$TextAlignment$2__Ljava_lang_String_2IV);
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1ValueBoxBase$TextAlignment$2_12_1classLit = java_lang_Class_createForEnum__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2($intern_49, 'ValueBoxBase/TextAlignment/2', 311, null);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(312, 45, $intern_73, com_google_gwt_user_client_ui_ValueBoxBase$TextAlignment$2_ValueBoxBase$TextAlignment$2__Ljava_lang_String_2IV);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1ValueBoxBase$TextAlignment$2_12_1classLit = java_lang_Class_createForEnum__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2($intern_49, 'ValueBoxBase/TextAlignment/2', 312, null);
 function com_google_gwt_user_client_ui_ValueBoxBase$TextAlignment$3_ValueBoxBase$TextAlignment$3__Ljava_lang_String_2IV(){
   com_google_gwt_user_client_ui_ValueBoxBase$TextAlignment_ValueBoxBase$TextAlignment__Ljava_lang_String_2IV.call(this, 'LEFT', 2);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(312, 44, $intern_73, com_google_gwt_user_client_ui_ValueBoxBase$TextAlignment$3_ValueBoxBase$TextAlignment$3__Ljava_lang_String_2IV);
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1ValueBoxBase$TextAlignment$3_12_1classLit = java_lang_Class_createForEnum__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2($intern_49, 'ValueBoxBase/TextAlignment/3', 312, null);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(313, 45, $intern_73, com_google_gwt_user_client_ui_ValueBoxBase$TextAlignment$3_ValueBoxBase$TextAlignment$3__Ljava_lang_String_2IV);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1ValueBoxBase$TextAlignment$3_12_1classLit = java_lang_Class_createForEnum__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2($intern_49, 'ValueBoxBase/TextAlignment/3', 313, null);
 function com_google_gwt_user_client_ui_ValueBoxBase$TextAlignment$4_ValueBoxBase$TextAlignment$4__Ljava_lang_String_2IV(){
   com_google_gwt_user_client_ui_ValueBoxBase$TextAlignment_ValueBoxBase$TextAlignment__Ljava_lang_String_2IV.call(this, 'RIGHT', 3);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(313, 44, $intern_73, com_google_gwt_user_client_ui_ValueBoxBase$TextAlignment$4_ValueBoxBase$TextAlignment$4__Ljava_lang_String_2IV);
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1ValueBoxBase$TextAlignment$4_12_1classLit = java_lang_Class_createForEnum__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2($intern_49, 'ValueBoxBase/TextAlignment/4', 313, null);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(314, 45, $intern_73, com_google_gwt_user_client_ui_ValueBoxBase$TextAlignment$4_ValueBoxBase$TextAlignment$4__Ljava_lang_String_2IV);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1ValueBoxBase$TextAlignment$4_12_1classLit = java_lang_Class_createForEnum__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2($intern_49, 'ValueBoxBase/TextAlignment/4', 314, null);
 function com_google_gwt_user_client_ui_VerticalPanel_$add__Lcom_google_gwt_user_client_ui_VerticalPanel_2Lcom_google_gwt_user_client_ui_Widget_2V(this$static, w){
   var td, tr, com_google_gwt_user_client_ui_VerticalPanel_$createAlignedTd__Lcom_google_gwt_user_client_ui_VerticalPanel_2Lcom_google_gwt_dom_client_Element_2_td_0;
   tr = (com_google_gwt_user_client_DOM_$clinit__V() , $doc.createElement('tr'));
@@ -5913,7 +5913,7 @@ function com_google_gwt_user_client_ui_VerticalPanel_VerticalPanel__V(){
   com_google_gwt_dom_client_Element_$setPropertyString__Lcom_google_gwt_dom_client_Element_2Ljava_lang_String_2Ljava_lang_String_2V(this.com_google_gwt_user_client_ui_CellPanel_table, $intern_66, '0');
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(35, 112, $intern_51, com_google_gwt_user_client_ui_VerticalPanel_VerticalPanel__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(35, 114, $intern_51, com_google_gwt_user_client_ui_VerticalPanel_VerticalPanel__V);
 _.remove__Lcom_google_gwt_user_client_ui_Widget_2Z = function com_google_gwt_user_client_ui_VerticalPanel_remove__Lcom_google_gwt_user_client_ui_Widget_2Z(w){
   var removed, td;
   td = (com_google_gwt_user_client_DOM_$clinit__V() , com_google_gwt_dom_client_DOMImpl_$getParentElement__Lcom_google_gwt_dom_client_DOMImpl_2Lcom_google_gwt_dom_client_Node_2Lcom_google_gwt_dom_client_Element_2(w.com_google_gwt_user_client_ui_UIObject_element));
@@ -6067,7 +6067,7 @@ function com_google_gwt_user_client_ui_WidgetIterators$1_WidgetIterators$1__V(va
   com_google_gwt_user_client_ui_WidgetIterators$1_$gotoNextIndex__Lcom_google_gwt_user_client_ui_WidgetIterators$1_2V(this);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(307, 1, {}, com_google_gwt_user_client_ui_WidgetIterators$1_WidgetIterators$1__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(308, 1, {}, com_google_gwt_user_client_ui_WidgetIterators$1_WidgetIterators$1__V);
 _.hasNext__Z = function com_google_gwt_user_client_ui_WidgetIterators$1_hasNext__Z(){
   return this.com_google_gwt_user_client_ui_WidgetIterators$1_index < this.com_google_gwt_user_client_ui_WidgetIterators$1_val$contained1.length;
 }
@@ -6091,7 +6091,7 @@ _.remove__V = function com_google_gwt_user_client_ui_WidgetIterators$1_remove__V
 _.com_google_gwt_user_client_ui_WidgetIterators$1_index = -1;
 _.com_google_gwt_user_client_ui_WidgetIterators$1_last = -1;
 _.com_google_gwt_user_client_ui_WidgetIterators$1_widgetsWasCopied = false;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1WidgetIterators$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'WidgetIterators/1', 307);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1WidgetIterators$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_49, 'WidgetIterators/1', 308);
 function com_google_gwt_user_client_ui_impl_PopupImpl_$setClip__Lcom_google_gwt_user_client_ui_impl_PopupImpl_2Lcom_google_gwt_dom_client_Element_2Ljava_lang_String_2V(popup, rect){
   com_google_gwt_dom_client_Style_$setPropertyImpl__Lcom_google_gwt_dom_client_Style_2Ljava_lang_String_2Ljava_lang_String_2V(popup.style, 'clip', rect);
 }
@@ -6108,9 +6108,9 @@ function java_lang_Error_Error__Ljava_lang_String_2Ljava_lang_Throwable_2V(messa
   java_lang_Throwable_Throwable__Ljava_lang_String_2Ljava_lang_Throwable_2V.call(this, message, cause);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(106, 6, $intern_8);
-var com_google_gwt_lang_ClassLiteralHolder_Ljava_1lang_1Error_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_3, 'Error', 106);
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(28, 106, $intern_8);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(108, 6, $intern_8);
+var com_google_gwt_lang_ClassLiteralHolder_Ljava_1lang_1Error_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_3, 'Error', 108);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(28, 108, $intern_8);
 var com_google_gwt_lang_ClassLiteralHolder_Ljava_1lang_1AssertionError_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_3, 'AssertionError', 28);
 function com_google_gwt_useragent_client_UserAgentAsserter$UserAgentAssertionError_UserAgentAsserter$UserAgentAssertionError__Ljava_lang_String_2Ljava_lang_String_2V(runtimeValue){
   java_lang_Error_Error__Ljava_lang_String_2Ljava_lang_Throwable_2V.call(this, '' + ($intern_74 + runtimeValue + ').\n' + $intern_75), com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z($intern_74 + runtimeValue + ').\n' + $intern_75, 6)?com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2($intern_74 + runtimeValue + ').\n' + $intern_75, 6):null);
@@ -6181,7 +6181,7 @@ function com_google_gwt_xml_client_XMLParser_$clinit__V(){
 function com_google_gwt_xml_client_XMLParser_removeWhitespaceInner__Lcom_google_gwt_xml_client_Node_2Lcom_google_gwt_xml_client_Node_2V(n, parent_0){
   com_google_gwt_xml_client_XMLParser_$clinit__V();
   var childNode, childNode$iterator, i, length_0, t, toBeProcessed;
-  if (!!parent_0 && com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(n, 175) && !com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(n, 385)) {
+  if (!!parent_0 && com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(n, 175) && !com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(n, 387)) {
     t = com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(n, 175);
     java_lang_String_$matches__Ljava_lang_String_2Ljava_lang_String_2Z(t.getData__Ljava_lang_String_2(), '[ \t\n]*') && parent_0.removeChild__Lcom_google_gwt_xml_client_Node_2Lcom_google_gwt_xml_client_Node_2(t);
   }
@@ -6287,8 +6287,8 @@ function com_google_gwt_xml_client_impl_AttrImpl_AttrImpl__Lcom_google_gwt_core_
   com_google_gwt_xml_client_impl_NodeImpl_NodeImpl__Lcom_google_gwt_core_client_JavaScriptObject_2V.call(this, o);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(287, 60, $intern_77, com_google_gwt_xml_client_impl_AttrImpl_AttrImpl__Lcom_google_gwt_core_client_JavaScriptObject_2V);
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1xml_1client_1impl_1AttrImpl_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_76, 'AttrImpl', 287);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(288, 60, $intern_77, com_google_gwt_xml_client_impl_AttrImpl_AttrImpl__Lcom_google_gwt_core_client_JavaScriptObject_2V);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1xml_1client_1impl_1AttrImpl_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_76, 'AttrImpl', 288);
 function com_google_gwt_xml_client_impl_CharacterDataImpl_CharacterDataImpl__Lcom_google_gwt_core_client_JavaScriptObject_2V(o){
   com_google_gwt_xml_client_impl_NodeImpl_NodeImpl__Lcom_google_gwt_core_client_JavaScriptObject_2V.call(this, o);
 }
@@ -6345,7 +6345,7 @@ function com_google_gwt_xml_client_impl_CDATASectionImpl_CDATASectionImpl__Lcom_
   com_google_gwt_xml_client_impl_TextImpl_TextImpl__Lcom_google_gwt_core_client_JavaScriptObject_2V.call(this, o);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(288, 151, {385:1, 49:1, 175:1, 24:1}, com_google_gwt_xml_client_impl_CDATASectionImpl_CDATASectionImpl__Lcom_google_gwt_core_client_JavaScriptObject_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(289, 151, {387:1, 49:1, 175:1, 24:1}, com_google_gwt_xml_client_impl_CDATASectionImpl_CDATASectionImpl__Lcom_google_gwt_core_client_JavaScriptObject_2V);
 _.toString__Ljava_lang_String_2$ = function com_google_gwt_xml_client_impl_CDATASectionImpl_toString__Ljava_lang_String_2(){
   var b;
   b = new java_lang_StringBuilder_StringBuilder__Ljava_lang_String_2V('<![CDATA[');
@@ -6354,12 +6354,12 @@ _.toString__Ljava_lang_String_2$ = function com_google_gwt_xml_client_impl_CDATA
   return b.java_lang_AbstractStringBuilder_string;
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1xml_1client_1impl_1CDATASectionImpl_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_76, 'CDATASectionImpl', 288);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1xml_1client_1impl_1CDATASectionImpl_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_76, 'CDATASectionImpl', 289);
 function com_google_gwt_xml_client_impl_CommentImpl_CommentImpl__Lcom_google_gwt_core_client_JavaScriptObject_2V(o){
   com_google_gwt_xml_client_impl_CharacterDataImpl_CharacterDataImpl__Lcom_google_gwt_core_client_JavaScriptObject_2V.call(this, o);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(289, 150, $intern_77, com_google_gwt_xml_client_impl_CommentImpl_CommentImpl__Lcom_google_gwt_core_client_JavaScriptObject_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(290, 150, $intern_77, com_google_gwt_xml_client_impl_CommentImpl_CommentImpl__Lcom_google_gwt_core_client_JavaScriptObject_2V);
 _.toString__Ljava_lang_String_2$ = function com_google_gwt_xml_client_impl_CommentImpl_toString__Ljava_lang_String_2(){
   var b;
   b = new java_lang_StringBuilder_StringBuilder__Ljava_lang_String_2V('<!--');
@@ -6368,14 +6368,14 @@ _.toString__Ljava_lang_String_2$ = function com_google_gwt_xml_client_impl_Comme
   return b.java_lang_AbstractStringBuilder_string;
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1xml_1client_1impl_1CommentImpl_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_76, 'CommentImpl', 289);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1xml_1client_1impl_1CommentImpl_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_76, 'CommentImpl', 290);
 function com_google_gwt_xml_client_impl_DOMNodeException_DOMNodeException__SLjava_lang_Throwable_2Lcom_google_gwt_xml_client_impl_DOMItem_2V(e, item_0){
   com_google_gwt_xml_client_DOMException_DOMException__SLjava_lang_String_2V.call(this, 'Error during DOM manipulation of: ' + com_google_gwt_xml_client_impl_DOMParseException_summarize__Ljava_lang_String_2Ljava_lang_String_2(item_0.toString__Ljava_lang_String_2$()));
   java_lang_Throwable_$initCause__Ljava_lang_Throwable_2Ljava_lang_Throwable_2Ljava_lang_Throwable_2(this, e);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(293, 147, $intern_9, com_google_gwt_xml_client_impl_DOMNodeException_DOMNodeException__SLjava_lang_Throwable_2Lcom_google_gwt_xml_client_impl_DOMItem_2V);
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1xml_1client_1impl_1DOMNodeException_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_76, 'DOMNodeException', 293);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(294, 147, $intern_9, com_google_gwt_xml_client_impl_DOMNodeException_DOMNodeException__SLjava_lang_Throwable_2Lcom_google_gwt_xml_client_impl_DOMItem_2V);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1xml_1client_1impl_1DOMNodeException_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_76, 'DOMNodeException', 294);
 function com_google_gwt_xml_client_impl_DOMParseException_DOMParseException__Ljava_lang_String_2Ljava_lang_Throwable_2V(contents, e){
   com_google_gwt_xml_client_DOMException_DOMException__SLjava_lang_String_2V.call(this, 'Failed to parse: ' + java_lang_String__1_1substr__Ljava_lang_String_2IILjava_lang_String_2(contents, 0, java_lang_Math_min__III(contents.length, 128)));
   java_lang_Throwable_$initCause__Ljava_lang_Throwable_2Ljava_lang_Throwable_2Ljava_lang_Throwable_2(this, e);
@@ -6385,31 +6385,31 @@ function com_google_gwt_xml_client_impl_DOMParseException_summarize__Ljava_lang_
   return java_lang_String__1_1substr__Ljava_lang_String_2IILjava_lang_String_2(text_0, 0, java_lang_Math_min__III(text_0.length, 128));
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(286, 147, $intern_9, com_google_gwt_xml_client_impl_DOMParseException_DOMParseException__Ljava_lang_String_2Ljava_lang_Throwable_2V);
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1xml_1client_1impl_1DOMParseException_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_76, 'DOMParseException', 286);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(287, 147, $intern_9, com_google_gwt_xml_client_impl_DOMParseException_DOMParseException__Ljava_lang_String_2Ljava_lang_Throwable_2V);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1xml_1client_1impl_1DOMParseException_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_76, 'DOMParseException', 287);
 function com_google_gwt_xml_client_impl_DocumentFragmentImpl_DocumentFragmentImpl__Lcom_google_gwt_core_client_JavaScriptObject_2V(o){
   com_google_gwt_xml_client_impl_NodeImpl_NodeImpl__Lcom_google_gwt_core_client_JavaScriptObject_2V.call(this, o);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(290, 60, $intern_77, com_google_gwt_xml_client_impl_DocumentFragmentImpl_DocumentFragmentImpl__Lcom_google_gwt_core_client_JavaScriptObject_2V);
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1xml_1client_1impl_1DocumentFragmentImpl_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_76, 'DocumentFragmentImpl', 290);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(291, 60, $intern_77, com_google_gwt_xml_client_impl_DocumentFragmentImpl_DocumentFragmentImpl__Lcom_google_gwt_core_client_JavaScriptObject_2V);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1xml_1client_1impl_1DocumentFragmentImpl_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_76, 'DocumentFragmentImpl', 291);
 function com_google_gwt_xml_client_impl_DocumentImpl_DocumentImpl__Lcom_google_gwt_core_client_JavaScriptObject_2V(o){
   com_google_gwt_xml_client_impl_NodeImpl_NodeImpl__Lcom_google_gwt_core_client_JavaScriptObject_2V.call(this, o);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(291, 60, {384:1, 49:1, 24:1}, com_google_gwt_xml_client_impl_DocumentImpl_DocumentImpl__Lcom_google_gwt_core_client_JavaScriptObject_2V);
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1xml_1client_1impl_1DocumentImpl_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_76, 'DocumentImpl', 291);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(292, 60, {386:1, 49:1, 24:1}, com_google_gwt_xml_client_impl_DocumentImpl_DocumentImpl__Lcom_google_gwt_core_client_JavaScriptObject_2V);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1xml_1client_1impl_1DocumentImpl_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_76, 'DocumentImpl', 292);
 function com_google_gwt_xml_client_impl_ElementImpl_ElementImpl__Lcom_google_gwt_core_client_JavaScriptObject_2V(o){
   com_google_gwt_xml_client_impl_NodeImpl_NodeImpl__Lcom_google_gwt_core_client_JavaScriptObject_2V.call(this, o);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(122, 60, {48:1, 49:1, 24:1, 122:1}, com_google_gwt_xml_client_impl_ElementImpl_ElementImpl__Lcom_google_gwt_core_client_JavaScriptObject_2V);
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1xml_1client_1impl_1ElementImpl_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_76, 'ElementImpl', 122);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(123, 60, {48:1, 49:1, 24:1, 123:1}, com_google_gwt_xml_client_impl_ElementImpl_ElementImpl__Lcom_google_gwt_core_client_JavaScriptObject_2V);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1xml_1client_1impl_1ElementImpl_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_76, 'ElementImpl', 123);
 function com_google_gwt_xml_client_impl_NodeListImpl_NodeListImpl__Lcom_google_gwt_core_client_JavaScriptObject_2V(o){
   com_google_gwt_xml_client_impl_DOMItem_DOMItem__Lcom_google_gwt_core_client_JavaScriptObject_2V.call(this, o);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(46, 24, {24:1}, com_google_gwt_xml_client_impl_NodeListImpl_NodeListImpl__Lcom_google_gwt_core_client_JavaScriptObject_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(47, 24, {24:1}, com_google_gwt_xml_client_impl_NodeListImpl_NodeListImpl__Lcom_google_gwt_core_client_JavaScriptObject_2V);
 _.getLength__I = function com_google_gwt_xml_client_impl_NodeListImpl_getLength__I(){
   return com_google_gwt_xml_client_impl_XMLParserImpl_getLength__Lcom_google_gwt_core_client_JavaScriptObject_2I(this.com_google_gwt_xml_client_impl_DOMItem_jsObject);
 }
@@ -6427,12 +6427,12 @@ _.toString__Ljava_lang_String_2$ = function com_google_gwt_xml_client_impl_NodeL
   return b.java_lang_AbstractStringBuilder_string;
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1xml_1client_1impl_1NodeListImpl_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_76, 'NodeListImpl', 46);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1xml_1client_1impl_1NodeListImpl_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_76, 'NodeListImpl', 47);
 function com_google_gwt_xml_client_impl_NamedNodeMapImpl_NamedNodeMapImpl__Lcom_google_gwt_core_client_JavaScriptObject_2V(o){
   com_google_gwt_xml_client_impl_NodeListImpl_NodeListImpl__Lcom_google_gwt_core_client_JavaScriptObject_2V.call(this, o);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(294, 46, {24:1}, com_google_gwt_xml_client_impl_NamedNodeMapImpl_NamedNodeMapImpl__Lcom_google_gwt_core_client_JavaScriptObject_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(295, 47, {24:1}, com_google_gwt_xml_client_impl_NamedNodeMapImpl_NamedNodeMapImpl__Lcom_google_gwt_core_client_JavaScriptObject_2V);
 _.getLength__I = function com_google_gwt_xml_client_impl_NamedNodeMapImpl_getLength__I(){
   return com_google_gwt_xml_client_impl_XMLParserImpl_getLength__Lcom_google_gwt_core_client_JavaScriptObject_2I(this.com_google_gwt_xml_client_impl_DOMItem_jsObject);
 }
@@ -6441,17 +6441,17 @@ _.item__ILcom_google_gwt_xml_client_Node_2 = function com_google_gwt_xml_client_
   return com_google_gwt_xml_client_impl_NodeImpl_build__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_xml_client_Node_2(com_google_gwt_xml_client_impl_XMLParserImpl_item__Lcom_google_gwt_core_client_JavaScriptObject_2ILcom_google_gwt_core_client_JavaScriptObject_2(this.com_google_gwt_xml_client_impl_DOMItem_jsObject, index_0));
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1xml_1client_1impl_1NamedNodeMapImpl_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_76, 'NamedNodeMapImpl', 294);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1xml_1client_1impl_1NamedNodeMapImpl_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_76, 'NamedNodeMapImpl', 295);
 function com_google_gwt_xml_client_impl_ProcessingInstructionImpl_ProcessingInstructionImpl__Lcom_google_gwt_core_client_JavaScriptObject_2V(o){
   com_google_gwt_xml_client_impl_NodeImpl_NodeImpl__Lcom_google_gwt_core_client_JavaScriptObject_2V.call(this, o);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(292, 60, $intern_77, com_google_gwt_xml_client_impl_ProcessingInstructionImpl_ProcessingInstructionImpl__Lcom_google_gwt_core_client_JavaScriptObject_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(293, 60, $intern_77, com_google_gwt_xml_client_impl_ProcessingInstructionImpl_ProcessingInstructionImpl__Lcom_google_gwt_core_client_JavaScriptObject_2V);
 _.toString__Ljava_lang_String_2$ = function com_google_gwt_xml_client_impl_ProcessingInstructionImpl_toString__Ljava_lang_String_2(){
   return com_google_gwt_xml_client_impl_XMLParserImpl_$clinit__V() , com_google_gwt_xml_client_impl_XMLParserImplStandard_$toStringImpl__Lcom_google_gwt_xml_client_impl_XMLParserImplStandard_2Lcom_google_gwt_xml_client_impl_NodeImpl_2Ljava_lang_String_2(this);
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1xml_1client_1impl_1ProcessingInstructionImpl_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_76, 'ProcessingInstructionImpl', 292);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1xml_1client_1impl_1ProcessingInstructionImpl_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_76, 'ProcessingInstructionImpl', 293);
 function com_google_gwt_xml_client_impl_XMLParserImpl_$clinit__V(){
   com_google_gwt_xml_client_impl_XMLParserImpl_$clinit__V = com_google_gwt_lang_JavaClassHierarchySetupUtil_emptyMethod__V;
   com_google_gwt_xml_client_impl_XMLParserImpl_impl = new com_google_gwt_xml_client_impl_XMLParserImplStandard_XMLParserImplStandard__V;
@@ -6460,7 +6460,7 @@ function com_google_gwt_xml_client_impl_XMLParserImpl_$clinit__V(){
 function com_google_gwt_xml_client_impl_XMLParserImpl_$parse__Lcom_google_gwt_xml_client_impl_XMLParserImpl_2Ljava_lang_String_2Lcom_google_gwt_xml_client_Document_2(this$static, contents){
   var e;
   try {
-    return com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(com_google_gwt_xml_client_impl_NodeImpl_build__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_xml_client_Node_2(com_google_gwt_xml_client_impl_XMLParserImplStandard_$parseImpl__Lcom_google_gwt_xml_client_impl_XMLParserImplStandard_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2(this$static, contents)), 384);
+    return com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(com_google_gwt_xml_client_impl_NodeImpl_build__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_xml_client_Node_2(com_google_gwt_xml_client_impl_XMLParserImplStandard_$parseImpl__Lcom_google_gwt_xml_client_impl_XMLParserImplStandard_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2(this$static, contents)), 386);
   }
    catch ($e0) {
     $e0 = com_google_gwt_lang_Exceptions_wrap__Ljava_lang_Object_2Ljava_lang_Object_2($e0);
@@ -6547,9 +6547,9 @@ function com_google_gwt_xml_client_impl_XMLParserImpl_removeChild__Lcom_google_g
   return jsObject.removeChild(oldChildJs);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(376, 1, {});
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(378, 1, {});
 var com_google_gwt_xml_client_impl_XMLParserImpl_impl;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1xml_1client_1impl_1XMLParserImpl_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_76, 'XMLParserImpl', 376);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1xml_1client_1impl_1XMLParserImpl_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_76, 'XMLParserImpl', 378);
 function com_google_gwt_xml_client_impl_XMLParserImplStandard_$getPrefixImpl__Lcom_google_gwt_xml_client_impl_XMLParserImplStandard_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_String_2(jsObject){
   var fullName;
   fullName = com_google_gwt_xml_client_impl_XMLParserImpl_getNodeName__Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_String_2(jsObject);
@@ -6578,8 +6578,8 @@ function com_google_gwt_xml_client_impl_XMLParserImplStandard_XMLParserImplStand
   this.com_google_gwt_xml_client_impl_XMLParserImplStandard_domParser = new DOMParser;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(285, 376, {}, com_google_gwt_xml_client_impl_XMLParserImplStandard_XMLParserImplStandard__V);
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1xml_1client_1impl_1XMLParserImplStandard_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_76, 'XMLParserImplStandard', 285);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(286, 378, {}, com_google_gwt_xml_client_impl_XMLParserImplStandard_XMLParserImplStandard__V);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1xml_1client_1impl_1XMLParserImplStandard_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_76, 'XMLParserImplStandard', 286);
 function com_google_web_bindery_event_shared_SimpleEventBus$1_$removeHandler__Lcom_google_web_bindery_event_shared_SimpleEventBus$1_2V(this$static){
   com_google_gwt_event_shared_HandlerManager$Bus_$doRemove__Lcom_google_gwt_event_shared_HandlerManager$Bus_2Lcom_google_web_bindery_event_shared_Event$Type_2Ljava_lang_Object_2Ljava_lang_Object_2V(this$static.com_google_web_bindery_event_shared_SimpleEventBus$1_this$01, this$static.com_google_web_bindery_event_shared_SimpleEventBus$1_val$type2, this$static.com_google_web_bindery_event_shared_SimpleEventBus$1_val$source3, this$static.com_google_web_bindery_event_shared_SimpleEventBus$1_val$handler4);
 }
@@ -6600,7 +6600,7 @@ function com_google_web_bindery_event_shared_SimpleEventBus$2_SimpleEventBus$2__
   this.com_google_web_bindery_event_shared_SimpleEventBus$2_val$handler4 = val$handler;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(220, 1, {345:1}, com_google_web_bindery_event_shared_SimpleEventBus$2_SimpleEventBus$2__Lcom_google_web_bindery_event_shared_SimpleEventBus_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(220, 1, {347:1}, com_google_web_bindery_event_shared_SimpleEventBus$2_SimpleEventBus$2__Lcom_google_web_bindery_event_shared_SimpleEventBus_2V);
 _.execute__V = function com_google_web_bindery_event_shared_SimpleEventBus$2_execute__V(){
   com_google_web_bindery_event_shared_SimpleEventBus_$doAddNow__Lcom_google_web_bindery_event_shared_SimpleEventBus_2Lcom_google_web_bindery_event_shared_Event$Type_2Ljava_lang_Object_2Ljava_lang_Object_2V(this.com_google_web_bindery_event_shared_SimpleEventBus$2_this$01, this.com_google_web_bindery_event_shared_SimpleEventBus$2_val$type2, this.com_google_web_bindery_event_shared_SimpleEventBus$2_val$source3, this.com_google_web_bindery_event_shared_SimpleEventBus$2_val$handler4);
 }
@@ -6613,7 +6613,7 @@ function com_google_web_bindery_event_shared_SimpleEventBus$3_SimpleEventBus$3__
   this.com_google_web_bindery_event_shared_SimpleEventBus$3_val$handler4 = val$handler;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(221, 1, {345:1}, com_google_web_bindery_event_shared_SimpleEventBus$3_SimpleEventBus$3__Lcom_google_web_bindery_event_shared_SimpleEventBus_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(221, 1, {347:1}, com_google_web_bindery_event_shared_SimpleEventBus$3_SimpleEventBus$3__Lcom_google_web_bindery_event_shared_SimpleEventBus_2V);
 _.execute__V = function com_google_web_bindery_event_shared_SimpleEventBus$3_execute__V(){
   com_google_web_bindery_event_shared_SimpleEventBus_$doRemoveNow__Lcom_google_web_bindery_event_shared_SimpleEventBus_2Lcom_google_web_bindery_event_shared_Event$Type_2Ljava_lang_Object_2Ljava_lang_Object_2V(this.com_google_web_bindery_event_shared_SimpleEventBus$3_this$01, this.com_google_web_bindery_event_shared_SimpleEventBus$3_val$type2, this.com_google_web_bindery_event_shared_SimpleEventBus$3_val$source3, this.com_google_web_bindery_event_shared_SimpleEventBus$3_val$handler4);
 }
@@ -6889,7 +6889,7 @@ function com_sensia_gwt_relaxNG_RNGParser_$parseRNGObjectName__Lcom_sensia_gwt_r
     for (i = 0; i < children.getLength__I(); i++) {
       node = children.item__ILcom_google_gwt_xml_client_Node_2(i);
       if (com_google_gwt_xml_client_impl_XMLParserImpl_getNodeType__Lcom_google_gwt_core_client_JavaScriptObject_2S(node.com_google_gwt_xml_client_impl_DOMItem_jsObject) == 1 && java_lang_String_$equals__Ljava_lang_String_2Ljava_lang_Object_2Z(com_sensia_gwt_relaxNG_RNGParser_$getLocalName__Lcom_sensia_gwt_relaxNG_RNGParser_2Lcom_google_gwt_xml_client_Node_2Ljava_lang_String_2(this$static, node), $intern_80)) {
-        nsUri = com_google_gwt_xml_client_impl_XMLParserImpl_getAttribute__Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_String_2Ljava_lang_String_2(com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(node, 48), 122).com_google_gwt_xml_client_impl_DOMItem_jsObject, 'ns');
+        nsUri = com_google_gwt_xml_client_impl_XMLParserImpl_getAttribute__Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_String_2Ljava_lang_String_2(com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(node, 48), 123).com_google_gwt_xml_client_impl_DOMItem_jsObject, 'ns');
         localName = com_sensia_gwt_relaxNG_RNGParser_$getTextValue__Lcom_sensia_gwt_relaxNG_RNGParser_2Lcom_google_gwt_xml_client_Node_2Ljava_lang_String_2(elt);
         return new com_sensia_gwt_relaxNG_RNGParser$QName_RNGParser$QName__Lcom_sensia_gwt_relaxNG_RNGParser_2Ljava_lang_String_2Ljava_lang_String_2V(nsUri, localName);
       }
@@ -7029,14 +7029,14 @@ function com_sensia_relaxNG_RNGChoice_RNGChoice__V(){
   com_sensia_relaxNG_RNGTagList_RNGTagList__V.call(this);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(99, 20, {99:1, 18:1, 20:1, 3:1}, com_sensia_relaxNG_RNGChoice_RNGChoice__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(100, 20, {100:1, 18:1, 20:1, 3:1}, com_sensia_relaxNG_RNGChoice_RNGChoice__V);
 _.accept__Lcom_sensia_relaxNG_RNGTagVisitor_2V = function com_sensia_relaxNG_RNGChoice_accept__Lcom_sensia_relaxNG_RNGTagVisitor_2V(visitor){
   com_sensia_swetools_editors_sensorml_client_v2_RNGRenderer_$pushAndVisitChildren__Lcom_sensia_swetools_editors_sensorml_client_v2_RNGRenderer_2Lcom_sensia_swetools_editors_sensorml_client_v2_ISensorWidget_2Ljava_util_List_2V(visitor, new com_sensia_swetools_editors_sensorml_client_v2_panels_base_SensorChoiceWidget_SensorChoiceWidget__V, this.com_sensia_relaxNG_RNGTagList_children);
 }
 ;
 _.clone__Lcom_sensia_relaxNG_RNGTagList_2 = function com_sensia_relaxNG_RNGChoice_clone__Lcom_sensia_relaxNG_RNGTagList_2(){
   var com_sensia_relaxNG_RNGChoice_$clone__Lcom_sensia_relaxNG_RNGChoice_2Lcom_sensia_relaxNG_RNGChoice_2_newTag_0;
-  return com_sensia_relaxNG_RNGChoice_$clone__Lcom_sensia_relaxNG_RNGChoice_2Lcom_sensia_relaxNG_RNGChoice_2_newTag_0 = com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(com_sensia_relaxNG_RNGTagList_$clone__Lcom_sensia_relaxNG_RNGTagList_2Lcom_sensia_relaxNG_RNGTagList_2(this), 99) , com_sensia_relaxNG_RNGChoice_$clone__Lcom_sensia_relaxNG_RNGChoice_2Lcom_sensia_relaxNG_RNGChoice_2_newTag_0.com_sensia_relaxNG_RNGChoice_selectedIndex = this.com_sensia_relaxNG_RNGChoice_selectedIndex , com_sensia_relaxNG_RNGChoice_$clone__Lcom_sensia_relaxNG_RNGChoice_2Lcom_sensia_relaxNG_RNGChoice_2_newTag_0;
+  return com_sensia_relaxNG_RNGChoice_$clone__Lcom_sensia_relaxNG_RNGChoice_2Lcom_sensia_relaxNG_RNGChoice_2_newTag_0 = com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(com_sensia_relaxNG_RNGTagList_$clone__Lcom_sensia_relaxNG_RNGTagList_2Lcom_sensia_relaxNG_RNGTagList_2(this), 100) , com_sensia_relaxNG_RNGChoice_$clone__Lcom_sensia_relaxNG_RNGChoice_2Lcom_sensia_relaxNG_RNGChoice_2_newTag_0.com_sensia_relaxNG_RNGChoice_selectedIndex = this.com_sensia_relaxNG_RNGChoice_selectedIndex , com_sensia_relaxNG_RNGChoice_$clone__Lcom_sensia_relaxNG_RNGChoice_2Lcom_sensia_relaxNG_RNGChoice_2_newTag_0;
 }
 ;
 _.newInstance__Lcom_sensia_relaxNG_RNGTag_2 = function com_sensia_relaxNG_RNGChoice_newInstance__Lcom_sensia_relaxNG_RNGTag_2(){
@@ -7044,7 +7044,7 @@ _.newInstance__Lcom_sensia_relaxNG_RNGTag_2 = function com_sensia_relaxNG_RNGCho
 }
 ;
 _.com_sensia_relaxNG_RNGChoice_selectedIndex = -1;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1sensia_1relaxNG_1RNGChoice_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_83, 'RNGChoice', 99);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1sensia_1relaxNG_1RNGChoice_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_83, 'RNGChoice', 100);
 function com_sensia_relaxNG_RNGData_$setConfirmed__Lcom_sensia_relaxNG_RNGData_2ZV(this$static, confirmed){
   this$static.com_sensia_relaxNG_RNGData_confirmed = confirmed;
 }
@@ -7196,20 +7196,20 @@ function com_sensia_relaxNG_RNGList_RNGList__V(){
   this.com_sensia_relaxNG_RNGTagList_children = new java_util_ArrayList_ArrayList__V;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(100, 20, {100:1, 18:1, 20:1, 3:1}, com_sensia_relaxNG_RNGList_RNGList__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(101, 20, {101:1, 18:1, 20:1, 3:1}, com_sensia_relaxNG_RNGList_RNGList__V);
 _.accept__Lcom_sensia_relaxNG_RNGTagVisitor_2V = function com_sensia_relaxNG_RNGList_accept__Lcom_sensia_relaxNG_RNGTagVisitor_2V(visitor){
   com_sensia_swetools_editors_sensorml_client_v2_RNGRenderer_$visitChildren__Lcom_sensia_swetools_editors_sensorml_client_v2_RNGRenderer_2Ljava_util_List_2V(visitor, this.com_sensia_relaxNG_RNGTagList_children);
 }
 ;
 _.clone__Lcom_sensia_relaxNG_RNGTagList_2 = function com_sensia_relaxNG_RNGList_clone__Lcom_sensia_relaxNG_RNGTagList_2(){
-  return com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(com_sensia_relaxNG_RNGTagList_$clone__Lcom_sensia_relaxNG_RNGTagList_2Lcom_sensia_relaxNG_RNGTagList_2(this), 100);
+  return com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(com_sensia_relaxNG_RNGTagList_$clone__Lcom_sensia_relaxNG_RNGTagList_2Lcom_sensia_relaxNG_RNGTagList_2(this), 101);
 }
 ;
 _.newInstance__Lcom_sensia_relaxNG_RNGTag_2 = function com_sensia_relaxNG_RNGList_newInstance__Lcom_sensia_relaxNG_RNGTag_2(){
   return new com_sensia_relaxNG_RNGList_RNGList__V;
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1sensia_1relaxNG_1RNGList_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_83, 'RNGList', 100);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1sensia_1relaxNG_1RNGList_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_83, 'RNGList', 101);
 function com_sensia_relaxNG_RNGZeroOrMore_RNGZeroOrMore__V(){
   com_sensia_relaxNG_RNGTagList_RNGTagList__V.call(this);
   new java_util_ArrayList_ArrayList__V;
@@ -7312,20 +7312,20 @@ var com_google_gwt_lang_ClassLiteralHolder_Lcom_1sensia_1relaxNG_1RNGRef_12_1cla
 function com_sensia_relaxNG_RNGText_RNGText__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(101, 18, {18:1, 101:1, 3:1}, com_sensia_relaxNG_RNGText_RNGText__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(102, 18, {18:1, 102:1, 3:1}, com_sensia_relaxNG_RNGText_RNGText__V);
 _.accept__Lcom_sensia_relaxNG_RNGTagVisitor_2V = function com_sensia_relaxNG_RNGText_accept__Lcom_sensia_relaxNG_RNGTagVisitor_2V(visitor){
 }
 ;
 _.clone__Lcom_sensia_relaxNG_RNGTag_2 = function com_sensia_relaxNG_RNGText_clone__Lcom_sensia_relaxNG_RNGTag_2(){
   var com_sensia_relaxNG_RNGText_$clone__Lcom_sensia_relaxNG_RNGText_2Lcom_sensia_relaxNG_RNGText_2_newTag_0;
-  return com_sensia_relaxNG_RNGText_$clone__Lcom_sensia_relaxNG_RNGText_2Lcom_sensia_relaxNG_RNGText_2_newTag_0 = com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(com_sensia_relaxNG_RNGTag_$clone__Lcom_sensia_relaxNG_RNGTag_2Lcom_sensia_relaxNG_RNGTag_2(this), 101) , com_sensia_relaxNG_RNGText_$clone__Lcom_sensia_relaxNG_RNGText_2Lcom_sensia_relaxNG_RNGText_2_newTag_0.com_sensia_relaxNG_RNGText_text = this.com_sensia_relaxNG_RNGText_text , com_sensia_relaxNG_RNGText_$clone__Lcom_sensia_relaxNG_RNGText_2Lcom_sensia_relaxNG_RNGText_2_newTag_0;
+  return com_sensia_relaxNG_RNGText_$clone__Lcom_sensia_relaxNG_RNGText_2Lcom_sensia_relaxNG_RNGText_2_newTag_0 = com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(com_sensia_relaxNG_RNGTag_$clone__Lcom_sensia_relaxNG_RNGTag_2Lcom_sensia_relaxNG_RNGTag_2(this), 102) , com_sensia_relaxNG_RNGText_$clone__Lcom_sensia_relaxNG_RNGText_2Lcom_sensia_relaxNG_RNGText_2_newTag_0.com_sensia_relaxNG_RNGText_text = this.com_sensia_relaxNG_RNGText_text , com_sensia_relaxNG_RNGText_$clone__Lcom_sensia_relaxNG_RNGText_2Lcom_sensia_relaxNG_RNGText_2_newTag_0;
 }
 ;
 _.newInstance__Lcom_sensia_relaxNG_RNGTag_2 = function com_sensia_relaxNG_RNGText_newInstance__Lcom_sensia_relaxNG_RNGTag_2(){
   return new com_sensia_relaxNG_RNGText_RNGText__V;
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1sensia_1relaxNG_1RNGText_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_83, 'RNGText', 101);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1sensia_1relaxNG_1RNGText_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_83, 'RNGText', 102);
 function com_sensia_relaxNG_RNGValue_$setText__Lcom_sensia_relaxNG_RNGValue_2Ljava_lang_String_2V(this$static, text_0){
   this$static.com_sensia_relaxNG_RNGValue_text = text_0;
 }
@@ -7378,7 +7378,7 @@ function com_sensia_relaxNG_XSDString_XSDString__V(){
   com_sensia_relaxNG_RNGData_RNGData__V.call(this);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(102, 25, $intern_84, com_sensia_relaxNG_XSDString_XSDString__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(103, 25, $intern_84, com_sensia_relaxNG_XSDString_XSDString__V);
 _.accept__Lcom_sensia_relaxNG_RNGTagVisitor_2V = function com_sensia_relaxNG_XSDString_accept__Lcom_sensia_relaxNG_RNGTagVisitor_2V(visitor){
   com_sensia_swetools_editors_sensorml_client_v2_RNGRenderer_$push__Lcom_sensia_swetools_editors_sensorml_client_v2_RNGRenderer_2Lcom_sensia_swetools_editors_sensorml_client_v2_ISensorWidget_2V(visitor, new com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDStringWidget_SensorXSDStringWidget__Lcom_sensia_relaxNG_XSDString_2V(this));
 }
@@ -7391,12 +7391,12 @@ _.newInstance__Lcom_sensia_relaxNG_RNGTag_2 = function com_sensia_relaxNG_XSDStr
   return new com_sensia_relaxNG_XSDString_XSDString__V;
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1sensia_1relaxNG_1XSDString_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_83, 'XSDString', 102);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1sensia_1relaxNG_1XSDString_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_83, 'XSDString', 103);
 function com_sensia_relaxNG_XSDAnyURI_XSDAnyURI__V(){
   com_sensia_relaxNG_XSDString_XSDString__V.call(this);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(156, 102, $intern_84, com_sensia_relaxNG_XSDAnyURI_XSDAnyURI__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(156, 103, $intern_84, com_sensia_relaxNG_XSDAnyURI_XSDAnyURI__V);
 _.accept__Lcom_sensia_relaxNG_RNGTagVisitor_2V = function com_sensia_relaxNG_XSDAnyURI_accept__Lcom_sensia_relaxNG_RNGTagVisitor_2V(visitor){
   com_sensia_swetools_editors_sensorml_client_v2_RNGRenderer_$push__Lcom_sensia_swetools_editors_sensorml_client_v2_RNGRenderer_2Lcom_sensia_swetools_editors_sensorml_client_v2_ISensorWidget_2V(visitor, new com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDAnyURIWidget_SensorXSDAnyURIWidget__Lcom_sensia_relaxNG_XSDAnyURI_2V(this));
 }
@@ -7492,7 +7492,7 @@ function com_sensia_relaxNG_XSDDecimal_XSDDecimal__V(){
   com_sensia_relaxNG_RNGData_RNGData__V.call(this);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(123, 25, $intern_84, com_sensia_relaxNG_XSDDecimal_XSDDecimal__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(124, 25, $intern_84, com_sensia_relaxNG_XSDDecimal_XSDDecimal__V);
 _.accept__Lcom_sensia_relaxNG_RNGTagVisitor_2V = function com_sensia_relaxNG_XSDDecimal_accept__Lcom_sensia_relaxNG_RNGTagVisitor_2V(visitor){
   com_sensia_swetools_editors_sensorml_client_v2_RNGRenderer_$push__Lcom_sensia_swetools_editors_sensorml_client_v2_RNGRenderer_2Lcom_sensia_swetools_editors_sensorml_client_v2_ISensorWidget_2V(visitor, new com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDDecimalWidget_SensorXSDDecimalWidget__Lcom_sensia_relaxNG_RNGData_2V(this));
 }
@@ -7519,12 +7519,12 @@ _.newInstance__Lcom_sensia_relaxNG_RNGTag_2 = function com_sensia_relaxNG_XSDDec
   return new com_sensia_relaxNG_XSDDecimal_XSDDecimal__V;
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1sensia_1relaxNG_1XSDDecimal_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_83, 'XSDDecimal', 123);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1sensia_1relaxNG_1XSDDecimal_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_83, 'XSDDecimal', 124);
 function com_sensia_relaxNG_XSDDouble_XSDDouble__V(){
   com_sensia_relaxNG_XSDDecimal_XSDDecimal__V.call(this);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(154, 123, $intern_84, com_sensia_relaxNG_XSDDouble_XSDDouble__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(154, 124, $intern_84, com_sensia_relaxNG_XSDDouble_XSDDouble__V);
 _.accept__Lcom_sensia_relaxNG_RNGTagVisitor_2V = function com_sensia_relaxNG_XSDDouble_accept__Lcom_sensia_relaxNG_RNGTagVisitor_2V(visitor){
   com_sensia_swetools_editors_sensorml_client_v2_RNGRenderer_$push__Lcom_sensia_swetools_editors_sensorml_client_v2_RNGRenderer_2Lcom_sensia_swetools_editors_sensorml_client_v2_ISensorWidget_2V(visitor, new com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDDoubleWidget_SensorXSDDoubleWidget__Lcom_sensia_relaxNG_XSDDouble_2V(this));
 }
@@ -7596,7 +7596,7 @@ function com_sensia_relaxNG_XSDToken_XSDToken__V(){
   com_sensia_relaxNG_XSDString_XSDString__V.call(this);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(157, 102, $intern_84, com_sensia_relaxNG_XSDToken_XSDToken__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(157, 103, $intern_84, com_sensia_relaxNG_XSDToken_XSDToken__V);
 _.accept__Lcom_sensia_relaxNG_RNGTagVisitor_2V = function com_sensia_relaxNG_XSDToken_accept__Lcom_sensia_relaxNG_RNGTagVisitor_2V(visitor){
   com_sensia_swetools_editors_sensorml_client_v2_RNGRenderer_$push__Lcom_sensia_swetools_editors_sensorml_client_v2_RNGRenderer_2Lcom_sensia_swetools_editors_sensorml_client_v2_ISensorWidget_2V(visitor, new com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDStringWidget_SensorXSDStringWidget__Lcom_sensia_relaxNG_XSDString_2V(this));
 }
@@ -7635,7 +7635,7 @@ _.onParseDone__Lcom_sensia_relaxNG_RNGGrammar_2V = function com_sensia_swetools_
   com_sensia_swetools_editors_sensorml_client_v2_RNGRenderer_$push__Lcom_sensia_swetools_editors_sensorml_client_v2_RNGRenderer_2Lcom_sensia_swetools_editors_sensorml_client_v2_ISensorWidget_2V(renderer, new com_sensia_swetools_editors_sensorml_client_v2_panels_sml_SensorSectionsWidget_SensorSectionsWidget__V);
   com_sensia_swetools_editors_sensorml_client_v2_RNGRenderer_$visit__Lcom_sensia_swetools_editors_sensorml_client_v2_RNGRenderer_2Lcom_sensia_relaxNG_RNGGrammar_2V(renderer, grammar);
   for (observer$iterator = new java_util_AbstractList$IteratorImpl_AbstractList$IteratorImpl__Ljava_util_AbstractList_2V(this.com_sensia_swetools_editors_sensorml_client_RNGProcessorSML$1_this$01.com_sensia_swetools_editors_sensorml_client_RNGProcessorSML_observers); observer$iterator.java_util_AbstractList$IteratorImpl_i < observer$iterator.java_util_AbstractList$IteratorImpl_this$01.size__I();) {
-    observer = (com_google_gwt_core_shared_impl_InternalPreconditions_checkCriticalElement__ZV(observer$iterator.java_util_AbstractList$IteratorImpl_i < observer$iterator.java_util_AbstractList$IteratorImpl_this$01.size__I()) , com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(observer$iterator.java_util_AbstractList$IteratorImpl_this$01.get__ILjava_lang_Object_2(observer$iterator.java_util_AbstractList$IteratorImpl_last = observer$iterator.java_util_AbstractList$IteratorImpl_i++), 344));
+    observer = (com_google_gwt_core_shared_impl_InternalPreconditions_checkCriticalElement__ZV(observer$iterator.java_util_AbstractList$IteratorImpl_i < observer$iterator.java_util_AbstractList$IteratorImpl_this$01.size__I()) , com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(observer$iterator.java_util_AbstractList$IteratorImpl_this$01.get__ILjava_lang_Object_2(observer$iterator.java_util_AbstractList$IteratorImpl_last = observer$iterator.java_util_AbstractList$IteratorImpl_i++), 346));
     observer.parseDone__Lcom_sensia_swetools_editors_sensorml_client_v2_ISensorWidget_2V(com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(java_util_Stack_$peek__Ljava_util_Stack_2Ljava_lang_Object_2(renderer.com_sensia_swetools_editors_sensorml_client_v2_RNGRenderer_stack), 16));
   }
 }
@@ -7675,13 +7675,14 @@ _.onClick__Lcom_google_gwt_event_dom_client_ClickEvent_2V = function com_sensia_
     url_0 = 'rng1.0/profiles/CSM/' + value_0 + '.rng';
     com_sensia_swetools_editors_sensorml_client_RNGProcessorSML_$parse__Lcom_sensia_swetools_editors_sensorml_client_RNGProcessorSML_2Ljava_lang_String_2V(this.com_sensia_swetools_editors_sensorml_client_listeners_LoadButtonClickListener_sgmlEditorProcessor, url_0);
     com_google_gwt_user_client_ui_UIObject_$setVisible__Lcom_google_gwt_user_client_ui_UIObject_2ZV(this.com_sensia_swetools_editors_sensorml_client_listeners_LoadButtonClickListener_edit, true);
+    com_google_gwt_user_client_ui_CheckBox_$setValue__Lcom_google_gwt_user_client_ui_CheckBox_2Ljava_lang_Boolean_2ZV(this.com_sensia_swetools_editors_sensorml_client_listeners_LoadButtonClickListener_edit, (java_lang_Boolean_$clinit__V() , java_lang_Boolean_$clinit__V() , java_lang_Boolean_FALSE));
   }
 }
 ;
 var com_google_gwt_lang_ClassLiteralHolder_Lcom_1sensia_1swetools_1editors_1sensorml_1client_1listeners_1LoadButtonClickListener_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2('com.sensia.swetools.editors.sensorml.client.listeners', 'LoadButtonClickListener', 266);
 function com_sensia_swetools_editors_sensorml_client_panels_CenterPanel_CenterPanel__Lcom_sensia_swetools_editors_sensorml_client_RNGProcessorSML_2V(sgmlEditorProcessor){
   var load, panel, profile, profile$array, profile$index, profile$max, profileListBox, title_0, verticalPanel;
-  this.com_sensia_swetools_editors_sensorml_client_panels_CenterPanel_LIST_1PROFILES = com_google_gwt_lang_Array_initValues__Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2ILjava_lang_Object_2Ljava_lang_Object_2(com_google_gwt_lang_Array_getClassLiteralForArray__Ljava_lang_Class_2ILjava_lang_Class_2(com_google_gwt_lang_ClassLiteralHolder_Ljava_1lang_1String_12_1classLit, 1), $intern_16, 2, 4, ['anemometer', 'frame-sensor-model', 'csm-common', 'geopositioning-models', 'optical-sensor-parameters', 'pushbroom-sensor-model', 'scanner-sensor-parameters', 'whiskbroom-sensor-model']);
+  this.com_sensia_swetools_editors_sensorml_client_panels_CenterPanel_LIST_1PROFILES = com_google_gwt_lang_Array_initValues__Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2ILjava_lang_Object_2Ljava_lang_Object_2(com_google_gwt_lang_Array_getClassLiteralForArray__Ljava_lang_Class_2ILjava_lang_Class_2(com_google_gwt_lang_ClassLiteralHolder_Ljava_1lang_1String_12_1classLit, 1), $intern_16, 2, 4, ['anemometer']);
   java_util_ArrayList_$add__Ljava_util_ArrayList_2Ljava_lang_Object_2Z(sgmlEditorProcessor.com_sensia_swetools_editors_sensorml_client_RNGProcessorSML_observers, this);
   panel = new com_google_gwt_user_client_ui_HorizontalPanel_HorizontalPanel__V;
   com_google_gwt_dom_client_Element_$setPropertyInt__Lcom_google_gwt_dom_client_Element_2Ljava_lang_String_2IV(panel.com_google_gwt_user_client_ui_CellPanel_table, $intern_56, 20);
@@ -7709,7 +7710,7 @@ function com_sensia_swetools_editors_sensorml_client_panels_CenterPanel_CenterPa
   com_google_gwt_user_client_ui_Widget_$addDomHandler__Lcom_google_gwt_user_client_ui_Widget_2Lcom_google_gwt_event_shared_EventHandler_2Lcom_google_gwt_event_dom_client_DomEvent$Type_2Lcom_google_gwt_event_shared_HandlerRegistration_2(load, new com_sensia_swetools_editors_sensorml_client_listeners_LoadButtonClickListener_LoadButtonClickListener__Lcom_google_gwt_user_client_ui_ListBox_2Lcom_sensia_swetools_editors_sensorml_client_RNGProcessorSML_2Lcom_google_gwt_user_client_ui_CheckBox_2V(profileListBox, sgmlEditorProcessor, this.com_sensia_swetools_editors_sensorml_client_panels_CenterPanel_edit), (null , com_google_gwt_event_dom_client_ClickEvent_TYPE));
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(229, 371, $intern_92, com_sensia_swetools_editors_sensorml_client_panels_CenterPanel_CenterPanel__Lcom_sensia_swetools_editors_sensorml_client_RNGProcessorSML_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(229, 373, $intern_92, com_sensia_swetools_editors_sensorml_client_panels_CenterPanel_CenterPanel__Lcom_sensia_swetools_editors_sensorml_client_RNGProcessorSML_2V);
 _.parseDone__Lcom_sensia_swetools_editors_sensorml_client_v2_ISensorWidget_2V = function com_sensia_swetools_editors_sensorml_client_panels_CenterPanel_parseDone__Lcom_sensia_swetools_editors_sensorml_client_v2_ISensorWidget_2V(topElement){
   com_google_gwt_user_client_ui_Panel_$clear__Lcom_google_gwt_user_client_ui_Panel_2V(this.com_sensia_swetools_editors_sensorml_client_panels_CenterPanel_dynamicCenterPanel);
   com_google_gwt_user_client_ui_VerticalPanel_$add__Lcom_google_gwt_user_client_ui_VerticalPanel_2Lcom_google_gwt_user_client_ui_Widget_2V(this.com_sensia_swetools_editors_sensorml_client_panels_CenterPanel_dynamicCenterPanel, topElement.getPanel__Lcom_google_gwt_user_client_ui_Panel_2());
@@ -7738,22 +7739,56 @@ function com_sensia_swetools_editors_sensorml_client_panels_NavigationPanel_Navi
   com_google_gwt_user_client_ui_Composite_$initWidget__Lcom_google_gwt_user_client_ui_Composite_2Lcom_google_gwt_user_client_ui_Widget_2V(this, this.com_sensia_swetools_editors_sensorml_client_panels_NavigationPanel_verticalPanel);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(231, 371, $intern_92, com_sensia_swetools_editors_sensorml_client_panels_NavigationPanel_NavigationPanel__Lcom_sensia_swetools_editors_sensorml_client_RNGProcessorSML_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(231, 373, $intern_92, com_sensia_swetools_editors_sensorml_client_panels_NavigationPanel_NavigationPanel__Lcom_sensia_swetools_editors_sensorml_client_RNGProcessorSML_2V);
 _.parseDone__Lcom_sensia_swetools_editors_sensorml_client_v2_ISensorWidget_2V = function com_sensia_swetools_editors_sensorml_client_panels_NavigationPanel_parseDone__Lcom_sensia_swetools_editors_sensorml_client_v2_ISensorWidget_2V(topElement){
   com_google_gwt_user_client_ui_Panel_$clear__Lcom_google_gwt_user_client_ui_Panel_2V(this.com_sensia_swetools_editors_sensorml_client_panels_NavigationPanel_verticalPanel);
 }
 ;
 var com_google_gwt_lang_ClassLiteralHolder_Lcom_1sensia_1swetools_1editors_1sensorml_1client_1panels_1NavigationPanel_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_93, 'NavigationPanel', 231);
+function com_sensia_swetools_editors_sensorml_client_panels_Utils_createAddDialogBox__Lcom_google_gwt_user_client_ui_Panel_2Ljava_lang_String_2Lcom_sensia_swetools_editors_sensorml_client_v2_panels_listeners_IAddCallback_2Lcom_google_gwt_user_client_ui_DialogBox_2(panel, title_0, addCB){
+  var add_0, buttons, close_0, dialogBox, main;
+  dialogBox = new com_google_gwt_user_client_ui_DialogBox_DialogBox__V;
+  com_google_gwt_user_client_ui_Label_$setText__Lcom_google_gwt_user_client_ui_Label_2Ljava_lang_String_2V(dialogBox.com_google_gwt_user_client_ui_DialogBox_caption, title_0);
+  com_google_gwt_user_client_ui_PopupPanel_$setGlassEnabled__Lcom_google_gwt_user_client_ui_PopupPanel_2ZV(dialogBox);
+  dialogBox.com_google_gwt_user_client_ui_PopupPanel_isAnimationEnabled = true;
+  main = new com_google_gwt_user_client_ui_VerticalPanel_VerticalPanel__V;
+  close_0 = new com_google_gwt_user_client_ui_Button_Button__Ljava_lang_String_2V('Close');
+  com_google_gwt_user_client_ui_Widget_$addDomHandler__Lcom_google_gwt_user_client_ui_Widget_2Lcom_google_gwt_event_shared_EventHandler_2Lcom_google_gwt_event_dom_client_DomEvent$Type_2Lcom_google_gwt_event_shared_HandlerRegistration_2(close_0, new com_sensia_swetools_editors_sensorml_client_panels_Utils$1_Utils$1__V(dialogBox), (com_google_gwt_event_dom_client_ClickEvent_$clinit__V() , com_google_gwt_event_dom_client_ClickEvent_$clinit__V() , com_google_gwt_event_dom_client_ClickEvent_TYPE));
+  add_0 = new com_google_gwt_user_client_ui_Button_Button__Ljava_lang_String_2V('Add');
+  com_google_gwt_user_client_ui_Widget_$addDomHandler__Lcom_google_gwt_user_client_ui_Widget_2Lcom_google_gwt_event_shared_EventHandler_2Lcom_google_gwt_event_dom_client_DomEvent$Type_2Lcom_google_gwt_event_shared_HandlerRegistration_2(add_0, new com_sensia_swetools_editors_sensorml_client_panels_Utils$2_Utils$2__V(addCB, dialogBox), (null , com_google_gwt_event_dom_client_ClickEvent_TYPE));
+  buttons = new com_google_gwt_user_client_ui_HorizontalPanel_HorizontalPanel__V;
+  com_google_gwt_user_client_ui_HorizontalPanel_$add__Lcom_google_gwt_user_client_ui_HorizontalPanel_2Lcom_google_gwt_user_client_ui_Widget_2V(buttons, add_0);
+  com_google_gwt_user_client_ui_HorizontalPanel_$add__Lcom_google_gwt_user_client_ui_HorizontalPanel_2Lcom_google_gwt_user_client_ui_Widget_2V(buttons, close_0);
+  com_google_gwt_dom_client_Element_$setPropertyInt__Lcom_google_gwt_dom_client_Element_2Ljava_lang_String_2IV(buttons.com_google_gwt_user_client_ui_CellPanel_table, $intern_56, 5);
+  com_google_gwt_user_client_ui_VerticalPanel_$add__Lcom_google_gwt_user_client_ui_VerticalPanel_2Lcom_google_gwt_user_client_ui_Widget_2V(main, panel);
+  com_google_gwt_user_client_ui_VerticalPanel_$add__Lcom_google_gwt_user_client_ui_VerticalPanel_2Lcom_google_gwt_user_client_ui_Widget_2V(main, buttons);
+  com_google_gwt_user_client_ui_SimplePanel_$add__Lcom_google_gwt_user_client_ui_SimplePanel_2Lcom_google_gwt_user_client_ui_Widget_2V(dialogBox, main);
+  com_google_gwt_user_client_ui_PopupPanel_$center__Lcom_google_gwt_user_client_ui_PopupPanel_2V(dialogBox);
+  return dialogBox;
+}
+
 function com_sensia_swetools_editors_sensorml_client_panels_Utils$1_Utils$1__V(val$dialogBox){
   this.com_sensia_swetools_editors_sensorml_client_panels_Utils$1_val$dialogBox1 = val$dialogBox;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(322, 1, $intern_91, com_sensia_swetools_editors_sensorml_client_panels_Utils$1_Utils$1__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(323, 1, $intern_91, com_sensia_swetools_editors_sensorml_client_panels_Utils$1_Utils$1__V);
 _.onClick__Lcom_google_gwt_event_dom_client_ClickEvent_2V = function com_sensia_swetools_editors_sensorml_client_panels_Utils$1_onClick__Lcom_google_gwt_event_dom_client_ClickEvent_2V(event_0){
   com_google_gwt_user_client_ui_DialogBox_$hide__Lcom_google_gwt_user_client_ui_DialogBox_2ZV(this.com_sensia_swetools_editors_sensorml_client_panels_Utils$1_val$dialogBox1, false);
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1sensia_1swetools_1editors_1sensorml_1client_1panels_1Utils$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_93, 'Utils/1', 322);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1sensia_1swetools_1editors_1sensorml_1client_1panels_1Utils$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_93, 'Utils/1', 323);
+function com_sensia_swetools_editors_sensorml_client_panels_Utils$2_Utils$2__V(val$addCB, val$dialogBox){
+  this.com_sensia_swetools_editors_sensorml_client_panels_Utils$2_val$addCB1 = val$addCB;
+  this.com_sensia_swetools_editors_sensorml_client_panels_Utils$2_val$dialogBox2 = val$dialogBox;
+}
+
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(324, 1, $intern_91, com_sensia_swetools_editors_sensorml_client_panels_Utils$2_Utils$2__V);
+_.onClick__Lcom_google_gwt_event_dom_client_ClickEvent_2V = function com_sensia_swetools_editors_sensorml_client_panels_Utils$2_onClick__Lcom_google_gwt_event_dom_client_ClickEvent_2V(event_0){
+  com_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget$1$1_$onClick__Lcom_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget$1$1_2V(this.com_sensia_swetools_editors_sensorml_client_panels_Utils$2_val$addCB1);
+  com_google_gwt_user_client_ui_DialogBox_$hide__Lcom_google_gwt_user_client_ui_DialogBox_2ZV(this.com_sensia_swetools_editors_sensorml_client_panels_Utils$2_val$dialogBox2, false);
+}
+;
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1sensia_1swetools_1editors_1sensorml_1client_1panels_1Utils$2_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_93, 'Utils/2', 324);
 function com_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget_$findLabel__Lcom_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget_2Lcom_sensia_relaxNG_RNGTag_2Ljava_lang_String_2(this$static, tag){
   var annot, children, def;
   annot = tag.com_sensia_relaxNG_RNGTag_annotation;
@@ -7787,7 +7822,7 @@ function com_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWid
   var addButton, panel;
   addButton = new com_google_gwt_user_client_ui_Label_Label__Ljava_lang_String_2V(annotation);
   com_google_gwt_user_client_ui_UIObject_setStyleName__Lcom_google_gwt_dom_client_Element_2Ljava_lang_String_2ZV((com_google_gwt_user_client_DOM_$clinit__V() , addButton.com_google_gwt_user_client_ui_UIObject_element), 'rng-optional-select', true);
-  com_google_gwt_user_client_ui_Widget_$addDomHandler__Lcom_google_gwt_user_client_ui_Widget_2Lcom_google_gwt_event_shared_EventHandler_2Lcom_google_gwt_event_dom_client_DomEvent$Type_2Lcom_google_gwt_event_shared_HandlerRegistration_2(addButton, new com_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget$1_AbstractSensorElementWidget$1__Lcom_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget_2V(this$static), (com_google_gwt_event_dom_client_ClickEvent_$clinit__V() , com_google_gwt_event_dom_client_ClickEvent_$clinit__V() , com_google_gwt_event_dom_client_ClickEvent_TYPE));
+  com_google_gwt_user_client_ui_Widget_$addDomHandler__Lcom_google_gwt_user_client_ui_Widget_2Lcom_google_gwt_event_shared_EventHandler_2Lcom_google_gwt_event_dom_client_DomEvent$Type_2Lcom_google_gwt_event_shared_HandlerRegistration_2(addButton, new com_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget$1_AbstractSensorElementWidget$1__Lcom_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget_2V(this$static, label_0), (com_google_gwt_event_dom_client_ClickEvent_$clinit__V() , com_google_gwt_event_dom_client_ClickEvent_$clinit__V() , com_google_gwt_event_dom_client_ClickEvent_TYPE));
   panel = new com_google_gwt_user_client_ui_HorizontalPanel_HorizontalPanel__V;
   com_google_gwt_user_client_ui_HorizontalPanel_$add__Lcom_google_gwt_user_client_ui_HorizontalPanel_2Lcom_google_gwt_user_client_ui_Widget_2V(panel, addButton);
   com_google_gwt_user_client_ui_HorizontalPanel_$add__Lcom_google_gwt_user_client_ui_HorizontalPanel_2Lcom_google_gwt_user_client_ui_Widget_2V(panel, new com_google_gwt_user_client_ui_HTML_HTML__Ljava_lang_String_2V(label_0));
@@ -7801,6 +7836,16 @@ function com_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWid
     newValue += '.';
   }
   return newValue;
+}
+
+function com_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget_$switchMode__Lcom_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget_2Lcom_sensia_swetools_editors_sensorml_client_v2_ISensorWidget$MODE_2V(this$static, mode){
+  var sensorWidget, sensorWidget$iterator;
+  this$static.com_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget_editorMode = mode;
+  this$static.activeMode__Lcom_sensia_swetools_editors_sensorml_client_v2_ISensorWidget$MODE_2V(mode);
+  for (sensorWidget$iterator = new java_util_AbstractList$IteratorImpl_AbstractList$IteratorImpl__Ljava_util_AbstractList_2V(this$static.com_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget_elements); sensorWidget$iterator.java_util_AbstractList$IteratorImpl_i < sensorWidget$iterator.java_util_AbstractList$IteratorImpl_this$01.size__I();) {
+    sensorWidget = (com_google_gwt_core_shared_impl_InternalPreconditions_checkCriticalElement__ZV(sensorWidget$iterator.java_util_AbstractList$IteratorImpl_i < sensorWidget$iterator.java_util_AbstractList$IteratorImpl_this$01.size__I()) , com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(sensorWidget$iterator.java_util_AbstractList$IteratorImpl_this$01.get__ILjava_lang_Object_2(sensorWidget$iterator.java_util_AbstractList$IteratorImpl_last = sensorWidget$iterator.java_util_AbstractList$IteratorImpl_i++), 16));
+    sensorWidget.switchMode__Lcom_sensia_swetools_editors_sensorml_client_v2_ISensorWidget$MODE_2V(mode);
+  }
 }
 
 function com_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget_$toNiceLabel__Lcom_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget_2Ljava_lang_String_2Ljava_lang_String_2(name_0){
@@ -7843,6 +7888,7 @@ _.cloneSensorWidget__Lcom_sensia_swetools_editors_sensorml_client_v2_ISensorWidg
     element = (com_google_gwt_core_shared_impl_InternalPreconditions_checkCriticalElement__ZV(element$iterator.java_util_AbstractList$IteratorImpl_i < element$iterator.java_util_AbstractList$IteratorImpl_this$01.size__I()) , com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(element$iterator.java_util_AbstractList$IteratorImpl_this$01.get__ILjava_lang_Object_2(element$iterator.java_util_AbstractList$IteratorImpl_last = element$iterator.java_util_AbstractList$IteratorImpl_i++), 16));
     cloneChild = element.cloneSensorWidget__Lcom_sensia_swetools_editors_sensorml_client_v2_ISensorWidget_2();
     clone.addSensorWidget__Lcom_sensia_swetools_editors_sensorml_client_v2_ISensorWidget_2V(cloneChild);
+    java_util_ArrayList_$add__Ljava_util_ArrayList_2Ljava_lang_Object_2Z(clone.com_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget_elements, cloneChild);
   }
   return clone;
 }
@@ -7863,14 +7909,12 @@ _.getType__Lcom_sensia_swetools_editors_sensorml_client_v2_ISensorWidget$TAG_1TY
   return this.com_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget_type;
 }
 ;
+_.setParent__Lcom_sensia_swetools_editors_sensorml_client_v2_ISensorWidget_2V = function com_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget_setParent__Lcom_sensia_swetools_editors_sensorml_client_v2_ISensorWidget_2V(parent_0){
+  this.com_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget_parent = parent_0;
+}
+;
 _.switchMode__Lcom_sensia_swetools_editors_sensorml_client_v2_ISensorWidget$MODE_2V = function com_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget_switchMode__Lcom_sensia_swetools_editors_sensorml_client_v2_ISensorWidget$MODE_2V(mode){
-  var sensorWidget, sensorWidget$iterator;
-  this.com_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget_editorMode = mode;
-  this.activeMode__Lcom_sensia_swetools_editors_sensorml_client_v2_ISensorWidget$MODE_2V(mode);
-  for (sensorWidget$iterator = new java_util_AbstractList$IteratorImpl_AbstractList$IteratorImpl__Ljava_util_AbstractList_2V(this.com_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget_elements); sensorWidget$iterator.java_util_AbstractList$IteratorImpl_i < sensorWidget$iterator.java_util_AbstractList$IteratorImpl_this$01.size__I();) {
-    sensorWidget = (com_google_gwt_core_shared_impl_InternalPreconditions_checkCriticalElement__ZV(sensorWidget$iterator.java_util_AbstractList$IteratorImpl_i < sensorWidget$iterator.java_util_AbstractList$IteratorImpl_this$01.size__I()) , com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(sensorWidget$iterator.java_util_AbstractList$IteratorImpl_this$01.get__ILjava_lang_Object_2(sensorWidget$iterator.java_util_AbstractList$IteratorImpl_last = sensorWidget$iterator.java_util_AbstractList$IteratorImpl_i++), 16));
-    sensorWidget.switchMode__Lcom_sensia_swetools_editors_sensorml_client_v2_ISensorWidget$MODE_2V(mode);
-  }
+  com_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget_$switchMode__Lcom_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget_2Lcom_sensia_swetools_editors_sensorml_client_v2_ISensorWidget$MODE_2V(this, mode);
 }
 ;
 _.toString__Ljava_lang_String_2$ = function com_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget_toString__Ljava_lang_String_2(){
@@ -7879,27 +7923,46 @@ _.toString__Ljava_lang_String_2$ = function com_sensia_swetools_editors_sensorml
 ;
 _.com_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget_editorMode = 0;
 var com_google_gwt_lang_ClassLiteralHolder_Lcom_1sensia_1swetools_1editors_1sensorml_1client_1v2_1AbstractSensorElementWidget_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_95, 'AbstractSensorElementWidget', 34);
-function com_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget$1_AbstractSensorElementWidget$1__Lcom_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget_2V(this$0){
+function com_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget$1_AbstractSensorElementWidget$1__Lcom_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget_2V(this$0, val$label){
   this.com_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget$1_this$01 = this$0;
+  this.com_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget$1_val$label2 = val$label;
 }
 
 com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(279, 1, $intern_91, com_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget$1_AbstractSensorElementWidget$1__Lcom_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget_2V);
 _.onClick__Lcom_google_gwt_event_dom_client_ClickEvent_2V = function com_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget$1_onClick__Lcom_google_gwt_event_dom_client_ClickEvent_2V(event_0){
-  var allEditPanels, clone, dialogBox, panelToAdd, panelToAdd$iterator, com_sensia_swetools_editors_sensorml_client_panels_Utils_createDialogBox__Lcom_google_gwt_user_client_ui_Panel_2Lcom_google_gwt_user_client_ui_DialogBox_2_dialogBox_0, com_sensia_swetools_editors_sensorml_client_panels_Utils_createDialogBox__Lcom_google_gwt_user_client_ui_Panel_2Lcom_google_gwt_user_client_ui_DialogBox_2_main_0, com_sensia_swetools_editors_sensorml_client_panels_Utils_createDialogBox__Lcom_google_gwt_user_client_ui_Panel_2Lcom_google_gwt_user_client_ui_DialogBox_2_close_0;
+  var allEditPanels, clone, clones, dialogBox, panelToAdd, panelToAdd$iterator;
   if (this.com_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget$1_this$01.com_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget_elements.java_util_ArrayList_array.length != 0 && this.com_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget$1_this$01.com_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget_editorMode == 1) {
     allEditPanels = new com_google_gwt_user_client_ui_VerticalPanel_VerticalPanel__V;
+    clones = new java_util_ArrayList_ArrayList__V;
     for (panelToAdd$iterator = new java_util_AbstractList$IteratorImpl_AbstractList$IteratorImpl__Ljava_util_AbstractList_2V(this.com_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget$1_this$01.com_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget_elements); panelToAdd$iterator.java_util_AbstractList$IteratorImpl_i < panelToAdd$iterator.java_util_AbstractList$IteratorImpl_this$01.size__I();) {
       panelToAdd = (com_google_gwt_core_shared_impl_InternalPreconditions_checkCriticalElement__ZV(panelToAdd$iterator.java_util_AbstractList$IteratorImpl_i < panelToAdd$iterator.java_util_AbstractList$IteratorImpl_this$01.size__I()) , com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(panelToAdd$iterator.java_util_AbstractList$IteratorImpl_this$01.get__ILjava_lang_Object_2(panelToAdd$iterator.java_util_AbstractList$IteratorImpl_last = panelToAdd$iterator.java_util_AbstractList$IteratorImpl_i++), 16));
       clone = panelToAdd.cloneSensorWidget__Lcom_sensia_swetools_editors_sensorml_client_v2_ISensorWidget_2();
+      com_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget_$switchMode__Lcom_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget_2Lcom_sensia_swetools_editors_sensorml_client_v2_ISensorWidget$MODE_2V(clone, this.com_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget$1_this$01.com_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget_editorMode);
+      com_google_gwt_lang_Array_setCheck__Ljava_lang_Object_2ILjava_lang_Object_2Ljava_lang_Object_2(clones.java_util_ArrayList_array, clones.java_util_ArrayList_array.length, clone);
       com_google_gwt_user_client_ui_VerticalPanel_$add__Lcom_google_gwt_user_client_ui_VerticalPanel_2Lcom_google_gwt_user_client_ui_Widget_2V(allEditPanels, clone.getPanel__Lcom_google_gwt_user_client_ui_Panel_2());
     }
-    dialogBox = (com_sensia_swetools_editors_sensorml_client_panels_Utils_createDialogBox__Lcom_google_gwt_user_client_ui_Panel_2Lcom_google_gwt_user_client_ui_DialogBox_2_dialogBox_0 = new com_google_gwt_user_client_ui_DialogBox_DialogBox__V , com_google_gwt_user_client_ui_PopupPanel_$setGlassEnabled__Lcom_google_gwt_user_client_ui_PopupPanel_2ZV(com_sensia_swetools_editors_sensorml_client_panels_Utils_createDialogBox__Lcom_google_gwt_user_client_ui_Panel_2Lcom_google_gwt_user_client_ui_DialogBox_2_dialogBox_0) , com_sensia_swetools_editors_sensorml_client_panels_Utils_createDialogBox__Lcom_google_gwt_user_client_ui_Panel_2Lcom_google_gwt_user_client_ui_DialogBox_2_dialogBox_0.com_google_gwt_user_client_ui_PopupPanel_isAnimationEnabled = true , com_sensia_swetools_editors_sensorml_client_panels_Utils_createDialogBox__Lcom_google_gwt_user_client_ui_Panel_2Lcom_google_gwt_user_client_ui_DialogBox_2_main_0 = new com_google_gwt_user_client_ui_VerticalPanel_VerticalPanel__V , com_sensia_swetools_editors_sensorml_client_panels_Utils_createDialogBox__Lcom_google_gwt_user_client_ui_Panel_2Lcom_google_gwt_user_client_ui_DialogBox_2_close_0 = new com_google_gwt_user_client_ui_Button_Button__Ljava_lang_String_2V('Close') , com_google_gwt_user_client_ui_Widget_$addDomHandler__Lcom_google_gwt_user_client_ui_Widget_2Lcom_google_gwt_event_shared_EventHandler_2Lcom_google_gwt_event_dom_client_DomEvent$Type_2Lcom_google_gwt_event_shared_HandlerRegistration_2(com_sensia_swetools_editors_sensorml_client_panels_Utils_createDialogBox__Lcom_google_gwt_user_client_ui_Panel_2Lcom_google_gwt_user_client_ui_DialogBox_2_close_0, new com_sensia_swetools_editors_sensorml_client_panels_Utils$1_Utils$1__V(com_sensia_swetools_editors_sensorml_client_panels_Utils_createDialogBox__Lcom_google_gwt_user_client_ui_Panel_2Lcom_google_gwt_user_client_ui_DialogBox_2_dialogBox_0), (com_google_gwt_event_dom_client_ClickEvent_$clinit__V() , com_google_gwt_event_dom_client_ClickEvent_$clinit__V() , com_google_gwt_event_dom_client_ClickEvent_TYPE)) , com_google_gwt_user_client_ui_VerticalPanel_$add__Lcom_google_gwt_user_client_ui_VerticalPanel_2Lcom_google_gwt_user_client_ui_Widget_2V(com_sensia_swetools_editors_sensorml_client_panels_Utils_createDialogBox__Lcom_google_gwt_user_client_ui_Panel_2Lcom_google_gwt_user_client_ui_DialogBox_2_main_0, allEditPanels) , com_google_gwt_user_client_ui_VerticalPanel_$add__Lcom_google_gwt_user_client_ui_VerticalPanel_2Lcom_google_gwt_user_client_ui_Widget_2V(com_sensia_swetools_editors_sensorml_client_panels_Utils_createDialogBox__Lcom_google_gwt_user_client_ui_Panel_2Lcom_google_gwt_user_client_ui_DialogBox_2_main_0, com_sensia_swetools_editors_sensorml_client_panels_Utils_createDialogBox__Lcom_google_gwt_user_client_ui_Panel_2Lcom_google_gwt_user_client_ui_DialogBox_2_close_0) , com_google_gwt_user_client_ui_SimplePanel_$add__Lcom_google_gwt_user_client_ui_SimplePanel_2Lcom_google_gwt_user_client_ui_Widget_2V(com_sensia_swetools_editors_sensorml_client_panels_Utils_createDialogBox__Lcom_google_gwt_user_client_ui_Panel_2Lcom_google_gwt_user_client_ui_DialogBox_2_dialogBox_0, com_sensia_swetools_editors_sensorml_client_panels_Utils_createDialogBox__Lcom_google_gwt_user_client_ui_Panel_2Lcom_google_gwt_user_client_ui_DialogBox_2_main_0) , com_google_gwt_user_client_ui_PopupPanel_$center__Lcom_google_gwt_user_client_ui_PopupPanel_2V(com_sensia_swetools_editors_sensorml_client_panels_Utils_createDialogBox__Lcom_google_gwt_user_client_ui_Panel_2Lcom_google_gwt_user_client_ui_DialogBox_2_dialogBox_0) , com_sensia_swetools_editors_sensorml_client_panels_Utils_createDialogBox__Lcom_google_gwt_user_client_ui_Panel_2Lcom_google_gwt_user_client_ui_DialogBox_2_dialogBox_0);
+    dialogBox = com_sensia_swetools_editors_sensorml_client_panels_Utils_createAddDialogBox__Lcom_google_gwt_user_client_ui_Panel_2Ljava_lang_String_2Lcom_sensia_swetools_editors_sensorml_client_v2_panels_listeners_IAddCallback_2Lcom_google_gwt_user_client_ui_DialogBox_2(allEditPanels, 'Add ' + this.com_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget$1_val$label2, new com_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget$1$1_AbstractSensorElementWidget$1$1__Lcom_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget$1_2V(this, clones));
     !dialogBox.com_google_gwt_user_client_ui_DialogBox_resizeHandlerRegistration && (dialogBox.com_google_gwt_user_client_ui_DialogBox_resizeHandlerRegistration = com_google_gwt_user_client_Window_addResizeHandler__Lcom_google_gwt_event_logical_shared_ResizeHandler_2Lcom_google_gwt_event_shared_HandlerRegistration_2(new com_google_gwt_user_client_ui_DialogBox$1_DialogBox$1__Lcom_google_gwt_user_client_ui_DialogBox_2V(dialogBox)));
     com_google_gwt_user_client_ui_PopupPanel_$show__Lcom_google_gwt_user_client_ui_PopupPanel_2V(dialogBox);
   }
 }
 ;
 var com_google_gwt_lang_ClassLiteralHolder_Lcom_1sensia_1swetools_1editors_1sensorml_1client_1v2_1AbstractSensorElementWidget$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_95, 'AbstractSensorElementWidget/1', 279);
+function com_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget$1$1_$onClick__Lcom_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget$1$1_2V(this$static){
+  var clone, clone$iterator;
+  for (clone$iterator = new java_util_AbstractList$IteratorImpl_AbstractList$IteratorImpl__Ljava_util_AbstractList_2V(this$static.com_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget$1$1_val$clones2); clone$iterator.java_util_AbstractList$IteratorImpl_i < clone$iterator.java_util_AbstractList$IteratorImpl_this$01.size__I();) {
+    clone = (com_google_gwt_core_shared_impl_InternalPreconditions_checkCriticalElement__ZV(clone$iterator.java_util_AbstractList$IteratorImpl_i < clone$iterator.java_util_AbstractList$IteratorImpl_this$01.size__I()) , com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(clone$iterator.java_util_AbstractList$IteratorImpl_this$01.get__ILjava_lang_Object_2(clone$iterator.java_util_AbstractList$IteratorImpl_last = clone$iterator.java_util_AbstractList$IteratorImpl_i++), 16));
+    this$static.com_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget$1$1_this$11.com_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget$1_this$01.com_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget_parent.addElement__Lcom_sensia_swetools_editors_sensorml_client_v2_ISensorWidget_2V(clone);
+  }
+}
+
+function com_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget$1$1_AbstractSensorElementWidget$1$1__Lcom_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget$1_2V(this$1, val$clones){
+  this.com_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget$1$1_this$11 = this$1;
+  this.com_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget$1$1_val$clones2 = val$clones;
+}
+
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(280, 1, {}, com_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget$1$1_AbstractSensorElementWidget$1$1__Lcom_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget$1_2V);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1sensia_1swetools_1editors_1sensorml_1client_1v2_1AbstractSensorElementWidget$1$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_95, 'AbstractSensorElementWidget/1/1', 280);
 function com_sensia_swetools_editors_sensorml_client_v2_ISensorWidget$TAG_1DEF_$clinit__V(){
   com_sensia_swetools_editors_sensorml_client_v2_ISensorWidget$TAG_1DEF_$clinit__V = com_google_gwt_lang_JavaClassHierarchySetupUtil_emptyMethod__V;
   com_sensia_swetools_editors_sensorml_client_v2_ISensorWidget$TAG_1DEF_SML = new com_sensia_swetools_editors_sensorml_client_v2_ISensorWidget$TAG_1DEF_ISensorWidget$TAG_1DEF__Ljava_lang_String_2IV('SML', 0);
@@ -7955,6 +8018,7 @@ function com_sensia_swetools_editors_sensorml_client_v2_RNGRenderer_$pushAndVisi
     !!tag && tag.accept__Lcom_sensia_relaxNG_RNGTagVisitor_2V(this$static);
     if (stackSize < this$static.com_sensia_swetools_editors_sensorml_client_v2_RNGRenderer_stack.java_util_Vector_arrayList.java_util_ArrayList_array.length) {
       child = com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(java_util_Stack_$pop__Ljava_util_Stack_2Ljava_lang_Object_2(this$static.com_sensia_swetools_editors_sensorml_client_v2_RNGRenderer_stack), 16);
+      child.setParent__Lcom_sensia_swetools_editors_sensorml_client_v2_ISensorWidget_2V(widget);
       widget.addSensorWidget__Lcom_sensia_swetools_editors_sensorml_client_v2_ISensorWidget_2V(child);
       java_util_ArrayList_$add__Ljava_util_ArrayList_2Ljava_lang_Object_2Z(widget.com_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget_elements, child);
     }
@@ -7989,6 +8053,7 @@ function com_sensia_swetools_editors_sensorml_client_v2_RNGRenderer_$visitChildr
     !!tag && tag.accept__Lcom_sensia_relaxNG_RNGTagVisitor_2V(this$static);
     if (stackSize < this$static.com_sensia_swetools_editors_sensorml_client_v2_RNGRenderer_stack.java_util_Vector_arrayList.java_util_ArrayList_array.length) {
       child = com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(java_util_Stack_$pop__Ljava_util_Stack_2Ljava_lang_Object_2(this$static.com_sensia_swetools_editors_sensorml_client_v2_RNGRenderer_stack), 16);
+      child.setParent__Lcom_sensia_swetools_editors_sensorml_client_v2_ISensorWidget_2V(peek);
       peek.addElement__Lcom_sensia_swetools_editors_sensorml_client_v2_ISensorWidget_2V(child);
     }
   }
@@ -8219,15 +8284,21 @@ _.newInstance__Lcom_sensia_swetools_editors_sensorml_client_v2_AbstractSensorEle
 }
 ;
 var com_google_gwt_lang_ClassLiteralHolder_Lcom_1sensia_1swetools_1editors_1sensorml_1client_1v2_1panels_1base_1SensorValueWidget_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_104, 'SensorValueWidget', 163);
+function com_sensia_swetools_editors_sensorml_client_v2_panels_base_SensorZeroOrMoreWidget_$activeMode__Lcom_sensia_swetools_editors_sensorml_client_v2_panels_base_SensorZeroOrMoreWidget_2Lcom_sensia_swetools_editors_sensorml_client_v2_ISensorWidget$MODE_2V(this$static, mode){
+  mode == 1?com_google_gwt_user_client_ui_UIObject_$setVisible__Lcom_google_gwt_user_client_ui_UIObject_2ZV(this$static.com_sensia_swetools_editors_sensorml_client_v2_panels_base_SensorZeroOrMoreWidget_container, true):com_google_gwt_user_client_ui_UIObject_$setVisible__Lcom_google_gwt_user_client_ui_UIObject_2ZV(this$static.com_sensia_swetools_editors_sensorml_client_v2_panels_base_SensorZeroOrMoreWidget_container, false);
+}
+
 function com_sensia_swetools_editors_sensorml_client_v2_panels_base_SensorZeroOrMoreWidget_SensorZeroOrMoreWidget__Lcom_sensia_relaxNG_RNGZeroOrMore_2V(zeroOrMore){
   com_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget_AbstractSensorElementWidget__Ljava_lang_String_2Lcom_sensia_swetools_editors_sensorml_client_v2_ISensorWidget$TAG_1DEF_2Lcom_sensia_swetools_editors_sensorml_client_v2_ISensorWidget$TAG_1TYPE_2V.call(this, $intern_81, (com_sensia_swetools_editors_sensorml_client_v2_ISensorWidget$TAG_1DEF_$clinit__V() , com_sensia_swetools_editors_sensorml_client_v2_ISensorWidget$TAG_1DEF_RNG), (com_sensia_swetools_editors_sensorml_client_v2_ISensorWidget$TAG_1TYPE_$clinit__V() , com_sensia_swetools_editors_sensorml_client_v2_ISensorWidget$TAG_1TYPE_ZERO_1OR_1MORE));
   this.com_sensia_swetools_editors_sensorml_client_v2_panels_base_SensorZeroOrMoreWidget_zeroOrMore = zeroOrMore;
   this.com_sensia_swetools_editors_sensorml_client_v2_panels_base_SensorZeroOrMoreWidget_container = new com_google_gwt_user_client_ui_VerticalPanel_VerticalPanel__V;
   com_google_gwt_user_client_ui_VerticalPanel_$add__Lcom_google_gwt_user_client_ui_VerticalPanel_2Lcom_google_gwt_user_client_ui_Widget_2V(this.com_sensia_swetools_editors_sensorml_client_v2_panels_base_SensorZeroOrMoreWidget_container, com_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget_$getAddButtonPanel__Lcom_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget_2Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_user_client_ui_Panel_2(this, zeroOrMore.com_sensia_relaxNG_RNGTag_annotation, com_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget_$findLabel__Lcom_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget_2Lcom_sensia_relaxNG_RNGTag_2Ljava_lang_String_2(this, zeroOrMore)));
+  com_sensia_swetools_editors_sensorml_client_v2_panels_base_SensorZeroOrMoreWidget_$activeMode__Lcom_sensia_swetools_editors_sensorml_client_v2_panels_base_SensorZeroOrMoreWidget_2Lcom_sensia_swetools_editors_sensorml_client_v2_ISensorWidget$MODE_2V(this, this.com_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget_editorMode);
 }
 
 com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(162, 34, $intern_94, com_sensia_swetools_editors_sensorml_client_v2_panels_base_SensorZeroOrMoreWidget_SensorZeroOrMoreWidget__Lcom_sensia_relaxNG_RNGZeroOrMore_2V);
 _.activeMode__Lcom_sensia_swetools_editors_sensorml_client_v2_ISensorWidget$MODE_2V = function com_sensia_swetools_editors_sensorml_client_v2_panels_base_SensorZeroOrMoreWidget_activeMode__Lcom_sensia_swetools_editors_sensorml_client_v2_ISensorWidget$MODE_2V(mode){
+  com_sensia_swetools_editors_sensorml_client_v2_panels_base_SensorZeroOrMoreWidget_$activeMode__Lcom_sensia_swetools_editors_sensorml_client_v2_panels_base_SensorZeroOrMoreWidget_2Lcom_sensia_swetools_editors_sensorml_client_v2_ISensorWidget$MODE_2V(this, mode);
 }
 ;
 _.addSensorWidget__Lcom_sensia_swetools_editors_sensorml_client_v2_ISensorWidget_2V = function com_sensia_swetools_editors_sensorml_client_v2_panels_base_SensorZeroOrMoreWidget_addSensorWidget__Lcom_sensia_swetools_editors_sensorml_client_v2_ISensorWidget_2V(widget){
@@ -8246,16 +8317,16 @@ function com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXS
   com_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget_AbstractSensorElementWidget__Ljava_lang_String_2Lcom_sensia_swetools_editors_sensorml_client_v2_ISensorWidget$TAG_1DEF_2Lcom_sensia_swetools_editors_sensorml_client_v2_ISensorWidget$TAG_1TYPE_2V.call(this, data_0.com_sensia_relaxNG_RNGData_value, (com_sensia_swetools_editors_sensorml_client_v2_ISensorWidget$TAG_1DEF_$clinit__V() , com_sensia_swetools_editors_sensorml_client_v2_ISensorWidget$TAG_1DEF_RNG), (com_sensia_swetools_editors_sensorml_client_v2_ISensorWidget$TAG_1TYPE_$clinit__V() , com_sensia_swetools_editors_sensorml_client_v2_ISensorWidget$TAG_1TYPE_DATA));
   if (length_0 < 0) {
     this.com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget_textBox = new com_google_gwt_user_client_ui_TextBox_TextBox__V;
-    com_google_gwt_user_client_ui_TextBox_$setVisibleLength__Lcom_google_gwt_user_client_ui_TextBox_2IV(com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(this.com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget_textBox, 47), 50);
+    com_google_gwt_user_client_ui_TextBox_$setVisibleLength__Lcom_google_gwt_user_client_ui_TextBox_2IV(com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(this.com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget_textBox, 41), 50);
   }
    else if (length_0 <= 60) {
     this.com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget_textBox = new com_google_gwt_user_client_ui_TextBox_TextBox__V;
-    com_google_gwt_user_client_ui_TextBox_$setVisibleLength__Lcom_google_gwt_user_client_ui_TextBox_2IV(com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(this.com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget_textBox, 47), length_0);
-    com_google_gwt_user_client_ui_TextBox_$setMaxLength__Lcom_google_gwt_user_client_ui_TextBox_2IV(com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(this.com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget_textBox, 47), length_0);
+    com_google_gwt_user_client_ui_TextBox_$setVisibleLength__Lcom_google_gwt_user_client_ui_TextBox_2IV(com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(this.com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget_textBox, 41), length_0);
+    com_google_gwt_user_client_ui_TextBox_$setMaxLength__Lcom_google_gwt_user_client_ui_TextBox_2IV(com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(this.com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget_textBox, 41), length_0);
   }
    else {
     this.com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget_textBox = new com_google_gwt_user_client_ui_TextArea_TextArea__V;
-    com_google_gwt_user_client_ui_TextArea_$setVisibleLines__Lcom_google_gwt_user_client_ui_TextArea_2IV(com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(this.com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget_textBox, 129), ~~(length_0 / 50));
+    com_google_gwt_user_client_ui_TextArea_$setVisibleLines__Lcom_google_gwt_user_client_ui_TextArea_2IV(com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(this.com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget_textBox, 130), ~~(length_0 / 50));
   }
   if (data_0.com_sensia_relaxNG_RNGData_value != null) {
     com_google_gwt_user_client_ui_ValueBoxBase_$setText__Lcom_google_gwt_user_client_ui_ValueBoxBase_2Ljava_lang_String_2V(this.com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget_textBox, data_0.com_sensia_relaxNG_RNGData_value);
@@ -8265,8 +8336,8 @@ function com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXS
   com_google_gwt_user_client_ui_Widget_$addDomHandler__Lcom_google_gwt_user_client_ui_Widget_2Lcom_google_gwt_event_shared_EventHandler_2Lcom_google_gwt_event_dom_client_DomEvent$Type_2Lcom_google_gwt_event_shared_HandlerRegistration_2(this.com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget_textBox, new com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget$2_SensorXSDWidget$2__Lcom_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget_2V(this, allowedChars), (com_google_gwt_event_dom_client_KeyPressEvent_$clinit__V() , com_google_gwt_event_dom_client_KeyPressEvent_$clinit__V() , com_google_gwt_event_dom_client_KeyPressEvent_TYPE));
   com_google_gwt_user_client_ui_Widget_$addDomHandler__Lcom_google_gwt_user_client_ui_Widget_2Lcom_google_gwt_event_shared_EventHandler_2Lcom_google_gwt_event_dom_client_DomEvent$Type_2Lcom_google_gwt_event_shared_HandlerRegistration_2(this.com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget_textBox, new com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget$3_SensorXSDWidget$3__Lcom_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget_2V(this, data_0), (com_google_gwt_event_dom_client_KeyUpEvent_$clinit__V() , com_google_gwt_event_dom_client_KeyUpEvent_$clinit__V() , com_google_gwt_event_dom_client_KeyUpEvent_TYPE));
   com_google_gwt_user_client_ui_Widget_$addDomHandler__Lcom_google_gwt_user_client_ui_Widget_2Lcom_google_gwt_event_shared_EventHandler_2Lcom_google_gwt_event_dom_client_DomEvent$Type_2Lcom_google_gwt_event_shared_HandlerRegistration_2(this.com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget_textBox, new com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget$4_SensorXSDWidget$4__Lcom_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget_2V(this, data_0), (com_google_gwt_event_dom_client_ChangeEvent_$clinit__V() , com_google_gwt_event_dom_client_ChangeEvent_$clinit__V() , com_google_gwt_event_dom_client_ChangeEvent_TYPE));
-  com_google_gwt_user_client_ui_TextBox_$setVisibleLength__Lcom_google_gwt_user_client_ui_TextBox_2IV(com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(this.com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget_textBox, 47), 15);
-  com_google_gwt_user_client_ui_FocusWidget_$setEnabled__Lcom_google_gwt_user_client_ui_FocusWidget_2ZV(com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(this.com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget_textBox, 47), false);
+  com_google_gwt_user_client_ui_TextBox_$setVisibleLength__Lcom_google_gwt_user_client_ui_TextBox_2IV(com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(this.com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget_textBox, 41), 15);
+  com_google_gwt_user_client_ui_FocusWidget_$setEnabled__Lcom_google_gwt_user_client_ui_FocusWidget_2ZV(com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(this.com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget_textBox, 41), false);
   this.com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget_container = new com_google_gwt_user_client_ui_HorizontalPanel_HorizontalPanel__V;
   com_google_gwt_user_client_ui_HorizontalPanel_$setHorizontalAlignment__Lcom_google_gwt_user_client_ui_HorizontalPanel_2Lcom_google_gwt_user_client_ui_HasHorizontalAlignment$HorizontalAlignmentConstant_2V(this.com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget_container, (com_google_gwt_user_client_ui_HasHorizontalAlignment_$clinit__V() , com_google_gwt_user_client_ui_HasHorizontalAlignment_ALIGN_1RIGHT));
   com_google_gwt_user_client_ui_HorizontalPanel_$add__Lcom_google_gwt_user_client_ui_HorizontalPanel_2Lcom_google_gwt_user_client_ui_Widget_2V(this.com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget_container, this.com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget_textBox);
@@ -8274,6 +8345,7 @@ function com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXS
 
 com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(78, 34, $intern_94);
 _.activeMode__Lcom_sensia_swetools_editors_sensorml_client_v2_ISensorWidget$MODE_2V = function com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget_activeMode__Lcom_sensia_swetools_editors_sensorml_client_v2_ISensorWidget$MODE_2V(mode){
+  mode == 1?com_google_gwt_user_client_ui_FocusWidget_$setEnabled__Lcom_google_gwt_user_client_ui_FocusWidget_2ZV(com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(this.com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget_textBox, 41), true):mode == 0 && com_google_gwt_user_client_ui_FocusWidget_$setEnabled__Lcom_google_gwt_user_client_ui_FocusWidget_2ZV(com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(this.com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget_textBox, 41), false);
 }
 ;
 _.addSensorWidget__Lcom_sensia_swetools_editors_sensorml_client_v2_ISensorWidget_2V = function com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget_addSensorWidget__Lcom_sensia_swetools_editors_sensorml_client_v2_ISensorWidget_2V(widget){
@@ -8348,19 +8420,19 @@ function com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXS
   this.com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDStringWidget_data = data_0;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(127, 78, $intern_94, com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDStringWidget_SensorXSDStringWidget__Lcom_sensia_relaxNG_XSDString_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(128, 78, $intern_94, com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDStringWidget_SensorXSDStringWidget__Lcom_sensia_relaxNG_XSDString_2V);
 _.newInstance__Lcom_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget_2 = function com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDStringWidget_newInstance__Lcom_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget_2(){
   return new com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDStringWidget_SensorXSDStringWidget__Lcom_sensia_relaxNG_XSDString_2V(this.com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDStringWidget_data);
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1sensia_1swetools_1editors_1sensorml_1client_1v2_1panels_1base_1xsd_1SensorXSDStringWidget_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_105, 'SensorXSDStringWidget', 127);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1sensia_1swetools_1editors_1sensorml_1client_1v2_1panels_1base_1xsd_1SensorXSDStringWidget_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_105, 'SensorXSDStringWidget', 128);
 function com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget$1_SensorXSDWidget$1__Lcom_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget_2V(this$0, val$data){
   this.com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget$1_this$01 = this$0;
   this.com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget$1_val$data2 = val$data;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(301, 1, {387:1, 30:1}, com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget$1_SensorXSDWidget$1__Lcom_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget_2V);
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1sensia_1swetools_1editors_1sensorml_1client_1v2_1panels_1base_1xsd_1SensorXSDWidget$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_105, 'SensorXSDWidget/1', 301);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(302, 1, {389:1, 30:1}, com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget$1_SensorXSDWidget$1__Lcom_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget_2V);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1sensia_1swetools_1editors_1sensorml_1client_1v2_1panels_1base_1xsd_1SensorXSDWidget$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_105, 'SensorXSDWidget/1', 302);
 function com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget$2_$onKeyPress__Lcom_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget$2_2Lcom_google_gwt_event_dom_client_KeyPressEvent_2V(this$static, event_0){
   var c;
   c = (event_0.com_google_gwt_event_dom_client_DomEvent_nativeEvent.charCode || 0) & $intern_14;
@@ -8377,8 +8449,8 @@ function com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXS
   this.com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget$2_val$allowedChars2 = val$allowedChars;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(302, 1, {388:1, 30:1}, com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget$2_SensorXSDWidget$2__Lcom_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget_2V);
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1sensia_1swetools_1editors_1sensorml_1client_1v2_1panels_1base_1xsd_1SensorXSDWidget$2_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_105, 'SensorXSDWidget/2', 302);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(303, 1, {390:1, 30:1}, com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget$2_SensorXSDWidget$2__Lcom_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget_2V);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1sensia_1swetools_1editors_1sensorml_1client_1v2_1panels_1base_1xsd_1SensorXSDWidget$2_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_105, 'SensorXSDWidget/2', 303);
 function com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget$3_$onKeyUp__Lcom_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget$3_2Lcom_google_gwt_event_dom_client_KeyUpEvent_2V(this$static){
   if (this$static.com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget$3_val$data2.isValid__Ljava_lang_String_2Z(com_google_gwt_dom_client_Element_$getPropertyString__Lcom_google_gwt_dom_client_Element_2Ljava_lang_String_2Ljava_lang_String_2(com_google_gwt_user_client_ui_UIObject_$getElement__Lcom_google_gwt_user_client_ui_UIObject_2Lcom_google_gwt_user_client_Element_2(this$static.com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget$3_this$01.com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget_textBox), $intern_72))) {
     com_google_gwt_user_client_ui_UIObject_$removeStyleName__Lcom_google_gwt_user_client_ui_UIObject_2Ljava_lang_String_2V(this$static.com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget$3_this$01.com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget_textBox, $intern_106);
@@ -8396,8 +8468,8 @@ function com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXS
   this.com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget$3_val$data2 = val$data;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(303, 1, {389:1, 30:1}, com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget$3_SensorXSDWidget$3__Lcom_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget_2V);
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1sensia_1swetools_1editors_1sensorml_1client_1v2_1panels_1base_1xsd_1SensorXSDWidget$3_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_105, 'SensorXSDWidget/3', 303);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(304, 1, {391:1, 30:1}, com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget$3_SensorXSDWidget$3__Lcom_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget_2V);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1sensia_1swetools_1editors_1sensorml_1client_1v2_1panels_1base_1xsd_1SensorXSDWidget$3_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_105, 'SensorXSDWidget/3', 304);
 function com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget$4_$onChange__Lcom_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget$4_2Lcom_google_gwt_event_dom_client_ChangeEvent_2V(this$static){
   if (this$static.com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget$4_val$data2.isValid__Ljava_lang_String_2Z(com_google_gwt_dom_client_Element_$getPropertyString__Lcom_google_gwt_dom_client_Element_2Ljava_lang_String_2Ljava_lang_String_2(com_google_gwt_user_client_ui_UIObject_$getElement__Lcom_google_gwt_user_client_ui_UIObject_2Lcom_google_gwt_user_client_Element_2(this$static.com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget$4_this$01.com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget_textBox), $intern_72))) {
     com_sensia_relaxNG_RNGData_$setConfirmed__Lcom_sensia_relaxNG_RNGData_2ZV(this$static.com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget$4_val$data2, true);
@@ -8412,21 +8484,21 @@ function com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXS
   this.com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget$4_val$data2 = val$data;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(304, 1, {390:1, 30:1}, com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget$4_SensorXSDWidget$4__Lcom_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget_2V);
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1sensia_1swetools_1editors_1sensorml_1client_1v2_1panels_1base_1xsd_1SensorXSDWidget$4_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_105, 'SensorXSDWidget/4', 304);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(305, 1, {392:1, 30:1}, com_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget$4_SensorXSDWidget$4__Lcom_sensia_swetools_editors_sensorml_client_v2_panels_base_xsd_SensorXSDWidget_2V);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1sensia_1swetools_1editors_1sensorml_1client_1v2_1panels_1base_1xsd_1SensorXSDWidget$4_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_105, 'SensorXSDWidget/4', 305);
 function com_sensia_swetools_editors_sensorml_client_v2_panels_gml_GMLSensorWidget_GMLSensorWidget__Lcom_sensia_relaxNG_RNGElement_2V(elt){
   com_sensia_swetools_editors_sensorml_client_v2_panels_base_SensorGenericHorizontalContainerWidget_SensorGenericHorizontalContainerWidget__Ljava_lang_String_2Lcom_sensia_swetools_editors_sensorml_client_v2_ISensorWidget$TAG_1DEF_2Lcom_sensia_swetools_editors_sensorml_client_v2_ISensorWidget$TAG_1TYPE_2V.call(this, elt.com_sensia_relaxNG_RNGElement_name, (com_sensia_swetools_editors_sensorml_client_v2_ISensorWidget$TAG_1DEF_$clinit__V() , com_sensia_swetools_editors_sensorml_client_v2_ISensorWidget$TAG_1DEF_GML), (com_sensia_swetools_editors_sensorml_client_v2_ISensorWidget$TAG_1TYPE_$clinit__V() , com_sensia_swetools_editors_sensorml_client_v2_ISensorWidget$TAG_1TYPE_ELEMENT));
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(295, 40, $intern_94, com_sensia_swetools_editors_sensorml_client_v2_panels_gml_GMLSensorWidget_GMLSensorWidget__Lcom_sensia_relaxNG_RNGElement_2V);
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1sensia_1swetools_1editors_1sensorml_1client_1v2_1panels_1gml_1GMLSensorWidget_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2('com.sensia.swetools.editors.sensorml.client.v2.panels.gml', 'GMLSensorWidget', 295);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(296, 40, $intern_94, com_sensia_swetools_editors_sensorml_client_v2_panels_gml_GMLSensorWidget_GMLSensorWidget__Lcom_sensia_relaxNG_RNGElement_2V);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1sensia_1swetools_1editors_1sensorml_1client_1v2_1panels_1gml_1GMLSensorWidget_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2('com.sensia.swetools.editors.sensorml.client.v2.panels.gml', 'GMLSensorWidget', 296);
 function com_sensia_swetools_editors_sensorml_client_v2_panels_sml_SMLSensorAttributeWidget_SMLSensorAttributeWidget__Lcom_sensia_relaxNG_RNGAttribute_2V(attribute){
   com_sensia_swetools_editors_sensorml_client_v2_panels_base_SensorAttributeWidget_SensorAttributeWidget__Ljava_lang_String_2Lcom_sensia_swetools_editors_sensorml_client_v2_ISensorWidget$TAG_1DEF_2Lcom_sensia_swetools_editors_sensorml_client_v2_ISensorWidget$TAG_1TYPE_2V.call(this, attribute.com_sensia_relaxNG_RNGAttribute_name, (com_sensia_swetools_editors_sensorml_client_v2_ISensorWidget$TAG_1DEF_$clinit__V() , com_sensia_swetools_editors_sensorml_client_v2_ISensorWidget$TAG_1DEF_SML), (com_sensia_swetools_editors_sensorml_client_v2_ISensorWidget$TAG_1TYPE_$clinit__V() , com_sensia_swetools_editors_sensorml_client_v2_ISensorWidget$TAG_1TYPE_ATTRIBUTE));
   this.com_sensia_swetools_editors_sensorml_client_v2_panels_base_SensorGenericHorizontalContainerWidget_container = new com_google_gwt_user_client_ui_HorizontalPanel_HorizontalPanel__V;
   com_google_gwt_user_client_ui_HorizontalPanel_$setHorizontalAlignment__Lcom_google_gwt_user_client_ui_HorizontalPanel_2Lcom_google_gwt_user_client_ui_HasHorizontalAlignment$HorizontalAlignmentConstant_2V(this.com_sensia_swetools_editors_sensorml_client_v2_panels_base_SensorGenericHorizontalContainerWidget_container, (com_google_gwt_user_client_ui_HasHorizontalAlignment_$clinit__V() , com_google_gwt_user_client_ui_HasHorizontalAlignment_ALIGN_1LEFT));
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(296, 160, $intern_94, com_sensia_swetools_editors_sensorml_client_v2_panels_sml_SMLSensorAttributeWidget_SMLSensorAttributeWidget__Lcom_sensia_relaxNG_RNGAttribute_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(297, 160, $intern_94, com_sensia_swetools_editors_sensorml_client_v2_panels_sml_SMLSensorAttributeWidget_SMLSensorAttributeWidget__Lcom_sensia_relaxNG_RNGAttribute_2V);
 _.addSensorWidget__Lcom_sensia_swetools_editors_sensorml_client_v2_ISensorWidget_2V = function com_sensia_swetools_editors_sensorml_client_v2_panels_sml_SMLSensorAttributeWidget_addSensorWidget__Lcom_sensia_swetools_editors_sensorml_client_v2_ISensorWidget_2V(widget){
   var defImage, com_google_gwt_core_client_impl_Impl_getModuleBaseURL__Ljava_lang_String_2_global_0, com_google_gwt_core_client_impl_Impl_getModuleBaseURL__Ljava_lang_String_2_key_0;
   if (java_lang_String_$equals__Ljava_lang_String_2Ljava_lang_Object_2Z(this.com_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget_name, $intern_101) && widget.getType__Lcom_sensia_swetools_editors_sensorml_client_v2_ISensorWidget$TAG_1TYPE_2() == (com_sensia_swetools_editors_sensorml_client_v2_ISensorWidget$TAG_1TYPE_$clinit__V() , com_sensia_swetools_editors_sensorml_client_v2_ISensorWidget$TAG_1TYPE_VALUE)) {
@@ -8439,7 +8511,7 @@ _.addSensorWidget__Lcom_sensia_swetools_editors_sensorml_client_v2_ISensorWidget
   }
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1sensia_1swetools_1editors_1sensorml_1client_1v2_1panels_1sml_1SMLSensorAttributeWidget_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_108, 'SMLSensorAttributeWidget', 296);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1sensia_1swetools_1editors_1sensorml_1client_1v2_1panels_1sml_1SMLSensorAttributeWidget_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_108, 'SMLSensorAttributeWidget', 297);
 function com_sensia_swetools_editors_sensorml_client_v2_panels_sml_SMLSensorIdentifierWidget_SMLSensorIdentifierWidget__V(){
   com_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget_AbstractSensorElementWidget__Ljava_lang_String_2Lcom_sensia_swetools_editors_sensorml_client_v2_ISensorWidget$TAG_1DEF_2Lcom_sensia_swetools_editors_sensorml_client_v2_ISensorWidget$TAG_1TYPE_2V.call(this, $intern_103, (com_sensia_swetools_editors_sensorml_client_v2_ISensorWidget$TAG_1DEF_$clinit__V() , com_sensia_swetools_editors_sensorml_client_v2_ISensorWidget$TAG_1DEF_SML), (com_sensia_swetools_editors_sensorml_client_v2_ISensorWidget$TAG_1TYPE_$clinit__V() , com_sensia_swetools_editors_sensorml_client_v2_ISensorWidget$TAG_1TYPE_ELEMENT));
   this.com_sensia_swetools_editors_sensorml_client_v2_panels_sml_SMLSensorIdentifierWidget_container = new com_google_gwt_user_client_ui_HorizontalPanel_HorizontalPanel__V;
@@ -8536,7 +8608,7 @@ function com_sensia_swetools_editors_sensorml_client_v2_panels_sml_SensorSection
   com_google_gwt_user_client_ui_VerticalPanel_$add__Lcom_google_gwt_user_client_ui_VerticalPanel_2Lcom_google_gwt_user_client_ui_Widget_2V(this.com_sensia_swetools_editors_sensorml_client_v2_panels_sml_SensorSectionsWidget_container, this.com_sensia_swetools_editors_sensorml_client_v2_panels_sml_SensorSectionsWidget_endPanel);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(121, 34, $intern_94, com_sensia_swetools_editors_sensorml_client_v2_panels_sml_SensorSectionsWidget_SensorSectionsWidget__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(122, 34, $intern_94, com_sensia_swetools_editors_sensorml_client_v2_panels_sml_SensorSectionsWidget_SensorSectionsWidget__V);
 _.activeMode__Lcom_sensia_swetools_editors_sensorml_client_v2_ISensorWidget$MODE_2V = function com_sensia_swetools_editors_sensorml_client_v2_panels_sml_SensorSectionsWidget_activeMode__Lcom_sensia_swetools_editors_sensorml_client_v2_ISensorWidget$MODE_2V(mode){
 }
 ;
@@ -8552,7 +8624,7 @@ _.newInstance__Lcom_sensia_swetools_editors_sensorml_client_v2_AbstractSensorEle
   return new com_sensia_swetools_editors_sensorml_client_v2_panels_sml_SensorSectionsWidget_SensorSectionsWidget__V;
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1sensia_1swetools_1editors_1sensorml_1client_1v2_1panels_1sml_1SensorSectionsWidget_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_108, 'SensorSectionsWidget', 121);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1sensia_1swetools_1editors_1sensorml_1client_1v2_1panels_1sml_1SensorSectionsWidget_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_108, 'SensorSectionsWidget', 122);
 function com_sensia_swetools_editors_sensorml_client_v2_panels_swe_SWESensorCategoryWidget_SWESensorCategoryWidget__V(){
   com_sensia_swetools_editors_sensorml_client_v2_AbstractSensorElementWidget_AbstractSensorElementWidget__Ljava_lang_String_2Lcom_sensia_swetools_editors_sensorml_client_v2_ISensorWidget$TAG_1DEF_2Lcom_sensia_swetools_editors_sensorml_client_v2_ISensorWidget$TAG_1TYPE_2V.call(this, $intern_100, (com_sensia_swetools_editors_sensorml_client_v2_ISensorWidget$TAG_1DEF_$clinit__V() , com_sensia_swetools_editors_sensorml_client_v2_ISensorWidget$TAG_1DEF_SWE), (com_sensia_swetools_editors_sensorml_client_v2_ISensorWidget$TAG_1TYPE_$clinit__V() , com_sensia_swetools_editors_sensorml_client_v2_ISensorWidget$TAG_1TYPE_ELEMENT));
   this.com_sensia_swetools_editors_sensorml_client_v2_panels_swe_SWESensorCategoryWidget_container = new com_google_gwt_user_client_ui_HorizontalPanel_HorizontalPanel__V;
@@ -8736,8 +8808,8 @@ function java_lang_ArrayIndexOutOfBoundsException_ArrayIndexOutOfBoundsException
   java_lang_IndexOutOfBoundsException_IndexOutOfBoundsException__V.call(this);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(283, 68, $intern_9, java_lang_ArrayIndexOutOfBoundsException_ArrayIndexOutOfBoundsException__V);
-var com_google_gwt_lang_ClassLiteralHolder_Ljava_1lang_1ArrayIndexOutOfBoundsException_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_3, 'ArrayIndexOutOfBoundsException', 283);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(284, 68, $intern_9, java_lang_ArrayIndexOutOfBoundsException_ArrayIndexOutOfBoundsException__V);
+var com_google_gwt_lang_ClassLiteralHolder_Ljava_1lang_1ArrayIndexOutOfBoundsException_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_3, 'ArrayIndexOutOfBoundsException', 284);
 function java_lang_ArrayStoreException_ArrayStoreException__V(){
   java_lang_RuntimeException_RuntimeException__V.call(this);
 }
@@ -8828,14 +8900,14 @@ function java_lang_Number__1_1parseAndValidateInt__Ljava_lang_String_2IIII(s){
   return toReturn;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(107, 1, {3:1, 107:1});
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(109, 1, {3:1, 109:1});
 var java_lang_Number_floatRegex;
-var com_google_gwt_lang_ClassLiteralHolder_Ljava_1lang_1Number_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_3, 'Number', 107);
+var com_google_gwt_lang_ClassLiteralHolder_Ljava_1lang_1Number_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_3, 'Number', 109);
 function java_lang_Double_Double__DV(value_0){
   this.java_lang_Double_value = value_0;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(93, 107, {3:1, 5:1, 93:1, 107:1}, java_lang_Double_Double__DV);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(93, 109, {3:1, 5:1, 93:1, 109:1}, java_lang_Double_Double__DV);
 _.equals__Ljava_lang_Object_2Z$ = function java_lang_Double_equals__Ljava_lang_Object_2Z(o){
   return com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(o, 93) && com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(o, 93).java_lang_Double_value == this.java_lang_Double_value;
 }
@@ -8889,7 +8961,7 @@ function java_lang_Integer_valueOf__ILjava_lang_Integer_2(i){
   return new java_lang_Integer_Integer__IV(i);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(65, 107, {3:1, 5:1, 65:1, 107:1}, java_lang_Integer_Integer__IV);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(65, 109, {3:1, 5:1, 65:1, 109:1}, java_lang_Integer_Integer__IV);
 _.equals__Ljava_lang_Object_2Z$ = function java_lang_Integer_equals__Ljava_lang_Object_2Z(o){
   return com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(o, 65) && com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(o, 65).java_lang_Integer_value == this.java_lang_Integer_value;
 }
@@ -8930,8 +9002,8 @@ function java_lang_NullPointerException_NullPointerException__Ljava_lang_String_
   java_lang_RuntimeException_RuntimeException__Ljava_lang_String_2V.call(this, message);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(45, 21, $intern_9, java_lang_NullPointerException_NullPointerException__V, java_lang_NullPointerException_NullPointerException__Ljava_lang_String_2V);
-var com_google_gwt_lang_ClassLiteralHolder_Ljava_1lang_1NullPointerException_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_3, 'NullPointerException', 45);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(46, 21, $intern_9, java_lang_NullPointerException_NullPointerException__V, java_lang_NullPointerException_NullPointerException__Ljava_lang_String_2V);
+var com_google_gwt_lang_ClassLiteralHolder_Ljava_1lang_1NullPointerException_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_3, 'NullPointerException', 46);
 function java_lang_NumberFormatException_NumberFormatException__Ljava_lang_String_2V(message){
   java_lang_IllegalArgumentException_IllegalArgumentException__Ljava_lang_String_2V.call(this, message);
 }
@@ -9162,8 +9234,8 @@ function java_lang_StringBuilder_StringBuilder__Ljava_lang_String_2V(s){
   java_lang_AbstractStringBuilder_AbstractStringBuilder__Ljava_lang_String_2V.call(this, s);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(41, 134, {381:1}, java_lang_StringBuilder_StringBuilder__V, java_lang_StringBuilder_StringBuilder__Ljava_lang_String_2V);
-var com_google_gwt_lang_ClassLiteralHolder_Ljava_1lang_1StringBuilder_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_3, 'StringBuilder', 41);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(42, 134, {383:1}, java_lang_StringBuilder_StringBuilder__V, java_lang_StringBuilder_StringBuilder__Ljava_lang_String_2V);
+var com_google_gwt_lang_ClassLiteralHolder_Ljava_1lang_1StringBuilder_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_3, 'StringBuilder', 42);
 function java_lang_UnsupportedOperationException_UnsupportedOperationException__V(){
   java_lang_RuntimeException_RuntimeException__V.call(this);
 }
@@ -9211,7 +9283,7 @@ function java_util_AbstractCollection_$toString__Ljava_util_AbstractCollection_2
   return sb.java_lang_AbstractStringBuilder_string;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(362, 1, {});
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(364, 1, {});
 _.contains__Ljava_lang_Object_2Z = function java_util_AbstractCollection_contains__Ljava_lang_Object_2Z(o){
   return java_util_AbstractCollection_$advanceToFind__Ljava_util_AbstractCollection_2Ljava_lang_Object_2ZZ(this, o, false);
 }
@@ -9228,7 +9300,7 @@ _.toString__Ljava_lang_String_2$ = function java_util_AbstractCollection_toStrin
   return java_util_AbstractCollection_$toString__Ljava_util_AbstractCollection_2Ljava_lang_String_2(this);
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1AbstractCollection_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_112, 'AbstractCollection', 362);
+var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1AbstractCollection_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_112, 'AbstractCollection', 364);
 function java_util_AbstractMap_$containsEntry__Ljava_util_AbstractMap_2Ljava_util_Map$Entry_2Z(this$static, entry){
   var key, ourValue, value_0;
   key = entry.getKey__Ljava_lang_Object_2();
@@ -9267,7 +9339,7 @@ function java_util_AbstractMap_getEntryValueOrNull__Ljava_util_Map$Entry_2Ljava_
   return !entry?null:entry.getValue__Ljava_lang_Object_2();
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(361, 1, {63:1});
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(363, 1, {63:1});
 _.containsKey__Ljava_lang_Object_2Z = function java_util_AbstractMap_containsKey__Ljava_lang_Object_2Z(key){
   return !!java_util_AbstractMap_$implFindEntry__Ljava_util_AbstractMap_2Ljava_lang_Object_2ZLjava_util_Map$Entry_2(this, key, false);
 }
@@ -9332,7 +9404,7 @@ _.toString__Ljava_lang_String_2$ = function java_util_AbstractMap_toString__Ljav
   return sb.java_lang_AbstractStringBuilder_string;
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1AbstractMap_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_112, 'AbstractMap', 361);
+var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1AbstractMap_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_112, 'AbstractMap', 363);
 function java_util_AbstractHashMap_$elementAdded__Ljava_util_AbstractHashMap_2V(this$static){
   ++this$static.java_util_AbstractHashMap_size;
   java_util_ConcurrentModificationDetector_structureChanged__Ljava_lang_Object_2V(this$static);
@@ -9353,7 +9425,7 @@ function java_util_AbstractHashMap_$reset__Ljava_util_AbstractHashMap_2V(this$st
   java_util_ConcurrentModificationDetector_structureChanged__Ljava_lang_Object_2V(this$static);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(180, 361, {63:1});
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(180, 363, {63:1});
 _.clear__V = function java_util_AbstractHashMap_clear__V(){
   java_util_AbstractHashMap_$reset__Ljava_util_AbstractHashMap_2V(this);
 }
@@ -9384,7 +9456,7 @@ _.size__I = function java_util_AbstractHashMap_size__I(){
 ;
 _.java_util_AbstractHashMap_size = 0;
 var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1AbstractHashMap_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_112, 'AbstractHashMap', 180);
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(363, 362, $intern_113);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(365, 364, $intern_113);
 _.equals__Ljava_lang_Object_2Z$ = function java_util_AbstractSet_equals__Ljava_lang_Object_2Z(o){
   var other;
   if (o === this) {
@@ -9404,7 +9476,7 @@ _.hashCode__I$ = function java_util_AbstractSet_hashCode__I(){
   return java_util_Collections_hashCode__Ljava_lang_Iterable_2I(this);
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1AbstractSet_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_112, 'AbstractSet', 363);
+var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1AbstractSet_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_112, 'AbstractSet', 365);
 function java_util_AbstractHashMap$EntrySet_$contains__Ljava_util_AbstractHashMap$EntrySet_2Ljava_lang_Object_2Z(this$static, o){
   if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(o, 22)) {
     return java_util_AbstractMap_$containsEntry__Ljava_util_AbstractMap_2Ljava_util_Map$Entry_2Z(this$static.java_util_AbstractHashMap$EntrySet_this$01, com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(o, 22));
@@ -9416,7 +9488,7 @@ function java_util_AbstractHashMap$EntrySet_AbstractHashMap$EntrySet__Ljava_util
   this.java_util_AbstractHashMap$EntrySet_this$01 = this$0;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(181, 363, $intern_113, java_util_AbstractHashMap$EntrySet_AbstractHashMap$EntrySet__Ljava_util_AbstractHashMap_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(181, 365, $intern_113, java_util_AbstractHashMap$EntrySet_AbstractHashMap$EntrySet__Ljava_util_AbstractHashMap_2V);
 _.contains__Ljava_lang_Object_2Z = function java_util_AbstractHashMap$EntrySet_contains__Ljava_lang_Object_2Z(o){
   return java_util_AbstractHashMap$EntrySet_$contains__Ljava_util_AbstractHashMap$EntrySet_2Ljava_lang_Object_2Z(this, o);
 }
@@ -9476,7 +9548,7 @@ _.remove__V = function java_util_AbstractHashMap$EntrySetIterator_remove__V(){
 }
 ;
 var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1AbstractHashMap$EntrySetIterator_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_112, 'AbstractHashMap/EntrySetIterator', 182);
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(365, 362, {37:1});
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(367, 364, {37:1});
 _.add__ILjava_lang_Object_2V = function java_util_AbstractList_add__ILjava_lang_Object_2V(index_0, element){
   throw new java_lang_UnsupportedOperationException_UnsupportedOperationException__Ljava_lang_String_2V('Add not supported on this list');
 }
@@ -9529,7 +9601,7 @@ _.remove__ILjava_lang_Object_2 = function java_util_AbstractList_remove__ILjava_
   throw new java_lang_UnsupportedOperationException_UnsupportedOperationException__Ljava_lang_String_2V('Remove not supported on this list');
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1AbstractList_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_112, 'AbstractList', 365);
+var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1AbstractList_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_112, 'AbstractList', 367);
 function java_util_AbstractList$IteratorImpl_AbstractList$IteratorImpl__Ljava_util_AbstractList_2V(this$0){
   this.java_util_AbstractList$IteratorImpl_this$01 = this$0;
 }
@@ -9581,7 +9653,7 @@ function java_util_AbstractMap$1_AbstractMap$1__Ljava_util_AbstractMap_2V(this$0
   this.java_util_AbstractMap$1_this$01 = this$0;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(135, 363, $intern_113, java_util_AbstractMap$1_AbstractMap$1__Ljava_util_AbstractMap_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(135, 365, $intern_113, java_util_AbstractMap$1_AbstractMap$1__Ljava_util_AbstractMap_2V);
 _.contains__Ljava_lang_Object_2Z = function java_util_AbstractMap$1_contains__Ljava_lang_Object_2Z(key){
   return this.java_util_AbstractMap$1_this$01.containsKey__Ljava_lang_Object_2Z(key);
 }
@@ -9633,7 +9705,7 @@ function java_util_AbstractMap$2_AbstractMap$2__Ljava_util_AbstractMap_2V(this$0
   this.java_util_AbstractMap$2_this$01 = this$0;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(185, 362, {}, java_util_AbstractMap$2_AbstractMap$2__Ljava_util_AbstractMap_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(185, 364, {}, java_util_AbstractMap$2_AbstractMap$2__Ljava_util_AbstractMap_2V);
 _.contains__Ljava_lang_Object_2Z = function java_util_AbstractMap$2_contains__Ljava_lang_Object_2Z(value_0){
   return java_util_LinkedHashMap_$containsValue__Ljava_util_LinkedHashMap_2Ljava_lang_Object_2Z(this.java_util_AbstractMap$2_this$01, value_0);
 }
@@ -9714,9 +9786,9 @@ function java_util_AbstractMap$SimpleEntry_AbstractMap$SimpleEntry__Ljava_lang_O
   this.java_util_AbstractMap$AbstractEntry_value = value_0;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(108, 183, $intern_114, java_util_AbstractMap$SimpleEntry_AbstractMap$SimpleEntry__Ljava_lang_Object_2Ljava_lang_Object_2V);
-var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1AbstractMap$SimpleEntry_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_112, 'AbstractMap/SimpleEntry', 108);
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(366, 1, $intern_114);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(110, 183, $intern_114, java_util_AbstractMap$SimpleEntry_AbstractMap$SimpleEntry__Ljava_lang_Object_2Ljava_lang_Object_2V);
+var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1AbstractMap$SimpleEntry_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_112, 'AbstractMap/SimpleEntry', 110);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(368, 1, $intern_114);
 _.equals__Ljava_lang_Object_2Z$ = function java_util_AbstractMapEntry_equals__Ljava_lang_Object_2Z(other){
   var entry;
   if (!com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(other, 22)) {
@@ -9734,7 +9806,7 @@ _.toString__Ljava_lang_String_2$ = function java_util_AbstractMapEntry_toString_
   return this.getKey__Ljava_lang_Object_2() + '=' + this.getValue__Ljava_lang_Object_2();
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1AbstractMapEntry_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_112, 'AbstractMapEntry', 366);
+var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1AbstractMapEntry_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_112, 'AbstractMapEntry', 368);
 function java_util_ArrayList_$add__Ljava_util_ArrayList_2ILjava_lang_Object_2V(this$static, index_0, o){
   com_google_gwt_core_shared_impl_InternalPreconditions_checkPositionIndex__IIV(index_0, this$static.java_util_ArrayList_array.length);
   java_util_ArrayList_splice___3Ljava_lang_Object_2IILjava_lang_Object_2V(this$static.java_util_ArrayList_array, index_0, 0, o);
@@ -9799,7 +9871,7 @@ function java_util_ArrayList_splice___3Ljava_lang_Object_2IILjava_lang_Object_2V
   array.splice(index_0, deleteCount, value_0);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(27, 365, $intern_115, java_util_ArrayList_ArrayList__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(26, 367, $intern_115, java_util_ArrayList_ArrayList__V);
 _.add__ILjava_lang_Object_2V = function java_util_ArrayList_add__ILjava_lang_Object_2V(index_0, o){
   java_util_ArrayList_$add__Ljava_util_ArrayList_2ILjava_lang_Object_2V(this, index_0, o);
 }
@@ -9832,7 +9904,7 @@ _.size__I = function java_util_ArrayList_size__I(){
   return this.java_util_ArrayList_array.length;
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1ArrayList_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_112, 'ArrayList', 27);
+var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1ArrayList_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_112, 'ArrayList', 26);
 function java_util_Arrays_hashCode___3Ljava_lang_Object_2I(a){
   var e, e$index, e$max, hashCode;
   hashCode = 1;
@@ -9877,7 +9949,7 @@ var java_util_Collections_EMPTY_1LIST;
 function java_util_Collections$EmptyList_Collections$EmptyList__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(198, 365, $intern_115, java_util_Collections$EmptyList_Collections$EmptyList__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(198, 367, $intern_115, java_util_Collections$EmptyList_Collections$EmptyList__V);
 _.contains__Ljava_lang_Object_2Z = function java_util_Collections$EmptyList_contains__Ljava_lang_Object_2Z(object){
   return false;
 }
@@ -9965,9 +10037,9 @@ function java_util_Date_padTwo__ILjava_lang_String_2(number){
   return number < 10?'0' + number:'' + number;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(105, 1, {3:1, 5:1, 105:1}, java_util_Date_Date__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(106, 1, {3:1, 5:1, 106:1}, java_util_Date_Date__V);
 _.equals__Ljava_lang_Object_2Z$ = function java_util_Date_equals__Ljava_lang_Object_2Z(obj){
-  return com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(obj, 105) && com_google_gwt_lang_LongLib_eq__Lcom_google_gwt_lang_LongLibBase$LongEmul_2Lcom_google_gwt_lang_LongLibBase$LongEmul_2Z(com_google_gwt_lang_LongLib_fromDouble__DLcom_google_gwt_lang_LongLibBase$LongEmul_2(this.java_util_Date_jsdate.getTime()), com_google_gwt_lang_LongLib_fromDouble__DLcom_google_gwt_lang_LongLibBase$LongEmul_2(com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(obj, 105).java_util_Date_jsdate.getTime()));
+  return com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(obj, 106) && com_google_gwt_lang_LongLib_eq__Lcom_google_gwt_lang_LongLibBase$LongEmul_2Lcom_google_gwt_lang_LongLibBase$LongEmul_2Z(com_google_gwt_lang_LongLib_fromDouble__DLcom_google_gwt_lang_LongLibBase$LongEmul_2(this.java_util_Date_jsdate.getTime()), com_google_gwt_lang_LongLib_fromDouble__DLcom_google_gwt_lang_LongLibBase$LongEmul_2(com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(obj, 106).java_util_Date_jsdate.getTime()));
 }
 ;
 _.hashCode__I$ = function java_util_Date_hashCode__I(){
@@ -9984,7 +10056,7 @@ _.toString__Ljava_lang_String_2$ = function java_util_Date_toString__Ljava_lang_
   return (java_util_Date$StringData_$clinit__V() , java_util_Date$StringData_DAYS)[this.java_util_Date_jsdate.getDay()] + ' ' + java_util_Date$StringData_MONTHS[this.java_util_Date_jsdate.getMonth()] + ' ' + java_util_Date_padTwo__ILjava_lang_String_2(this.java_util_Date_jsdate.getDate()) + ' ' + java_util_Date_padTwo__ILjava_lang_String_2(this.java_util_Date_jsdate.getHours()) + ':' + java_util_Date_padTwo__ILjava_lang_String_2(this.java_util_Date_jsdate.getMinutes()) + ':' + java_util_Date_padTwo__ILjava_lang_String_2(this.java_util_Date_jsdate.getSeconds()) + ' GMT' + hourOffset + minuteOffset + ' ' + this.java_util_Date_jsdate.getFullYear();
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1Date_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_112, 'Date', 105);
+var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1Date_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_112, 'Date', 106);
 function java_util_Date$StringData_$clinit__V(){
   java_util_Date$StringData_$clinit__V = com_google_gwt_lang_JavaClassHierarchySetupUtil_emptyMethod__V;
   java_util_Date$StringData_DAYS = com_google_gwt_lang_Array_initValues__Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2ILjava_lang_Object_2Ljava_lang_Object_2(com_google_gwt_lang_Array_getClassLiteralForArray__Ljava_lang_Class_2ILjava_lang_Class_2(com_google_gwt_lang_ClassLiteralHolder_Ljava_1lang_1String_12_1classLit, 1), $intern_16, 2, 4, ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']);
@@ -10032,7 +10104,7 @@ function java_util_HashSet_HashSet__V(){
   this.java_util_HashSet_map = new java_util_HashMap_HashMap__V;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(95, 363, {3:1, 91:1}, java_util_HashSet_HashSet__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(95, 365, {3:1, 91:1}, java_util_HashSet_HashSet__V);
 _.contains__Ljava_lang_Object_2Z = function java_util_HashSet_contains__Ljava_lang_Object_2Z(o){
   return java_util_HashSet_$contains__Ljava_util_HashSet_2Ljava_lang_Object_2Z(this, o);
 }
@@ -10201,7 +10273,7 @@ function java_util_InternalJsHashCodeMap$InternalJsHashCodeMapLegacy$1_InternalJ
   java_util_ArrayList_ArrayList__V.call(this);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(210, 27, $intern_115, java_util_InternalJsHashCodeMap$InternalJsHashCodeMapLegacy$1_InternalJsHashCodeMap$InternalJsHashCodeMapLegacy$1__Ljava_util_InternalJsHashCodeMap$InternalJsHashCodeMapLegacy_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(210, 26, $intern_115, java_util_InternalJsHashCodeMap$InternalJsHashCodeMapLegacy$1_InternalJsHashCodeMap$InternalJsHashCodeMapLegacy$1__Ljava_util_InternalJsHashCodeMap$InternalJsHashCodeMapLegacy_2V);
 _.remove__ILjava_lang_Object_2 = function java_util_InternalJsHashCodeMap$InternalJsHashCodeMapLegacy$1_remove__ILjava_lang_Object_2(index_0){
   var java_util_InternalJsHashCodeMap$InternalJsHashCodeMapLegacy$1_$remove__Ljava_util_InternalJsHashCodeMap$InternalJsHashCodeMapLegacy$1_2ILjava_util_Map$Entry_2_removed_0;
   return java_util_InternalJsHashCodeMap$InternalJsHashCodeMapLegacy$1_$remove__Ljava_util_InternalJsHashCodeMap$InternalJsHashCodeMapLegacy$1_2ILjava_util_Map$Entry_2_removed_0 = com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(java_util_ArrayList_$remove__Ljava_util_ArrayList_2ILjava_lang_Object_2(this, index_0), 22) , java_util_InternalJsHashCodeMap_$remove__Ljava_util_InternalJsHashCodeMap_2Ljava_lang_Object_2Ljava_lang_Object_2(this.java_util_InternalJsHashCodeMap$InternalJsHashCodeMapLegacy$1_this$11, java_util_InternalJsHashCodeMap$InternalJsHashCodeMapLegacy$1_$remove__Ljava_util_InternalJsHashCodeMap$InternalJsHashCodeMapLegacy$1_2ILjava_util_Map$Entry_2_removed_0.getKey__Ljava_lang_Object_2()) , java_util_InternalJsHashCodeMap$InternalJsHashCodeMapLegacy$1_$remove__Ljava_util_InternalJsHashCodeMap$InternalJsHashCodeMapLegacy$1_2ILjava_util_Map$Entry_2_removed_0;
@@ -10304,7 +10376,7 @@ function java_util_InternalJsStringMap_InternalJsStringMap__V(){
   this.java_util_InternalJsStringMap_backingMap = this.package_private$java_util_InternalJsStringMap$createMap__Lcom_google_gwt_core_client_JavaScriptObject_2();
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(110, 1, {}, java_util_InternalJsStringMap_InternalJsStringMap__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(112, 1, {}, java_util_InternalJsStringMap_InternalJsStringMap__V);
 _.package_private$java_util_InternalJsStringMap$createMap__Lcom_google_gwt_core_client_JavaScriptObject_2 = function java_util_InternalJsStringMap_createMap__Lcom_google_gwt_core_client_JavaScriptObject_2(){
   return Object.create(null);
 }
@@ -10335,7 +10407,7 @@ _.remove__Ljava_lang_String_2Ljava_lang_Object_2 = function java_util_InternalJs
   return java_util_InternalJsStringMap_$remove__Ljava_util_InternalJsStringMap_2Ljava_lang_String_2Ljava_lang_Object_2(this, key);
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1InternalJsStringMap_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_112, 'InternalJsStringMap', 110);
+var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1InternalJsStringMap_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_112, 'InternalJsStringMap', 112);
 function java_util_InternalJsStringMap$1_InternalJsStringMap$1__Ljava_util_InternalJsStringMap_2V(this$0, val$keys){
   this.java_util_InternalJsStringMap$1_this$01 = this$0;
   this.java_util_InternalJsStringMap$1_val$keys2 = val$keys;
@@ -10364,7 +10436,7 @@ function java_util_InternalJsStringMap$2_InternalJsStringMap$2__Ljava_util_Inter
   this.java_util_InternalJsStringMap$2_val$key2 = val$key;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(140, 366, $intern_114, java_util_InternalJsStringMap$2_InternalJsStringMap$2__Ljava_util_InternalJsStringMap_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(140, 368, $intern_114, java_util_InternalJsStringMap$2_InternalJsStringMap$2__Ljava_util_InternalJsStringMap_2V);
 _.getKey__Ljava_lang_Object_2 = function java_util_InternalJsStringMap$2_getKey__Ljava_lang_Object_2(){
   return this.java_util_InternalJsStringMap$2_val$key2;
 }
@@ -10382,7 +10454,7 @@ function java_util_InternalJsStringMap$InternalJsStringMapLegacy_InternalJsStrin
   java_util_InternalJsStringMap_InternalJsStringMap__V.call(this);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(200, 110, {}, java_util_InternalJsStringMap$InternalJsStringMapLegacy_InternalJsStringMap$InternalJsStringMapLegacy__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(200, 112, {}, java_util_InternalJsStringMap$InternalJsStringMapLegacy_InternalJsStringMap$InternalJsStringMapLegacy__V);
 _.package_private$java_util_InternalJsStringMap$createMap__Lcom_google_gwt_core_client_JavaScriptObject_2 = function java_util_InternalJsStringMap$InternalJsStringMapLegacy_createMap__Lcom_google_gwt_core_client_JavaScriptObject_2(){
   return {};
 }
@@ -10420,7 +10492,7 @@ function java_util_InternalJsStringMap$InternalJsStringMapLegacy$1_InternalJsStr
   java_util_ArrayList_ArrayList__V.call(this);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(202, 27, $intern_115, java_util_InternalJsStringMap$InternalJsStringMapLegacy$1_InternalJsStringMap$InternalJsStringMapLegacy$1__Ljava_util_InternalJsStringMap$InternalJsStringMapLegacy_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(202, 26, $intern_115, java_util_InternalJsStringMap$InternalJsStringMapLegacy$1_InternalJsStringMap$InternalJsStringMapLegacy$1__Ljava_util_InternalJsStringMap$InternalJsStringMapLegacy_2V);
 _.remove__ILjava_lang_Object_2 = function java_util_InternalJsStringMap$InternalJsStringMapLegacy$1_remove__ILjava_lang_Object_2(index_0){
   var java_util_InternalJsStringMap$InternalJsStringMapLegacy$1_$remove__Ljava_util_InternalJsStringMap$InternalJsStringMapLegacy$1_2ILjava_util_Map$Entry_2_removed_0;
   return java_util_InternalJsStringMap$InternalJsStringMapLegacy$1_$remove__Ljava_util_InternalJsStringMap$InternalJsStringMapLegacy$1_2ILjava_util_Map$Entry_2_removed_0 = com_google_gwt_lang_Cast_dynamicCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Object_2(java_util_ArrayList_$remove__Ljava_util_ArrayList_2ILjava_lang_Object_2(this, index_0), 22) , java_util_InternalJsStringMap_$remove__Ljava_util_InternalJsStringMap_2Ljava_lang_String_2Ljava_lang_Object_2(this.java_util_InternalJsStringMap$InternalJsStringMapLegacy$1_this$11, ':' + com_google_gwt_lang_Cast_dynamicCastToString__Ljava_lang_Object_2Ljava_lang_Object_2(java_util_InternalJsStringMap$InternalJsStringMapLegacy$1_$remove__Ljava_util_InternalJsStringMap$InternalJsStringMapLegacy$1_2ILjava_util_Map$Entry_2_removed_0.getKey__Ljava_lang_Object_2())) , java_util_InternalJsStringMap$InternalJsStringMapLegacy$1_$remove__Ljava_util_InternalJsStringMap$InternalJsStringMapLegacy$1_2ILjava_util_Map$Entry_2_removed_0;
@@ -10431,7 +10503,7 @@ function java_util_InternalJsStringMap$InternalJsStringMapWithKeysWorkaround_Int
   java_util_InternalJsStringMap_InternalJsStringMap__V.call(this);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(201, 110, {}, java_util_InternalJsStringMap$InternalJsStringMapWithKeysWorkaround_InternalJsStringMap$InternalJsStringMapWithKeysWorkaround__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(201, 112, {}, java_util_InternalJsStringMap$InternalJsStringMapWithKeysWorkaround_InternalJsStringMap$InternalJsStringMapWithKeysWorkaround__V);
 _.keys___3Ljava_lang_String_2 = function java_util_InternalJsStringMap$InternalJsStringMapWithKeysWorkaround_keys___3Ljava_lang_String_2(){
   var keys_0;
   keys_0 = java_util_InternalJsStringMap_$keys__Ljava_util_InternalJsStringMap_2_3Ljava_lang_String_2(this);
@@ -10503,7 +10575,7 @@ function java_util_LinkedHashMap_LinkedHashMap__V(){
   this.java_util_LinkedHashMap_head.java_util_LinkedHashMap$ChainEntry_next = this.java_util_LinkedHashMap_head;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(98, 31, {3:1, 63:1}, java_util_LinkedHashMap_LinkedHashMap__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(99, 31, {3:1, 63:1}, java_util_LinkedHashMap_LinkedHashMap__V);
 _.clear__V = function java_util_LinkedHashMap_clear__V(){
   this.java_util_LinkedHashMap_map.clear__V();
   this.java_util_LinkedHashMap_head.java_util_LinkedHashMap$ChainEntry_prev = this.java_util_LinkedHashMap_head;
@@ -10535,7 +10607,7 @@ _.size__I = function java_util_LinkedHashMap_size__I(){
 }
 ;
 _.java_util_LinkedHashMap_accessOrder = false;
-var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1LinkedHashMap_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_112, 'LinkedHashMap', 98);
+var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1LinkedHashMap_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_112, 'LinkedHashMap', 99);
 function java_util_LinkedHashMap$ChainEntry_$addToEnd__Ljava_util_LinkedHashMap$ChainEntry_2V(this$static){
   var tail;
   tail = this$static.java_util_LinkedHashMap$ChainEntry_this$01.java_util_LinkedHashMap_head.java_util_LinkedHashMap$ChainEntry_prev;
@@ -10559,7 +10631,7 @@ function java_util_LinkedHashMap$ChainEntry_LinkedHashMap$ChainEntry__Ljava_util
   java_util_AbstractMap$SimpleEntry_AbstractMap$SimpleEntry__Ljava_lang_Object_2Ljava_lang_Object_2V.call(this, key, value_0);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(61, 108, {61:1, 22:1}, java_util_LinkedHashMap$ChainEntry_LinkedHashMap$ChainEntry__Ljava_util_LinkedHashMap_2V, java_util_LinkedHashMap$ChainEntry_LinkedHashMap$ChainEntry__Ljava_util_LinkedHashMap_2Ljava_lang_Object_2Ljava_lang_Object_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(61, 110, {61:1, 22:1}, java_util_LinkedHashMap$ChainEntry_LinkedHashMap$ChainEntry__Ljava_util_LinkedHashMap_2V, java_util_LinkedHashMap$ChainEntry_LinkedHashMap$ChainEntry__Ljava_util_LinkedHashMap_2Ljava_lang_Object_2Ljava_lang_Object_2V);
 var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1LinkedHashMap$ChainEntry_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_112, 'LinkedHashMap/ChainEntry', 61);
 function java_util_LinkedHashMap$EntrySet_$contains__Ljava_util_LinkedHashMap$EntrySet_2Ljava_lang_Object_2Z(this$static, o){
   if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(o, 22)) {
@@ -10572,7 +10644,7 @@ function java_util_LinkedHashMap$EntrySet_LinkedHashMap$EntrySet__Ljava_util_Lin
   this.java_util_LinkedHashMap$EntrySet_this$01 = this$0;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(148, 363, $intern_113, java_util_LinkedHashMap$EntrySet_LinkedHashMap$EntrySet__Ljava_util_LinkedHashMap_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(148, 365, $intern_113, java_util_LinkedHashMap$EntrySet_LinkedHashMap$EntrySet__Ljava_util_LinkedHashMap_2V);
 _.contains__Ljava_lang_Object_2Z = function java_util_LinkedHashMap$EntrySet_contains__Ljava_lang_Object_2Z(o){
   return java_util_LinkedHashMap$EntrySet_$contains__Ljava_util_LinkedHashMap$EntrySet_2Ljava_lang_Object_2Z(this, o);
 }
@@ -10654,7 +10726,7 @@ function java_util_Vector_checkArrayElementIndex__IIV(index_0, size_0){
   }
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(280, 365, $intern_115);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(281, 367, $intern_115);
 _.add__ILjava_lang_Object_2V = function java_util_Vector_add__ILjava_lang_Object_2V(index_0, o){
   java_util_Vector_checkArrayElementIndex__IIV(index_0, this.java_util_Vector_arrayList.java_util_ArrayList_array.length + 1);
   java_util_ArrayList_$add__Ljava_util_ArrayList_2ILjava_lang_Object_2V(this.java_util_Vector_arrayList, index_0, o);
@@ -10692,7 +10764,7 @@ _.toString__Ljava_lang_String_2$ = function java_util_Vector_toString__Ljava_lan
   return java_util_AbstractCollection_$toString__Ljava_util_AbstractCollection_2Ljava_lang_String_2(this.java_util_Vector_arrayList);
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1Vector_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_112, 'Vector', 280);
+var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1Vector_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_112, 'Vector', 281);
 function java_util_Stack_$peek__Ljava_util_Stack_2Ljava_lang_Object_2(this$static){
   var sz;
   sz = this$static.java_util_Vector_arrayList.java_util_ArrayList_array.length;
@@ -10724,9 +10796,9 @@ function java_util_Stack_Stack__V(){
   this.java_util_Vector_arrayList = new java_util_ArrayList_ArrayList__V;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(281, 280, $intern_115, java_util_Stack_Stack__V);
-var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1Stack_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_112, 'Stack', 281);
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1lang_1CollapsedPropertyHolder_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_117, 'CollapsedPropertyHolder', 350), com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1lang_1JavaClassHierarchySetupUtil_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_117, 'JavaClassHierarchySetupUtil', 352), com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1lang_1LongLibBase$LongEmul_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_117, 'LongLibBase/LongEmul', null), com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1lang_1ModuleUtils_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_117, 'ModuleUtils', 355), com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1Map$Entry_12_1classLit = java_lang_Class_createForInterface__Ljava_lang_String_2Ljava_lang_String_2Ljava_lang_Class_2($intern_112, 'Map/Entry');
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(282, 281, $intern_115, java_util_Stack_Stack__V);
+var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1Stack_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_112, 'Stack', 282);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1lang_1CollapsedPropertyHolder_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_117, 'CollapsedPropertyHolder', 352), com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1lang_1JavaClassHierarchySetupUtil_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_117, 'JavaClassHierarchySetupUtil', 354), com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1lang_1LongLibBase$LongEmul_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_117, 'LongLibBase/LongEmul', null), com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1lang_1ModuleUtils_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_117, 'ModuleUtils', 357), com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1Map$Entry_12_1classLit = java_lang_Class_createForInterface__Ljava_lang_String_2Ljava_lang_String_2Ljava_lang_Class_2($intern_112, 'Map/Entry');
 var $entry = com_google_gwt_lang_ModuleUtils_registerEntry__Lcom_google_gwt_core_client_JavaScriptObject_2();
 var gwtOnLoad = gwtOnLoad = com_google_gwt_lang_ModuleUtils_gwtOnLoad__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2V;
 com_google_gwt_lang_ModuleUtils_addInitFunctions__V(com_google_gwt_lang_com_100046sensia_100046swetools_100046editors_100046sensorml_100046SensorMLEditor_1_1EntryMethodHolder_init__V);
