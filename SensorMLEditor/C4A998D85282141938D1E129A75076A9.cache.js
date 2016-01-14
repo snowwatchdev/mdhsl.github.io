@@ -3,7 +3,7 @@ var __gwtModuleFunction = $wnd.sml_editor;
 var $sendStats = __gwtModuleFunction.__sendStats;
 $sendStats('moduleStartup', 'moduleEvalStart');
 var $gwt_version = "2.7.0";
-var $strongName = 'AB4742A6CBE586A3009474D0FEFAA674';
+var $strongName = 'C4A998D85282141938D1E129A75076A9';
 var $gwt = {};
 var $doc = $wnd.document;
 var $moduleName, $moduleBase;
@@ -14789,7 +14789,7 @@ _.onClick__Lcom_google_gwt_event_dom_client_ClickEvent_2V = function com_sensia_
 var com_google_gwt_lang_ClassLiteralHolder_Lcom_1sensia_1swetools_1editors_1sensorml_1client_1listeners_1LoadButtonClickListener_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2('com.sensia.swetools.editors.sensorml.client.listeners', 'LoadButtonClickListener', 367);
 function com_sensia_swetools_editors_sensorml_client_panels_CenterPanel_CenterPanel__Lcom_sensia_swetools_editors_sensorml_client_RNGProcessorSML_2V(sgmlEditorProcessor){
   var load, panel, profile, profile$array, profile$index, profile$max, profileListBox, title_0, verticalPanel;
-  this.com_sensia_swetools_editors_sensorml_client_panels_CenterPanel_LIST_1PROFILES = com_google_gwt_lang_Array_initValues__Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2ILjava_lang_Object_2Ljava_lang_Object_2(com_google_gwt_lang_Array_getClassLiteralForArray__Ljava_lang_Class_2ILjava_lang_Class_2(com_google_gwt_lang_ClassLiteralHolder_Ljava_1lang_1String_12_1classLit, 1), $intern_8, 2, 4, ['thermometer-minimal-view']);
+  this.com_sensia_swetools_editors_sensorml_client_panels_CenterPanel_LIST_1PROFILES = com_google_gwt_lang_Array_initValues__Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2ILjava_lang_Object_2Ljava_lang_Object_2(com_google_gwt_lang_Array_getClassLiteralForArray__Ljava_lang_Class_2ILjava_lang_Class_2(com_google_gwt_lang_ClassLiteralHolder_Ljava_1lang_1String_12_1classLit, 1), $intern_8, 2, 4, ['anemometer', 'thermometer-minimal-view', 'thermometer-minimal-edit']);
   java_util_ArrayList_$add__Ljava_util_ArrayList_2Ljava_lang_Object_2Z(sgmlEditorProcessor.com_sensia_swetools_editors_sensorml_client_RNGProcessorSML_observers, this);
   panel = new com_google_gwt_user_client_ui_HorizontalPanel_HorizontalPanel__V;
   com_google_gwt_dom_client_Element_$setPropertyInt__Lcom_google_gwt_dom_client_Element_2Ljava_lang_String_2IV(panel.com_google_gwt_user_client_ui_CellPanel_table, $intern_140, 20);
